@@ -1,7 +1,7 @@
 <template>
-  <div class=contact-wrapper>
+  <div class="events-wrapper">
     <div>
-      <p>Contact page coming soon</p>
+      <p>Events page coming soon</p>
     </div>
   </div>
 </template>
@@ -11,8 +11,7 @@
 </script>
 
 <style scoped>
-
-.contact-wrapper {
+.events-wrapper {
   position: relative;
   height: 100%;
   display: flex;

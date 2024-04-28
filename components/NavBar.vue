@@ -1,15 +1,15 @@
 <template>
   <div id="navbar">
     <div class="navbar-sections">
-      <div class="name-section"><NuxtLink to="/" style="text-decoration: none; color: black;"><span>Jamie Quatro</span></NuxtLink></div>
-      <div class="links-mobile" @click="dropDown()">
+      <div class="name-section" @click="refreshHome()"><NuxtLink to="/" style="text-decoration: none; color: black;"><span>Jamie Quatro</span></NuxtLink></div>
+      <div class="mobile-stack" @click="dropDown(), $emit('stackClicked')">
         <img src="/icons/CarbonMenu.svg">
       </div>
-      <div class="links-pc" ref="pcLinks">
-        <NuxtLink to="/books" style="text-decoration: none; color: black;"><span>books</span></NuxtLink>
-        <NuxtLink to="/recent" style="text-decoration: none; color: black;"><span>recent work</span></NuxtLink>
-        <NuxtLink to="/about" style="text-decoration: none; color: black;"><span>about</span></NuxtLink>
-        <NuxtLink to="/contact" style="text-decoration: none; color: black;"><span>contact</span></NuxtLink>
+      <div class="links-all" ref="pcLinks">
+        <NuxtLink to="/books" style="text-decoration: none; color: black;"><span>BOOKS</span></NuxtLink>
+        <NuxtLink to="/events" style="text-decoration: none; color: black;"><span>EVENTS</span></NuxtLink>
+        <NuxtLink to="/about" style="text-decoration: none; color: black;"><span>ABOUT</span></NuxtLink>
+        <NuxtLink to="/contact" style="text-decoration: none; color: black;"><span>CONTACT</span></NuxtLink>
       </div>
     </div>  
   </div>
@@ -18,6 +18,17 @@
 <script lang="ts" setup>
 let showLinks = false
 let pcLinks = ref<HTMLElement | null>(null)
+
+const route = useRoute()
+const router= useRouter()
+
+function refreshHome () {
+  if (route.path === '/') {
+    location.reload()
+  } else {
+    router.push('/')
+  }
+}
 
 function dropDown() {
   showLinks = !showLinks
@@ -35,9 +46,8 @@ function dropDown() {
 
 #navbar {
   position: absolute;
-  background-color: white;
+  background-color: #fae7c6;
   font-size: 1.5rem;
-  font-weight: bold;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   top: 0;
   left: 0;
@@ -57,14 +67,15 @@ function dropDown() {
   height: 100%;
   cursor: pointer;
   position: absolute;
-  left: 16px;
+  left: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: 11;
 }
 
-.links-mobile {
+.mobile-stack {
   height: 100%;
   position: absolute;
   right: 16px;
@@ -72,15 +83,19 @@ function dropDown() {
   cursor: pointer;
 }
 
-.links-pc {
+.links-all {
   display: none;
-  height: 100%;
+  height: fit-content;
+  width: 100%;
   position: absolute;
-  top: 48px;
-  right: 16px;
+  top: 64px;
   gap: 32px;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  background-color: #fae7c6;
+  padding-bottom: 32px;
+  border-bottom: 6px solid red;
 }
 
 .active {
@@ -99,11 +114,19 @@ span:hover {
 /* we need media queries to make more padding on desktop like 64 or 128px */
 
 @media (min-width: 600px) {
-  .links-pc {
+  .links-all {
     display: flex;
+    flex-direction: row;
+    width: 100%;
     top: 0;
+    justify-content: flex-end;
+    right: 32px;
+    height: 110%;
+    background-color: transparent;
+    border-bottom: none;
+    padding-bottom: none;
   }
-  .links-mobile {
+  .mobile-stack {
     display: none;
   }
 }

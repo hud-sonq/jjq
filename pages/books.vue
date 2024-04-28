@@ -1,6 +1,8 @@
 <template>
-  <div>
-    
+  <div class="books-wrapper">
+    <div>
+      <p>Books page coming soon</p>
+    </div>
   </div>
 </template>
 
@@ -8,6 +10,13 @@
 
 </script>
 
-<style>
+<style scoped>
+.books-wrapper {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 </style>

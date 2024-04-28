@@ -1,6 +1,8 @@
 <template>
-  <div>
-    
+  <div class="about-wrapper">
+    <div>
+      <p>About page coming soon</p>
+    </div>
   </div>
 </template>
 
@@ -8,6 +10,14 @@
 
 </script>
 
-<style>
+<style scoped>
+
+.about-wrapper {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 </style>

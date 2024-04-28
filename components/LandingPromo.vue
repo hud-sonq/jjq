@@ -1,16 +1,12 @@
 <template>
-  <div class="tsd-wrapper" ref="tsdWrapper">
+  <div class="tsd-wrapper">
     <div class="tsd-split">
       <div class="tsd-cover" ref="tsdCover">
-        <img class="cover-3d" src="/img/tsd/book_3d.png">
+        <img src="/img/tsd/cover_half_goat.png">
       </div>
       <div class="tsd-content" ref="tsdContent">
-        <div><p>Pre-order Now: </p></div>
-        <div class="pre-order-links">
-          <div class="order-link-button"><a href="https://www.amazon.com/dp/0802163130" target="_blank" class="linka" >Amazon</a></div>
-          <div class="order-link-button"><a href="https://www.barnesandnoble.com/w/two-step-devil-jamie-quatro/1144929218" target="_blank" class="linka">Barnes & Noble</a></div>
-          <div class="order-link-button"><a href="https://bookshop.org/p/books/two-step-devil/20490963?ean=9780802163134" target="_blank" class="linka">Bookshop</a></div>
-          <div class="order-link-button"><a href="https://www.parnassusbooks.net/book/9780802163134" target="_blank" class="linka">Parnassus</a></div>
+        <div class="enter-site-wrapper">
+          <div class="enter-site-button" @click="$emit('enterClicked')"><p class="linka">ENTER SITE</p></div>
         </div>
       </div>
     </div>
@@ -20,20 +16,15 @@
 <script lang="ts" setup>
 let tsdCover = ref<HTMLElement | null>(null);
 let tsdContent = ref<HTMLElement | null>(null);
-let tsdWrapper = ref<HTMLElement | null>(null);
 
 onMounted(() => {
   setTimeout(() => {
     tsdCover.value?.classList.add('fade-in');
-  }, 210);
+  }, 420);
   setTimeout(() => {
     tsdContent.value?.classList.add('fade-in');
-  }, 500);
+  }, 1000);
 });
-
-function pushDatDownDuzHamBurgWasClicked() {
-  tsdWrapper.value?.scrollIntoView({ behavior: 'smooth' });
-}
 
 </script>
 
@@ -82,40 +73,36 @@ function pushDatDownDuzHamBurgWasClicked() {
   opacity: 1;
 }
 
-.pre-order-links {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-}
-
 .linka {
   text-decoration: none; 
   color: red;
   transition: color 0.2s;
+  margin-top: 4px;
+  margin-bottom: 2px;
 }
 
-.order-link-button {
+.enter-site-button {
   padding: 8px 16px;
   border: 1px solid red;
   border-radius: 2px;
   cursor: pointer;
-  transition: background-color 0.4s; 
+  transition: background-color 0.4s;
 }
 
-.order-link-button:hover {
+.enter-site-button:hover {
   background-color: red;
 }
 
-.order-link-button:hover > .linka {
+.enter-site-button:hover > .linka {
   color: white;
 }
 
 @media (min-width: 600px) {
   .tsd-split {
     flex-direction: row;
+  }
+  .enter-site-wrapper {
+    padding-top: 64px;
   }
 }
 

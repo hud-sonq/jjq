@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'vermi';
+    src: url(/fonts/vermiglione.ttf);
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: vermi;
+}
