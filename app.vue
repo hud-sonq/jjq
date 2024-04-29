@@ -1,16 +1,20 @@
 <template>
   <div id="main" ref="main" class="">
-    <NavBar class="nav" ref="nav"/>
-    <NuxtPage />
+    <NavBar class="nav active" ref="nav" v-if="!showLandingPromo"/>
+    <LandingPromo v-if="showLandingPromo" @enterClicked="handleEnterClicked()"/>
+    <div v-if="!showLandingPromo" id="page">
+      <NuxtPage/>
+    </div>
+    <FooterComponent />
   </div>
 </template>
 
 <script lang="ts" setup>
-const router = useRouter();
+const showLandingPromo = ref(true);
 
-onMounted(() => {
-  router.push('/landing');
-});
+const handleEnterClicked = () => {
+  showLandingPromo.value = false;
+}
 </script>
 
 <style>
@@ -28,5 +32,4 @@ onMounted(() => {
 .active {
   opacity: 1;
 }
-
 </style>

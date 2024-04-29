@@ -38,12 +38,9 @@ function dropDown() {
     pcLinks.value?.classList.remove('active')
   }
 }
-
-
 </script>
 
 <style>
-
 #navbar {
   position: absolute;
   background-color: #fae7c6;
@@ -110,9 +107,6 @@ span:hover {
   opacity: 0.5;
 }
 
-
-/* we need media queries to make more padding on desktop like 64 or 128px */
-
 @media (min-width: 600px) {
   .links-all {
     display: flex;
@@ -130,5 +124,4 @@ span:hover {
     display: none;
   }
 }
-
 </style>

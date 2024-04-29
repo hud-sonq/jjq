@@ -15,6 +15,8 @@
 </template>
 
 <script lang="ts" setup>
+const router = useRouter();
+
 let tsdCover = ref<HTMLElement | null>(null);
 let tsdContent = ref<HTMLElement | null>(null);
 let tsdGif = ref<HTMLElement | null>(null);
@@ -32,7 +34,6 @@ onMounted(() => {
     tsdGif.value?.classList.add('gif-disable');
   }, 4000);
 });
-
 </script>
 
 <style scoped>
@@ -118,7 +119,6 @@ onMounted(() => {
   display: none;
 }
 
-
 @media (min-width: 600px) {
   .tsd-split {
     flex-direction: row;
@@ -127,5 +127,4 @@ onMounted(() => {
     padding-top: 64px;
   }
 }
-
 </style>

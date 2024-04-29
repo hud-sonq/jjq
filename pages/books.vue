@@ -13,10 +13,11 @@
 <style scoped>
 .books-wrapper {
   position: relative;
+  top: 64px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 256px;
 }
-
 </style>

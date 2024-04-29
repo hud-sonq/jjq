@@ -120,7 +120,6 @@ onMounted(() => {
   display: none;
 }
 
-
 @media (min-width: 600px) {
   .tsd-split {
     flex-direction: row;
@@ -129,5 +128,4 @@ onMounted(() => {
     padding-top: 64px;
   }
 }
-
 </style>
