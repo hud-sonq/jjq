@@ -1,5 +1,5 @@
 <template>
-  <div id="navbar">
+  <div id="navbar" v-if="!showLinks">
     <div class="navbar-sections">
       <div class="name-section" @click="refreshHome()"><NuxtLink to="/" style="text-decoration: none; color: black;"><span>Jamie Quatro</span></NuxtLink></div>
       <div class="mobile-stack" @click="dropDown(), $emit('stackClicked')">

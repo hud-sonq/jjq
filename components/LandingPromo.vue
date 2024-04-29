@@ -2,7 +2,8 @@
   <div class="tsd-wrapper">
     <div class="tsd-split">
       <div class="tsd-cover" ref="tsdCover">
-        <img src="/img/tsd/cover_half_goat.png">
+        <img src="/img/tsd/winkf.gif" class="gif" ref="tsdGif">
+        <img src="/img/tsd/goat.png" class="pic" ref="tsdPic">
       </div>
       <div class="tsd-content" ref="tsdContent">
         <div class="enter-site-wrapper">
@@ -16,6 +17,8 @@
 <script lang="ts" setup>
 let tsdCover = ref<HTMLElement | null>(null);
 let tsdContent = ref<HTMLElement | null>(null);
+let tsdGif = ref<HTMLElement | null>(null);
+let tsdPic = ref<HTMLElement | null>(null);
 
 onMounted(() => {
   setTimeout(() => {
@@ -24,12 +27,15 @@ onMounted(() => {
   setTimeout(() => {
     tsdContent.value?.classList.add('fade-in');
   }, 1000);
+  setTimeout(() => {
+    tsdPic.value?.classList.add('pic-active');
+    tsdGif.value?.classList.add('gif-disable');
+  }, 4000);
 });
 
 </script>
 
 <style scoped>
-
 .tsd-wrapper {
   position: relative;
   width: 100%;
@@ -96,6 +102,22 @@ onMounted(() => {
 .enter-site-button:hover > .linka {
   color: white;
 }
+
+.pic {
+  display: none;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.pic-active {
+  display: block;
+  opacity: 1;
+}
+
+.gif-disable {
+  display: none;
+}
+
 
 @media (min-width: 600px) {
   .tsd-split {

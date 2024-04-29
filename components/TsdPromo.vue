@@ -2,7 +2,7 @@
   <div class="tsd-wrapper" ref="tsdWrapper">
     <div class="tsd-split">
       <div class="tsd-cover" ref="tsdCover">
-        <img class="cover-3d" src="/img/tsd/book_3d.png">
+        <img class="cover-3d" src="/img/tsd/book.png">
       </div>
       <div class="tsd-content" ref="tsdContent">
         <div><p>Pre-order Now: </p></div>
