@@ -1,3 +1,3 @@
-# nav: books, events, about, contact
+# Clickable button as a whole for pre-order
 
-# pre-order: https://groveatlantic.com/book/two-step-devil/ scroll down
+# " Like this site? " component (yuh self promo yuh)

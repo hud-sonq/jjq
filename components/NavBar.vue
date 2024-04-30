@@ -40,7 +40,7 @@ function dropDown() {
 }
 </script>
 
-<style>
+<style scoped>
 #navbar {
   position: absolute;
   background-color: #fae7c6;

@@ -21,7 +21,12 @@
       <p style="font-size: 1.4rem; font-weight: bold; font-style: italic;">PRAISE FOR TWO-STEP DEVIL, ONE OF LITHUB’S MOST ANTICIPATED BOOKS OF 2024:</p>
       <!-- <p>"Jamie Quatro is a writer of sinuous, muscular power and grace. Two-Step Devil is a starkly gorgeous story of God and loss and art and love, and her best book yet." <span style="font-weight: bold;">-- Lauren Groff, author of The Vaster Wilds</span></p> -->
     </div>
-    <BlurbTimeout />
+    <div class="blurb-wrapper-1">
+      <div class="blurb-wrapper-2">
+        <BlurbTimeout />
+        <img class="drag-indicator" src="/icons/drag.svg">
+      </div>
+    </div>
   </div>
 </template>
 
@@ -134,6 +139,33 @@ function pushDatDownDuzHamBurgWasClicked() {
   padding-right: 16px;
 }
 
+.blurb-wrapper-1 {
+  width: 100%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.blurb-wrapper-2 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
+
+.drag-indicator {
+  animation: slide 1s infinite;
+  position: relative;
+  bottom: 8px;
+}
 @media (min-width: 600px) {
   .tsd-split {
     flex-direction: row;
@@ -141,6 +173,12 @@ function pushDatDownDuzHamBurgWasClicked() {
   .tsd-paragraphs {
     padding-left: 256px;
     padding-right: 256px;
+  }
+  .blurb-wrapper-2 {
+    width: 50%;
+  }
+  .drag-indicator {
+    bottom: 48px;
   }
 }
 </style>
