@@ -1,3 +1,3 @@
-# Clickable button as a whole for pre-order
+# pre order buttons (a around button)
 
 # " Like this site? " component (yuh self promo yuh)
