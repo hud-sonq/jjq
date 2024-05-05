@@ -20,6 +20,7 @@ const handleEnterClicked = () => {
 <style>
 #main {
   height: 100vh;
+  width: 100vw;
   overflow-y: auto;
   background-color: #fae7c6;
 }

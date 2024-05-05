@@ -1,3 +1,5 @@
-# pre order buttons (a around button)
+# - pre order buttons component
 
-# " Like this site? " component (yuh self promo yuh)
+# - proper mobile positionings
+
+# - 

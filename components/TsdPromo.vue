@@ -4,59 +4,57 @@
       <div class="tsd-cover" ref="tsdCover">
         <img class="cover-3d" src="/img/tsd/book.png">
       </div>
+      <div id="buttonsBetween" ref="buttonsBetween">
+        <p style="border-bottom: 1px solid red;">Pre-order NOW:</p>
+        <PurchaseButtons />
+      </div>
       <div class="tsd-content" ref="tsdContent">
-        <div><p>Pre-order Now: </p></div>
-        <div class="pre-order-links">
-          <div class="order-link-button"><a href="https://www.amazon.com/dp/0802163130" target="_blank" class="linka" >Amazon</a></div>
-          <div class="order-link-button"><a href="https://www.barnesandnoble.com/w/two-step-devil-jamie-quatro/1144929218" target="_blank" class="linka">Barnes & Noble</a></div>
-          <div class="order-link-button"><a href="https://bookshop.org/p/books/two-step-devil/20490963?ean=9780802163134" target="_blank" class="linka">Bookshop</a></div>
-          <div class="order-link-button"><a href="https://www.parnassusbooks.net/book/9780802163134" target="_blank" class="linka">Parnassus</a></div>
+        <div class="description-wrapper">
+          <div class="">
+            <p style="font-weight: bold; font-size: 1.1rem;">From a New York Times Notable "writer of great originality" comes a bold novel about love, faith and two societal outsiders whose lives converge in the contemporary American South. </p>
+            <p style="font-size: 1.1rem;">It's 2014 in Lookout Mountain, Alabama, where the Prophet—a 70-year-old man who paints his visions—lives off the grid in a cabin near the Georgia border. While scrounging for materials at the local dump, the Prophet sees a car pull up to an abandoned gas station. In the back seat is a teenage girl with zip ties on her wrists, a girl he realizes he must rescue from her current life. Her name is Michael and the Prophet feels certain that she is his Big Fish, a messenger sent by God to take his end-time warnings to the White House. Michael finds herself in the Prophet’s remote, art-filled cabin, and as their uncertain dynamic evolves into tender friendship, she is offered a surprising opportunity to escape her past—and perhaps change her future.</p>          </div>
         </div>
       </div>
     </div>
-    <div class="tsd-paragraphs">
-      <p style="font-weight: bold;">From a New York Times Notable "writer of great originality" comes a bold novel about love, faith and two societal outsiders whose lives converge in the contemporary American South. </p>
-      <p>It's 2014 in Lookout Mountain, Alabama, where the Prophet—a 70-year-old man who paints his visions—lives off the grid in a cabin near the Georgia border. While scrounging for materials at the local dump, the Prophet sees a car pull up to an abandoned gas station. In the back seat is a teenage girl with zip ties on her wrists, a girl he realizes he must rescue from her current life. Her name is Michael and the Prophet feels certain that she is his Big Fish, a messenger sent by God to take his end-time warnings to the White House. Michael finds herself in the Prophet’s remote, art-filled cabin, and as their uncertain dynamic evolves into tender friendship, she is offered a surprising opportunity to escape her past—and perhaps change her future.</p>
-      <p>Moving through the worlds of the Prophet, the girl, and a beguiling devil figure who dances in the corner of their lives, Two-Step Devil is a propulsive, philosophical examination of fate and faith that dares to ask what salvation, if any, can be found in our modern world.</p>
-      <p style="font-size: 1.4rem; font-weight: bold; font-style: italic;">PRAISE FOR TWO-STEP DEVIL, ONE OF LITHUB’S MOST ANTICIPATED BOOKS OF 2024:</p>
-      <!-- <p>"Jamie Quatro is a writer of sinuous, muscular power and grace. Two-Step Devil is a starkly gorgeous story of God and loss and art and love, and her best book yet." <span style="font-weight: bold;">-- Lauren Groff, author of The Vaster Wilds</span></p> -->
-    </div>
-    <div class="blurb-wrapper-1">
-      <div class="blurb-wrapper-2">
-        <BlurbTimeout />
-        <img class="drag-indicator" src="/icons/drag.svg">
-      </div>
+    <div id="buttonsBelow" ref="buttonsBelow">
+      <p style="border-bottom: 1px solid red;">Pre-order NOW:</p>
+      <PurchaseButtons />
     </div>
   </div>
 </template>
-
+  
 <script lang="ts" setup>
+let tsdWrapper = ref<HTMLElement | null>(null);
 let tsdCover = ref<HTMLElement | null>(null);
 let tsdContent = ref<HTMLElement | null>(null);
-let tsdWrapper = ref<HTMLElement | null>(null);
+let buttonsBetween = ref<HTMLElement | null>(null);
 
 onMounted(() => {
   setTimeout(() => {
+    tsdWrapper.value?.classList.add('fade-in');
+  }, 100);
+  setTimeout(() => {
     tsdCover.value?.classList.add('fade-in');
-  }, 210);
+  }, 250);
   setTimeout(() => {
     tsdContent.value?.classList.add('fade-in');
-  }, 500);
+  }, 1000);
 });
 
 function pushDatDownDuzHamBurgWasClicked() {
   tsdWrapper.value?.scrollIntoView({ behavior: 'smooth' });
 }
-
 </script>
-
+  
 <style scoped>
 .tsd-wrapper {
   position: relative;
   top: 64px;
   width: 100%;
   height: 100%;
-  padding-bottom: 256px;
+  padding-bottom: 96px;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .tsd-split {
@@ -64,7 +62,7 @@ function pushDatDownDuzHamBurgWasClicked() {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 64px;
+  gap: 32px;
 }
 
 .tsd-cover {
@@ -96,35 +94,15 @@ function pushDatDownDuzHamBurgWasClicked() {
   opacity: 1;
 }
 
-.pre-order-links {
-  width: 100%;
+.description-wrapper {
+  width: 365px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 16px;
-}
-
-.linka {
-  text-decoration: none; 
-  color: red;
-  transition: color 0.2s;
-}
-
-.order-link-button {
-  padding: 8px 16px;
-  border: 1px solid red;
-  border-radius: 2px;
-  cursor: pointer;
-  transition: background-color 0.4s; 
-}
-
-.order-link-button:hover {
-  background-color: red;
-}
-
-.order-link-button:hover > .linka {
-  color: white;
+  margin-top: 64px;
 }
 
 .tsd-paragraphs {
@@ -139,17 +117,17 @@ function pushDatDownDuzHamBurgWasClicked() {
   padding-right: 16px;
 }
 
-.blurb-wrapper-1 {
-  width: 100%; 
-  display: flex; 
-  justify-content: center; 
+#buttonsBetween {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-.blurb-wrapper-2 {
+#buttonsBelow {
   width: 100%;
-  position: relative;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -160,25 +138,20 @@ function pushDatDownDuzHamBurgWasClicked() {
   50% { transform: translateX(10px); }
   100% { transform: translateX(0); }
 }
-
-.drag-indicator {
-  animation: slide 1s infinite;
-  position: relative;
-  bottom: 8px;
-}
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .tsd-split {
     flex-direction: row;
+    gap: 64px;
   }
   .tsd-paragraphs {
     padding-left: 256px;
     padding-right: 256px;
   }
-  .blurb-wrapper-2 {
-    width: 50%;
+  #buttonsBetween {
+    display: none;
   }
-  .drag-indicator {
-    bottom: 48px;
+  #buttonsBelow {
+    display: flex;
   }
 }
 </style>

@@ -6,7 +6,8 @@
         <img src="/img/tsd/goat.png" class="pic" ref="tsdPic">
       </div>
       <div class="tsd-content" ref="tsdContent">
-        <div class="enter-site-wrapper">
+        <div class="enter-site-blurb-and-button-wrapper">
+          <div ref="blurbz" class="blurbz"><BlurbFader /></div>
           <div class="enter-site-button" @click="$emit('enterClicked')"><p class="linka">ENTER SITE</p></div>
         </div>
       </div>
@@ -28,7 +29,7 @@ onMounted(() => {
   }, 420);
   setTimeout(() => {
     tsdContent.value?.classList.add('fade-in');
-  }, 1000);
+  }, 1600);
   setTimeout(() => {
     tsdPic.value?.classList.add('pic-active');
     tsdGif.value?.classList.add('gif-disable');
@@ -41,6 +42,7 @@ onMounted(() => {
   position: relative;
   width: 100%;
   height: 100%;
+  max-height: 100%;
 }
 
 .tsd-split {
@@ -48,11 +50,11 @@ onMounted(() => {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 64px;
+  gap: 32px;
 }
 
 .tsd-cover {
-  margin-top: 64px;
+  margin-top: 256px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,12 +68,13 @@ onMounted(() => {
 }
 
 .tsd-content {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
-  color: black;
+  justify-content: center;
+  position: relative;
+  bottom: 128px;
   opacity: 0;
   transition: opacity 1s;
 }
@@ -88,12 +91,22 @@ onMounted(() => {
   margin-bottom: 2px;
 }
 
+.enter-site-blurb-and-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 128px;
+}
+
 .enter-site-button {
   padding: 8px 16px;
   border: 1px solid red;
   border-radius: 2px;
   cursor: pointer;
   transition: background-color 0.4s;
+  width: fit-content;
+  max-width: 128px;
 }
 
 .enter-site-button:hover {
@@ -122,9 +135,17 @@ onMounted(() => {
 @media (min-width: 600px) {
   .tsd-split {
     flex-direction: row;
+    gap: 64px;
   }
-  .enter-site-wrapper {
-    padding-top: 64px;
+  .tsd-cover {
+    margin-top: 0px;
+  }
+  .tsd-content {
+    width: 25%;
+    bottom: 0px;
+  }
+  .enter-site-blurb-and-button-wrapper {
+    margin-bottom: 0px;
   }
 }
 </style>
