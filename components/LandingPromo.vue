@@ -1,60 +1,66 @@
-<template>
-  <div class="tsd-wrapper">
-    <div class="tsd-split">
-      <div class="tsd-cover" ref="tsdCover">
-        <img src="/img/tsd/winkf.gif" class="gif" ref="tsdGif">
-        <img src="/img/tsd/goat.png" class="pic" ref="tsdPic">
+wrapper<template>
+  <div class="landing-wrapper">
+    <div class="goat-blurb-split">
+      <div class="goat-wrapper" ref="goat">
+        <img src="/img/tsd/wink_square.gif" class="gif" ref="goatGif">
+        <img src="/img/tsd/goat_square.png" class="pic" ref="goatPic">
       </div>
-      <div class="tsd-content" ref="tsdContent">
-        <div class="enter-site-blurb-and-button-wrapper">
-          <div ref="blurbz" class="blurbz"><BlurbFader /></div>
-          <div class="enter-site-button" @click="$emit('enterClicked')"><p class="linka">ENTER SITE</p></div>
+      <div class="blurb-wrapper" ref="blurb">
+        <BlurbFader />
+      </div>
+      <div class="mobile-button-wrapper">
+        <div class="enter-site-button" @click="$emit('enterClicked')">
+          <p class="linka">ENTER SITE</p>
         </div>
       </div>
+    </div>
+    <div class="pc-button-wrapper">
+      <BlobButton  @click="$emit('enterClicked')"/>
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-const router = useRouter();
-
-let tsdCover = ref<HTMLElement | null>(null);
-let tsdContent = ref<HTMLElement | null>(null);
-let tsdGif = ref<HTMLElement | null>(null);
-let tsdPic = ref<HTMLElement | null>(null);
+let goat = ref<HTMLElement | null>(null);
+let goatGif = ref<HTMLElement | null>(null);
+let goatPic = ref<HTMLElement | null>(null);
+let blurb = ref<HTMLElement | null>(null);
 
 onMounted(() => {
   setTimeout(() => {
-    tsdCover.value?.classList.add('fade-in');
+    goat.value?.classList.add('fade-in');
   }, 420);
   setTimeout(() => {
-    tsdContent.value?.classList.add('fade-in');
+    blurb.value?.classList.add('fade-in');
   }, 1600);
   setTimeout(() => {
-    tsdPic.value?.classList.add('pic-active');
-    tsdGif.value?.classList.add('gif-disable');
+    goatPic.value?.classList.add('pic-active');
+    goatGif.value?.classList.add('gif-disable');
   }, 4000);
 });
 </script>
 
 <style scoped>
-.tsd-wrapper {
+.landing-wrapper {
   position: relative;
-  width: 100%;
+  width: 70%;
   height: 100%;
   max-height: 100%;
-}
-
-.tsd-split {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 32px;
+  align-items: center;
 }
 
-.tsd-cover {
-  margin-top: 256px;
+.goat-blurb-split {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.goat-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,21 +68,36 @@ onMounted(() => {
   transition: opacity 1s;
 }
 
-.tsd-cover img {
-  max-width: 600px;
-  max-height: 500px;
+.blurb-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 1s;
+  pointer-events: none;
+  max-width: 500px;
+  min-height: 260px;
+  min-width: 216px;
 }
 
-.tsd-content {
-  height: 100%;
+.mobile-button-wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.pc-button-wrapper {
+  display: none;
   position: relative;
-  bottom: 128px;
-  opacity: 0;
-  transition: opacity 1s;
+  top: 0;
+}
+
+.goat-wrapper img {
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
 }
 
 .fade-in {
@@ -91,14 +112,6 @@ onMounted(() => {
   margin-bottom: 2px;
 }
 
-.enter-site-blurb-and-button-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 128px;
-}
-
 .enter-site-button {
   padding: 8px 16px;
   border: 1px solid red;
@@ -107,14 +120,15 @@ onMounted(() => {
   transition: background-color 0.4s;
   width: fit-content;
   max-width: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.enter-site-button:hover {
-  background-color: red;
-}
-
-.enter-site-button:hover > .linka {
-  color: white;
+.enter-arrow {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
 }
 
 .pic {
@@ -132,20 +146,28 @@ onMounted(() => {
   display: none;
 }
 
-@media (min-width: 600px) {
-  .tsd-split {
+.enter-site-button:hover {
+  background-color: red;
+}
+
+.enter-site-button:hover > .linka {
+  color: white;
+}
+
+
+@media (min-width: 850px) {
+  .goat-blurb-split {
     flex-direction: row;
     gap: 64px;
   }
-  .tsd-cover {
+  .goat-wrapper {
     margin-top: 0px;
   }
-  .tsd-content {
-    width: 25%;
-    bottom: 0px;
+  .mobile-button-wrapper {
+    display: none;
   }
-  .enter-site-blurb-and-button-wrapper {
-    margin-bottom: 0px;
+  .pc-button-wrapper {
+    display: flex;
   }
 }
 </style>

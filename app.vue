@@ -1,7 +1,9 @@
 <template>
   <div id="main" ref="main" class="">
     <NavBar class="nav active" ref="nav" v-if="!showLandingPromo"/>
-    <LandingPromo v-if="showLandingPromo" @enterClicked="handleEnterClicked()"/>
+    <div class="landing-wrapper" v-if="showLandingPromo">
+      <LandingPromo @enterClicked="enterSite()"/>
+    </div>
     <div v-if="!showLandingPromo" id="page">
       <NuxtPage/>
     </div>
@@ -12,7 +14,7 @@
 <script lang="ts" setup>
 const showLandingPromo = ref(true);
 
-const handleEnterClicked = () => {
+const enterSite = () => {
   showLandingPromo.value = false;
 }
 </script>
@@ -23,6 +25,14 @@ const handleEnterClicked = () => {
   width: 100vw;
   overflow-y: auto;
   background-color: #fae7c6;
+}
+
+.landing-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav {

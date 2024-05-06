@@ -20,6 +20,9 @@
       <p style="border-bottom: 1px solid red;">Pre-order NOW:</p>
       <PurchaseButtons />
     </div>
+    <div id="staticBlurbs">
+      <BlurbStatic />
+    </div>
   </div>
 </template>
   
@@ -105,17 +108,6 @@ function pushDatDownDuzHamBurgWasClicked() {
   margin-top: 64px;
 }
 
-.tsd-paragraphs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  color: black;
-  margin-top: 64px;
-  padding-left: 16px;
-  padding-right: 16px;
-}
 
 #buttonsBetween {
   width: 100%;
@@ -131,6 +123,16 @@ function pushDatDownDuzHamBurgWasClicked() {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 32px;
+  padding-top: 16px;
+}
+
+#staticBlurbs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes slide {
@@ -142,10 +144,6 @@ function pushDatDownDuzHamBurgWasClicked() {
   .tsd-split {
     flex-direction: row;
     gap: 64px;
-  }
-  .tsd-paragraphs {
-    padding-left: 256px;
-    padding-right: 256px;
   }
   #buttonsBetween {
     display: none;

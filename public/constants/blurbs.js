@@ -19,13 +19,13 @@ const speakers = [
 ];
 
 const titles = [
-    `, author of The Vaster Wilds`,
-    `, author of Small Rain`,
-    `, author of The Comfort of Crows`,
-    `, author of A Hand Reached Down To Guide Me `,
-    `, author of Splinters`,
-    `, author of Orbital`,
-    `, author of Evangelical Anxiety`,
+    `The Vaster Wilds`,
+    `Small Rain`,
+    `The Comfort of Crows`,
+    `A Hand Reached Down To Guide Me `,
+    `Splinters`,
+    `Orbital`,
+    `Evangelical Anxiety`,
 ];
 
 const length = quotes.length;

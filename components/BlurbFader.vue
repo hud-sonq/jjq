@@ -1,13 +1,19 @@
 <template>
-    <div id="quotesContainer">
-        <div style="height: 64px">
-            <transition name="fade" mode="out-in" @before-enter="beforeEnter" @enter="enter" @leave="leave">
-                <p :key="currentIndex" class="fade-text quote-text-class">{{ quotes[currentIndex] }}</p>
-            </transition>
+    <div id="blurbContainer">
+        <div class="quote">
+            <div>
+                <transition name="fade" mode="out-in" @before-enter="beforeEnter" @enter="enter" @leave="leave">
+                    <p :key="currentIndex" class="fade-text quote-text-class">{{ quotes[currentIndex] }}</p>
+                </transition>
+            </div>
         </div>
-        <transition name="fade" mode="out-in" @before-enter="beforeEnter" @enter="enter" @leave="leave">
-            <p :key="currentIndex" class="fade-text speaker-text-class">- {{ speakers[currentIndex] }}</p>
-        </transition>
+        <div class="speaker">
+            <div>
+                <transition name="fade" mode="out-in" @before-enter="beforeEnter" @enter="enter" @leave="leave">
+                    <p :key="currentIndex" class="fade-text speaker-text-class">- {{ speakers[currentIndex] }}</p>
+                </transition>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -49,7 +55,7 @@ onBeforeUnmount(() => {
 </script>
 
 <style>
-#quotesContainer {
+#blurbContainer {
     width: 100%;
     display: flex;
     gap: 16px;
@@ -58,14 +64,24 @@ onBeforeUnmount(() => {
     align-items: center;
 }
 
+.quote {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .quote-text-class {
     font-size: 1.6rem;
     text-align: center;
+    margin: 0;
 }
 
 .speaker-text-class {
     font-size: .8rem;
     text-align: center;
     font-style: italic;
+    margin: 0;
 }
 </style>
