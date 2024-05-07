@@ -27,26 +27,6 @@
 </template>
   
 <script lang="ts" setup>
-let tsdWrapper = ref<HTMLElement | null>(null);
-let tsdCover = ref<HTMLElement | null>(null);
-let tsdContent = ref<HTMLElement | null>(null);
-let buttonsBetween = ref<HTMLElement | null>(null);
-
-onMounted(() => {
-  setTimeout(() => {
-    tsdWrapper.value?.classList.add('fade-in');
-  }, 100);
-  setTimeout(() => {
-    tsdCover.value?.classList.add('fade-in');
-  }, 250);
-  setTimeout(() => {
-    tsdContent.value?.classList.add('fade-in');
-  }, 1000);
-});
-
-function pushDatDownDuzHamBurgWasClicked() {
-  tsdWrapper.value?.scrollIntoView({ behavior: 'smooth' });
-}
 </script>
   
 <style scoped>
@@ -55,9 +35,6 @@ function pushDatDownDuzHamBurgWasClicked() {
   top: 64px;
   width: 100%;
   height: 100%;
-  padding-bottom: 96px;
-  opacity: 0;
-  transition: opacity 1s;
 }
 
 .tsd-split {
@@ -73,8 +50,6 @@ function pushDatDownDuzHamBurgWasClicked() {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
-  transition: opacity 1s;
 }
 
 .tsd-cover img {
@@ -89,8 +64,6 @@ function pushDatDownDuzHamBurgWasClicked() {
   align-items: center;
   font-size: 1.5rem;
   color: black;
-  opacity: 0;
-  transition: opacity 1s;
 }
 
 .fade-in {
@@ -105,7 +78,6 @@ function pushDatDownDuzHamBurgWasClicked() {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  margin-top: 64px;
 }
 
 
@@ -150,6 +122,9 @@ function pushDatDownDuzHamBurgWasClicked() {
   }
   #buttonsBelow {
     display: flex;
+  }
+  .description-wrapper {
+    margin-top: 64px;
   }
 }
 </style>

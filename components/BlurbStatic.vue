@@ -8,17 +8,18 @@
 </template>
 
 <script setup lang="ts">
-import {quotes, speakers, titles} from '~/public/constants/blurbs.js'
+import {quotes, speakers, titles} from '~/public/constants/fullBlurbs.js'
 const combined = computed(() => quotes.map((quote, index) => ({ quote, speaker: speakers[index], title: titles[index] })));
 </script>
 
 <style scoped>
 #blurbContainer {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 64px;
 }
 
 @media (min-width: 768px) {

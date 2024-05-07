@@ -1,26 +1,19 @@
 <template>
     <div class="buttons">
-        <div class="order-button">
-            <a class="linka" href="https://www.parnassusbooks.net/book/9780802163134" target="_blank">
-                Parnassus
-            </a>
-        </div>
-        <div class="order-button">
-            <a class="linka" href="https://bookshop.org/p/books/two-step-devil/20490963?ean=9780802163134" target="_blank">
-                Bookshop
-            </a>
-        </div>
-        <div class="order-button">
-            <a class="linka" href="https://www.amazon.com/dp/0802163130" target="_blank">
-                Amazon
-            </a>
-        </div>
-        <div class="order-button">
-            <a class="linka" href="https://www.barnesandnoble.com/w/two-step-devil-jamie-quatro/1144929218" target="_blank">
-                Barnes & Noble
-            </a>
-        </div>
+        <a class="linka" href="https://www.parnassusbooks.net/book/9780802163134" target="_blank">
+            <div class="order-button"><p class="order-text">Parnassus</p></div>
+        </a>
+        <a class="linka" href="https://bookshop.org/p/books/two-step-devil/20490963?ean=9780802163134" target="_blank">
+            <div class="order-button"><p class="order-text">Bookshop</p></div>
+        </a>
+        <a class="linka" href="https://www.amazon.com/dp/0802163130" target="_blank">
+            <div class="order-button"><p class="order-text">Amazon</p></div>
+        </a>
+        <a class="linka" href="https://www.barnesandnoble.com/w/two-step-devil-jamie-quatro/1144929218" target="_blank">
+            <div class="order-button"><p class="order-text">Barnes & Noble</p></div>
+        </a>
     </div>
+    
 </template>
 
 <script setup lang="ts"></script>
@@ -52,12 +45,19 @@
 }
 
 .linka {
-    text-decoration: none;
+    text-decoration: none; 
     text-align: center;
-    color: black;
 }
 
-.order-button:hover > .linka {
+.order-text {
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: dashed;
+    transition: color .4s;
+}
+
+.order-button:hover > .order-text {
   color: white;
 }
 </style>

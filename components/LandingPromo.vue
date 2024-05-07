@@ -1,21 +1,25 @@
-wrapper<template>
-  <div class="landing-wrapper">
-    <div class="goat-blurb-split">
-      <div class="goat-wrapper" ref="goat">
-        <img src="/img/tsd/wink_square.gif" class="gif" ref="goatGif">
-        <img src="/img/tsd/goat_square.png" class="pic" ref="goatPic">
-      </div>
-      <div class="blurb-wrapper" ref="blurb">
-        <BlurbFader />
-      </div>
-      <div class="mobile-button-wrapper">
-        <div class="enter-site-button" @click="$emit('enterClicked')">
-          <p class="linka">ENTER SITE</p>
+<template>
+  <div id="parent">
+    <div class="landing-wrapper">
+      <div class="goat-blurb-split">
+        <div class="goat-wrapper" ref="goat">
+          <img src="/img/tsd/wink_square.gif" class="gif" ref="goatGif">
+          <img src="/img/tsd/goat_square.png" class="pic" ref="goatPic">
+        </div>
+        <div class="blurb-wrapper" ref="blurb">
+          <BlurbFader />
+        </div>
+        <div class="mobile-button-wrapper" ref="mobileButton" id="mobileButton">
+          <NuxtLink to="/tsd">
+            <div class="enter-site-button">
+              <p class="linka">ENTER SITE</p>
+            </div>
+          </NuxtLink>
         </div>
       </div>
-    </div>
-    <div class="pc-button-wrapper">
-      <BlobButton  @click="$emit('enterClicked')"/>
+      <div class="pc-button-wrapper" ref="pcButton" id="pcButton">
+        <NuxtLink to="/tsd" style="text-decoration: none;"><BlobButton /></NuxtLink>
+      </div>
     </div>
   </div>
 </template>
@@ -25,14 +29,17 @@ let goat = ref<HTMLElement | null>(null);
 let goatGif = ref<HTMLElement | null>(null);
 let goatPic = ref<HTMLElement | null>(null);
 let blurb = ref<HTMLElement | null>(null);
+let mobileButton = ref<HTMLElement | null>(null);
+let pcButton = ref<HTMLElement | null>(null);
 
 onMounted(() => {
   setTimeout(() => {
     goat.value?.classList.add('fade-in');
   }, 420);
   setTimeout(() => {
+    pcButton.value?.classList.add('fade-in');
     blurb.value?.classList.add('fade-in');
-  }, 1600);
+  }, 840);
   setTimeout(() => {
     goatPic.value?.classList.add('pic-active');
     goatGif.value?.classList.add('gif-disable');
@@ -41,11 +48,19 @@ onMounted(() => {
 </script>
 
 <style scoped>
+#parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
 .landing-wrapper {
   position: relative;
   width: 70%;
-  height: 100%;
-  max-height: 100%;
+  height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,6 +107,8 @@ onMounted(() => {
   display: none;
   position: relative;
   top: 0;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .goat-wrapper img {
@@ -125,12 +142,6 @@ onMounted(() => {
   align-items: center;
 }
 
-.enter-arrow {
-  width: 24px;
-  height: 24px;
-  margin-left: 8px;
-}
-
 .pic {
   display: none;
   opacity: 0;
@@ -153,7 +164,6 @@ onMounted(() => {
 .enter-site-button:hover > .linka {
   color: white;
 }
-
 
 @media (min-width: 850px) {
   .goat-blurb-split {

@@ -1,11 +1,11 @@
 <template>
   <div id="navbar" v-if="!showLinks">
     <div class="navbar-sections">
-      <div class="name-section" @click="refreshHome()"><NuxtLink to="/" style="text-decoration: none; color: black;"><span>Jamie Quatro</span></NuxtLink></div>
+      <div class="name-section"><NuxtLink to="/tsd" style="text-decoration: none; color: black;" @click="$emit('nameClicked')"><span>JAMIE QUATRO</span></NuxtLink></div>
       <div class="mobile-stack" @click="dropDown(), $emit('stackClicked')">
         <img src="/icons/CarbonMenu.svg">
       </div>
-      <div class="links-all" ref="pcLinks">
+      <div class="links-all" ref="links">
         <div class="links-all-spacing">
           <NuxtLink to="/books" style="text-decoration: none; color: black;"><span>BOOKS</span></NuxtLink>
           <NuxtLink to="/events" style="text-decoration: none; color: black;"><span>EVENTS</span></NuxtLink>
@@ -19,25 +19,14 @@
 
 <script lang="ts" setup>
 let showLinks = false
-let pcLinks = ref<HTMLElement | null>(null)
-
-const route = useRoute()
-const router= useRouter()
-
-function refreshHome () {
-  if (route.path === '/') {
-    location.reload()
-  } else {
-    router.push('/')
-  }
-}
+let links = ref<HTMLElement | null>(null)
 
 function dropDown() {
   showLinks = !showLinks
   if (showLinks) {
-    pcLinks.value?.classList.add('active')
+    links.value?.classList.add('active')
   } else {
-    pcLinks.value?.classList.remove('active')
+    links.value?.classList.remove('active')
   }
 }
 </script>

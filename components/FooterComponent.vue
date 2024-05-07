@@ -22,9 +22,6 @@
     </footer>
 </template>
 
-<script lang="ts" setup>
-</script>
-
 <style scoped>
 .footer {
     position: relative;

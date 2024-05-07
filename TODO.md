@@ -1,5 +1,5 @@
-# - pre order buttons component
+# - index should be the landing component
 
-# - proper mobile positionings
+# - therefore, enter site @click go to /tsd
 
-# - 
+# - therefore, Jamie Quatro @click go to /tsd

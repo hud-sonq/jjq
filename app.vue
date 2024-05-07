@@ -1,22 +1,22 @@
 <template>
   <div id="main" ref="main" class="">
-    <NavBar class="nav active" ref="nav" v-if="!showLandingPromo"/>
-    <div class="landing-wrapper" v-if="showLandingPromo">
-      <LandingPromo @enterClicked="enterSite()"/>
-    </div>
-    <div v-if="!showLandingPromo" id="page">
+    <NavBar class="nav active" ref="nav" @nameClicked="refreshIfAtTsd()"/>
+    <div id="page">
       <NuxtPage/>
     </div>
     <FooterComponent />
   </div>
 </template>
 
-<script lang="ts" setup>
-const showLandingPromo = ref(true);
+<script setup lang=ts>
+let nav = ref<HTMLElement | null>(null);
 
-const enterSite = () => {
-  showLandingPromo.value = false;
+function refreshIfAtTsd() {
+  if (window.location.pathname === '/tsd') {
+    window.location.reload();
+  }
 }
+
 </script>
 
 <style>
@@ -27,14 +27,6 @@ const enterSite = () => {
   background-color: #fae7c6;
 }
 
-.landing-wrapper {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .nav {
   opacity: 0;
   transition: opacity 1s;
@@ -42,5 +34,14 @@ const enterSite = () => {
 
 .active {
   opacity: 1;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all ease-in-out .4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
 }
 </style>

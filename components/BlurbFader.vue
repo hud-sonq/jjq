@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import {quotes, speakers} from '~/public/constants/blurbs.js'
+import {quotes, speakers} from '~/public/constants/shortenedBlurbs.js'
 
 const currentIndex = ref(0);
 let intervalId: NodeJS.Timeout | null = null;
@@ -79,7 +79,7 @@ onBeforeUnmount(() => {
 }
 
 .speaker-text-class {
-    font-size: .8rem;
+    font-size: 1.4rem;
     text-align: center;
     font-style: italic;
     margin: 0;

@@ -6,6 +6,7 @@ const quotes = [
     `“Two-Step Devil compelled me with almost supernatural force. I could not turn away...unequivocally human, tender and alive—formally daring and utterly riveting."`,
     `"Glorious, rich, mad, wonderful, daring and epic in its scope, Two-Step Devil is simply thrilling to read."`,
     `"The characters in Jamie Quatro's Two-Step Devil will surely join the pantheon of Hazel Motes, Temple Drake, and Howard Finster."`,
+    `"Jamie Quatro is one of the finest, and most fearless, American writers currently working."`
 ];
 
 const speakers = [
@@ -16,6 +17,7 @@ const speakers = [
     `Leslie Jamison`,
     `Samantha Harvey`,
     `Charles Marsh`,
+    `Tom Bissell`
 ];
 
 const titles = [
@@ -26,6 +28,7 @@ const titles = [
     `Splinters`,
     `Orbital`,
     `Evangelical Anxiety`,
+    `Creative Types`
 ];
 
 const length = quotes.length;

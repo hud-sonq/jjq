@@ -1,3 +1,3 @@
 <template>
-    <LandingPromo />
+    <TsdPromo />
 </template>
