@@ -1,30 +1,38 @@
 <template>
-  <div id="main" ref="main" class="">
-    <NavBar class="nav active" ref="nav" @nameClicked="refreshIfAtTsd()"/>
-    <div id="page">
-      <NuxtPage/>
-    </div>
-    <FooterComponent />
+  <NavBar class="nav" :class="{active: siteEntered}" ref="nav" @nameClicked="refreshIfAtTsd()"/>
+  <div id="page">
+    <NuxtPage/>
   </div>
+  <!-- <FooterComponent /> -->
 </template>
 
 <script setup lang=ts>
 let nav = ref<HTMLElement | null>(null);
+let siteEntered = ref(false);
+let router = useRouter();
+
+onMounted(() => {
+  router.afterEach((to, from) => {
+    setTimeout(() => {
+      siteEntered.value = to.path !== '/';
+    }, 500);
+  });
+});
 
 function refreshIfAtTsd() {
   if (window.location.pathname === '/tsd') {
+    console.log('refreshing');
     window.location.reload();
   }
 }
-
 </script>
 
 <style>
-#main {
-  height: 100vh;
-  width: 100vw;
-  overflow-y: auto;
-  background-color: #fae7c6;
+#page {
+  width: 100%;
+  height: calc(100% - 64px);
+  position:absolute;
+  top: 64px;
 }
 
 .nav {
@@ -32,7 +40,7 @@ function refreshIfAtTsd() {
   transition: opacity 1s;
 }
 
-.active {
+.nav.active {
   opacity: 1;
 }
 
