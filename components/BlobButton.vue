@@ -1,63 +1,52 @@
 <template>
-  <div class="box-1">
-    <div class="btn btn-one">
-      <p>ENTER SITE</p>
-    </div>
-  </div>
+  <button class="button-24" role="button">{{ text }}</button>
 </template>
 
+<script setup lang="ts">
+const props = defineProps<{
+  text: string
+}>()
+</script>
+
 <style scoped>
-
-.btn-one {
-  color: #ff0000;
-  transition: all 0.3s;
-  position: relative;
+.button-24 {
+  font-family: vermi;
+  background: transparent;
+  border: 1px solid red;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: red;
   cursor: pointer;
-  height: 32px;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
 }
 
-.btn-one p {
-  transition: all 0.3s;
-  font-size: 24px;
+.button-24:hover,
+.button-24:active {
+  background-color: red;
+  background-position: 0 0;
+  color: white;
 }
 
-.btn-one::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0;
-  transition: all 0.3s;
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-top-color: rgb(255, 0, 0);
-  border-bottom-color: rgb(255, 0, 0);
-  transform: scale(0.1, 1);
+.button-24:active {
+  opacity: .5;
 }
-.btn-one:hover span {
-  letter-spacing: 2px;
-}
-.btn-one:hover::before {
-  opacity: 1; 
-  transform: scale(1, 1); 
-}
-.btn-one::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  transition: all 0.3s;
-}
-.btn-one:hover::after {
-  opacity: 0; 
-  transform: scale(0.1, 1);
+
+@media(max-width: 800px) {
+  .button-24 {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
 }
 </style>

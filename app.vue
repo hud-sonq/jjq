@@ -17,6 +17,9 @@ onMounted(() => {
       siteEntered.value = to.path !== '/';
     }, 500);
   });
+  if(window.location.pathname !== '/') {
+    siteEntered.value = true;
+  }
 });
 
 function refreshIfAtTsd() {

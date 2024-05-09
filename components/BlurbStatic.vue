@@ -14,7 +14,7 @@ const combined = computed(() => quotes.map((quote, index) => ({ quote, speaker: 
 
 <style scoped>
 #blurbContainer {
-    width: 100%;
+    width: 365px;
     display: flex;
     flex-direction: column;
     justify-content: center;

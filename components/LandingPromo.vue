@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div id="button" class="button" ref="button">
-                <NuxtLink to="/tsd" style="text-decoration: none;"><DepthButton /></NuxtLink>
+                <NuxtLink to="/tsd" style="text-decoration: none;"><BlobButton text="ENTER SITE"/></NuxtLink>
             </div>
         </div>
     </div>
