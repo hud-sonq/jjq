@@ -24,7 +24,6 @@
 
 <style scoped>
 .footer {
-    position: relative;
     width: 100%;
     height: 64px;
     background-color: #fae7c6;

@@ -3,7 +3,6 @@
   <div id="page">
     <NuxtPage/>
   </div>
-  <!-- <FooterComponent /> -->
 </template>
 
 <script setup lang=ts>

@@ -41,12 +41,14 @@ setTimeout(() => {
   
 <style scoped>
 #landingPromoPage {
+    position: absolute;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;  
     align-items: center;
+    bottom: 48px;
 }
 
 .landing-wrapper {
@@ -86,6 +88,7 @@ setTimeout(() => {
 .button {
     opacity: 0;
     transition: opacity 1s;
+    padding-top: 16px;
 }
 
 .goat-wrapper img {
@@ -139,6 +142,11 @@ setTimeout(() => {
 }
 #landingPromoPage {
     justify-content: center;
+    position: static;
+    bottom: 0;
+}
+.button {
+    padding-top: 0;
 }
 }
 </style>

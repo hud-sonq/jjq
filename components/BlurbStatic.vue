@@ -5,6 +5,7 @@
             <p style="text-align: left;">{{ item.quote }} <span style=" text-align: left; font-weight: bold;">-- {{ item.speaker }}, author of <span style="font-style: italic; text-align: left;">{{ item.title }}</span></span></p>
         </div>
     </div>
+    <FooterComponent />
 </template>
 
 <script setup lang="ts">
@@ -25,6 +26,9 @@ const combined = computed(() => quotes.map((quote, index) => ({ quote, speaker: 
 @media (min-width: 768px) {
     #blurbContainer {
         width: 60%;
+    }
+    p {
+        font-size: 20px;
     }
 }
 </style>
