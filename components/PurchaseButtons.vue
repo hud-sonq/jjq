@@ -38,4 +38,10 @@
     text-decoration: none; 
     text-align: center;
 }
+
+@media (min-width: 800px) {
+    .buttons {
+        width: 100%;
+    }
+}
 </style>
