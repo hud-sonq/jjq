@@ -45,7 +45,7 @@ setTimeout(() => {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;  
+    justify-content: flex-start;  
     align-items: center;
 }
 
@@ -136,6 +136,9 @@ setTimeout(() => {
 }
 .goat-wrapper {
     margin-top: 0px;
+}
+#landingPromoPage {
+    justify-content: center;
 }
 }
 </style>
