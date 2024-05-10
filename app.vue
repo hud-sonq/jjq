@@ -1,6 +1,6 @@
 <template>
   <NavBar class="nav" :class="{active: siteEntered}" ref="nav" @nameClicked="refreshIfAtTsd()" @stackClicked="dropNavMenu()"/>
-  <MobileNavMenu v-if="showMobileNavMenu" @linkClicked="dropNavMenu()"/>
+  <transition name="slide"><MobileNavMenu style="opacity: 1;" v-if="showMobileNavMenu" @linkClicked="dropNavMenu()"/></transition>
   <div id="page">
     <NuxtPage/>
   </div>
@@ -10,7 +10,6 @@
 let nav = ref<HTMLElement | null>(null);
 let siteEntered = ref(false);
 let router = useRouter();
-
 let showMobileNavMenu = ref(false);
 
 onMounted(() => {
@@ -31,11 +30,11 @@ function refreshIfAtTsd() {
   }
 }
 
-function dropNavMenu() {
-  console.log('dropping nav menu')
-  showMobileNavMenu.value = !showMobileNavMenu.value;
-  console.log('viewable', showMobileNavMenu.value);
-}
+// function dropNavMenu() {
+//   showMobileNavMenu.value = !showMobileNavMenu.value;
+// }
+
+const dropNavMenu = () => showMobileNavMenu.value = !showMobileNavMenu.value;
 </script>
 
 <style>
@@ -59,8 +58,21 @@ function dropNavMenu() {
 .page-leave-active {
   transition: all ease-in-out .4s;
 }
+
 .page-enter-from,
 .page-leave-to {
   opacity: 0;
+}
+
+.slide-enter-active, .poo-leave-active {
+  transition: all ease-in-out .4s;
+}
+
+.slide-enter-from, .poo-leave-to {
+  opacity: 0;
+  transform: translateY(-100%);
+  position: absolute;
+  width: 100%;
+  z-index: 100;
 }
 </style>
