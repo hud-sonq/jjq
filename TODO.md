@@ -1,5 +1,3 @@
-# - index should be the landing component
+# - mobile nav fading in and out (need to watch a prop / emit from navbar)
 
-# - therefore, enter site @click go to /tsd
-
-# - therefore, Jamie Quatro @click go to /tsd
+# - other pages

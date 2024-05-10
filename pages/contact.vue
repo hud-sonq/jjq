@@ -1,3 +1,3 @@
 <template>
-    <div>coing soon</div>
+    <div class="coming-soon">contact page coming soon</div>
 </template>

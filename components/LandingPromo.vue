@@ -7,7 +7,7 @@
                     <img src="/img/tsd/goat_square.png" class="pic" ref="goatPic">
                 </div>
                 <div class="blurb-wrapper" ref="blurb">
-                    <BlurbFader />
+                    <BlurbFader @wink="makeItWink"/>
                 </div>
             </div>
             <div id="button" class="button" ref="button">
@@ -25,18 +25,30 @@ let blurb = ref<HTMLElement | null>(null);
 let button = ref<HTMLElement | null>(null);
 
 onMounted(() => {
-setTimeout(() => {
-    goat.value?.classList.add('fade-in');
-}, 420);
-setTimeout(() => {
-    button.value?.classList.add('fade-in');
-    blurb.value?.classList.add('fade-in');
-}, 2000);
-setTimeout(() => {
-    goatPic.value?.classList.add('pic-active');
-    goatGif.value?.classList.add('gif-disable');
-}, 4000);
+    // fade goat in after 500ms 
+    setTimeout(() => {
+        goat.value?.classList.add('fade-in');
+    }, 500);
+    // fade blurb and button in after 2000ms
+    setTimeout(() => {
+        button.value?.classList.add('fade-in');
+        blurb.value?.classList.add('fade-in');
+    }, 2000);
+    // after 4000ms, show goat pic and hide goat gif
+    setTimeout(() => {
+        goatPic.value?.classList.add('pic-active');
+        goatGif.value?.classList.add('gif-disable');
+    }, 4000);
 });
+
+const makeItWink = () => {
+    goatPic.value?.classList.remove('pic-active');
+    goatGif.value?.classList.remove('gif-disable');
+    setTimeout(() => {
+        goatPic.value?.classList.add('pic-active');
+        goatGif.value?.classList.add('gif-disable');
+    }, 1000);
+};
 </script>
   
 <style scoped>

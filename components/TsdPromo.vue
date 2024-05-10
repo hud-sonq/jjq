@@ -5,7 +5,7 @@
         <img class="cover-3d" src="/img/tsd/book.png">
       </div>
       <div id="buttonsBetween" ref="buttonsBetween">
-        <p style="border-bottom: 1px solid red;">Pre-order NOW:</p>
+        <p style="border-bottom: 1px solid red;">PRE-ORDER NOW:</p>
         <PurchaseButtons />
       </div>
       <div class="tsd-content" ref="tsdContent">
@@ -17,7 +17,7 @@
       </div>
     </div>
     <div id="buttonsBelow" ref="buttonsBelow">
-      <p style="border-bottom: 1px solid red;">Pre-order NOW:</p>
+      <p style="border-bottom: 1px solid red;">PRE-ORDER NOW:</p>
       <PurchaseButtons />
     </div>
     <div id="staticBlurbs">

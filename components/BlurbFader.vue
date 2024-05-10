@@ -23,6 +23,8 @@ import {quotes, speakers} from '~/public/constants/shortenedBlurbs.js'
 const currentIndex = ref(0);
 let intervalId: NodeJS.Timeout | null = null;
 
+const emit = defineEmits(['wink']);
+
 const beforeEnter = (el: Element) => {
     (el as HTMLElement).style.opacity = '0';
 };
@@ -32,6 +34,7 @@ const enter = (el: Element, done: () => void) => {
         (el as HTMLElement).style.transition = 'opacity 1s';
         (el as HTMLElement).style.opacity = '1';
         done();
+        emit('wink');
     }, 100);
 };
 

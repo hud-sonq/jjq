@@ -1,4 +1,3 @@
 <template>
     <TsdPromo />
-
 </template>
