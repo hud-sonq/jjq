@@ -1,7 +1,7 @@
 <template>
   <NavBar class="nav" :class="{active: siteEntered}" ref="nav" @nameClicked="refreshIfAtTsd()" @stackClicked="dropNavMenu()"/>
   <transition name="slide"><MobileNavMenu style="opacity: 1;" v-if="showMobileNavMenu" @linkClicked="dropNavMenu()"/></transition>
-  <div id="page">
+  <div id="page" :class="{'non-scroll': showMobileNavMenu}">
     <NuxtPage/>
   </div>
 </template>
@@ -43,6 +43,10 @@ const dropNavMenu = () => showMobileNavMenu.value = !showMobileNavMenu.value;
   height: calc(100% - 64px);
   position:absolute;
   top: 64px;
+}
+
+#page.non-scroll {
+  overflow: hidden;
 }
 
 .nav {

@@ -17,6 +17,7 @@
     top: 64px;
     height: 100%;
     width: 100%;
+    padding-bottom: 64px;
     display: flex;
     flex-direction: column;
     justify-content: center;
