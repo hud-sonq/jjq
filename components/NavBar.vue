@@ -1,7 +1,7 @@
 <template>
   <div id="navbar">
     <div class="navbar-sections">
-      <div class="name-section"><NuxtLink to="/tsd" style="text-decoration: none; color: black;" @click="$emit('nameClicked')"><span>JAMIE QUATRO</span></NuxtLink></div>
+      <NuxtLink to="/tsd" class="name-link" @click="$emit('nameClicked')"><div><span>JAMIE QUATRO</span></div></NuxtLink>
       <div class="mobile-stack" @click="$emit('stackClicked')">
         <img src="/icons/CarbonMenu.svg">
       </div>
@@ -39,6 +39,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.name-link {
+  height: 100%;
+  cursor: pointer;
+  position: absolute;
+  left: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 11;
+  text-decoration: none;
+  color: black;
 }
 
 .name-section {
@@ -95,6 +109,10 @@
 
 span {
   transition: opacity 0.2s ease-in-out;
+}
+
+.name-link:hover  span {
+  opacity: 0.5;
 }
 
 span:hover {

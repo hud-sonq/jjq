@@ -10,6 +10,8 @@
 
 <script setup lang="ts">
 import {quotes, speakers, titles} from '~/public/constants/fullBlurbs.js'
+
+// TODO: Every time the book title "Two-Step Devil" is mentioned, it should be italicized.
 const combined = computed(() => quotes.map((quote, index) => ({ quote, speaker: speakers[index], title: titles[index] })));
 </script>
 

@@ -86,7 +86,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 32px;
   padding-top: 16px;
 }
 
