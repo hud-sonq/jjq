@@ -39,4 +39,4 @@ import { fullBlurbs} from '~/public/constants/blurbs.js'
         font-size: 20px;
     }
 }
-</style>~/public/constants/blurbs.js~/public/constants/Blurbs.js
+</style>
