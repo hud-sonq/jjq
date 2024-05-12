@@ -3,14 +3,14 @@
         <div class="quote">
             <div>
                 <transition name="fade" mode="out-in" @before-enter="beforeEnter" @enter="enter" @leave="leave">
-                    <p :key="currentIndex" class="fade-text quote-text-class">{{ quotes[currentIndex] }}</p>
+                    <p :key="currentIdx" class="fade-text quote-text-class" v-html="blurb.quote"></p>
                 </transition>
             </div>
         </div>
         <div class="speaker">
             <div>
                 <transition name="fade" mode="out-in" @before-enter="beforeEnter" @enter="enter" @leave="leave">
-                    <p :key="currentIndex" class="fade-text speaker-text-class">- {{ speakers[currentIndex] }}</p>
+                    <p :key="currentIdx" class="fade-text speaker-text-class">- {{ blurb.speaker }}</p>
                 </transition>
             </div>
         </div>
@@ -18,10 +18,12 @@
 </template>
 
 <script setup lang="ts">
-import {quotes, speakers} from '~/public/constants/shortenedBlurbs.js'
+import { shortenedBlurbs } from '~/public/constants/blurbs.js'
 
-const currentIndex = ref(0);
-let intervalId: NodeJS.Timeout | null = null;
+const blurb = ref(shortenedBlurbs[0]);
+let currentIdx = 0;
+
+let intervalId: NodeJS.Timeout;
 
 const emit = defineEmits(['wink']);
 
@@ -45,7 +47,8 @@ const leave = (el: Element, done: () => void) => {
 };
 
 const nextQuote = () => {
-    currentIndex.value = (currentIndex.value + 1) % quotes.length;
+    currentIdx = (currentIdx + 1) % shortenedBlurbs.length;
+    blurb.value = shortenedBlurbs[currentIdx];
 };
 
 onMounted(() => {
@@ -53,7 +56,7 @@ onMounted(() => {
 });
 
 onBeforeUnmount(() => {
-    if (intervalId) clearInterval(intervalId);
+    clearInterval(intervalId);
 });
 </script>
 
