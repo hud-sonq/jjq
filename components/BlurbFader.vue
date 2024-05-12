@@ -21,7 +21,7 @@
 import { shortenedBlurbs } from '~/public/constants/blurbs.js'
 
 const blurb = ref(shortenedBlurbs[0]);
-let currentIdx = 0;
+let currentIdx = Math.floor(Math.random() * shortenedBlurbs.length);
 
 let intervalId: NodeJS.Timeout;
 
