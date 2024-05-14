@@ -15,16 +15,16 @@ let showMobileNavMenu = ref(false);
 onMounted(() => {
   router.afterEach((to, from) => {
     setTimeout(() => {
-      siteEntered.value = to.path !== '/jjq/';
+      siteEntered.value = to.path !== '/';
     }, 500);
   });
-  if(window.location.pathname !== '/jjq/') {
+  if(window.location.pathname !== '/') {
     siteEntered.value = true;
   }
 });
 
 function refreshIfAtTsd() {
-  if (window.location.pathname === '/jjq/tsd') {
+  if (window.location.pathname === '/tsd') {
     console.log('refreshing');
     window.location.reload();
   }

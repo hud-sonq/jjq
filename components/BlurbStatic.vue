@@ -8,7 +8,7 @@
                 <span style=" text-align: left; font-weight: bold;">
                     — {{ speaker }}, author of
                 </span>
-                <span style="font-style: italic; text-align: left;">
+                <span style="font-style: italic; text-align: left; font-weight: bold;">
                     {{ title }}
                 </span>
             </p>

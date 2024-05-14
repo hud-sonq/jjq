@@ -10,7 +10,7 @@
         <div class="speaker">
             <div>
                 <transition name="fade" mode="out-in" @before-enter="beforeEnter" @enter="enter" @leave="leave">
-                    <p :key="currentIdx" class="fade-text speaker-text-class">- {{ blurb.speaker }}</p>
+                    <p :key="currentIdx" class="fade-text speaker-text-class">— {{ blurb.speaker }}</p>
                 </transition>
             </div>
         </div>
