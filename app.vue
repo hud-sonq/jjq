@@ -15,10 +15,10 @@ let showMobileNavMenu = ref(false);
 onMounted(() => {
   router.afterEach((to, from) => {
     setTimeout(() => {
-      siteEntered.value = to.path !== '/jjq';
+      siteEntered.value = to.path !== '/jjq/';
     }, 500);
   });
-  if(window.location.pathname !== '/jjq') {
+  if(window.location.pathname !== '/jjq/') {
     siteEntered.value = true;
   }
 });
@@ -29,10 +29,6 @@ function refreshIfAtTsd() {
     window.location.reload();
   }
 }
-
-// function dropNavMenu() {
-//   showMobileNavMenu.value = !showMobileNavMenu.value;
-// }
 
 const dropNavMenu = () => showMobileNavMenu.value = !showMobileNavMenu.value;
 </script>
