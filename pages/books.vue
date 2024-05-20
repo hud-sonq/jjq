@@ -1,3 +1,7 @@
 <template>
-    <BookSelectorPage />
+    <BookSelectorTwo />
 </template>
+
+<style scoped>
+
+</style>
