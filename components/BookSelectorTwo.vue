@@ -88,10 +88,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
 }
 
-.book-cover-image-container {
-
+.book-container:hover {
+    transform: scale(1.1);
 }
 
 .book-image-itself {
@@ -107,6 +108,8 @@ h2 {
     margin: 0;
     font-size: 1rem;
 }
+
+
 
 @media (min-width: 800px) {
     #bookSelector {
