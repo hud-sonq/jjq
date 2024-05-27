@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer">
+    <div class="footer">
         <div class="footer-content">
             <div><p>Copyright © 2024 by Jamie Quatro</p></div>
             <div>
@@ -19,7 +19,7 @@
                 <a href="https://hudson.cosmic118.com" target="_blank" style="text-decoration: underline; color: black;"><p>u like this site?</p></a>
             </div>
         </div>
-    </footer>
+    </div>
 </template>
 
 <style scoped>

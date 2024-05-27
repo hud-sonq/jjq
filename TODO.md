@@ -1,3 +1,7 @@
-# - mobile nav fading in and out (need to watch a prop / emit from navbar)
+# - books page on mobile fix top
 
-# - other pages
+# - make book layout for each book (copy current tsd)
+
+# - about page properly made plz 
+
+# - events page
