@@ -1,5 +1,5 @@
 <template>
-    <BookSelectorTwo />
+    <BookSelector />
 </template>
 
 <style scoped>

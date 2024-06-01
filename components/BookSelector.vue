@@ -1,29 +1,53 @@
 <template>
     <div id="bookSelector">
-        <NuxtLink class="link" to="/tsd">
-            <div class="book-container">
-                <div class="book-cover-image-container">
-                    <img class="book-image-itself" src="/img/tsd/book.png">
-                </div>
-                <div class="book-title">
-                    <h2>Two-Step Devil</h2>
-                </div>
+        <div class="all-links">
+            <div>
+                <NuxtLink class="link" to="/tsd">
+                    <div class="book-container">
+                        <div class="book-cover-image-container">
+                            <img class="book-image-itself" src="/img/tsd/book.png">
+                        </div>
+                        <div class="book-title">
+                            <h2>Two-Step Devil</h2>
+                        </div>
+                    </div>
+                </NuxtLink>
             </div>
-        </NuxtLink>
-        <div class="book-container">
-            <div class="book-cover-image-container">
-                <img class="book-image-itself" src="/img/tsd/book.png">
+            <div>
+                <NuxtLink class="link" to="/fire-sermon">
+                    <div class="book-container">
+                        <div class="book-cover-image-container">
+                            <img class="book-image-itself" src="/img/fs/book.png">
+                        </div>
+                        <div class="book-title">
+                            <h2>Fire Sermon</h2>
+                        </div>
+                    </div>
+                </NuxtLink>
             </div>
-            <div class="book-title">
-                <h2>Fire Sermon</h2>
+            <div>
+                <NuxtLink class="link" to="/i-want-to-show-you-more">
+                    <div class="book-container">
+                        <div class="book-cover-image-container">
+                            <img class="book-image-itself" src="/img/sym/book.png">
+                        </div>
+                        <div class="book-title">
+                            <h2>I Want To Show You More</h2>
+                        </div>
+                    </div>
+                </NuxtLink>
             </div>
-        </div>
-        <div class="book-container">
-            <div class="book-cover-image-container">
-                <img class="book-image-itself" src="/img/tsd/book.png">
-            </div>
-            <div class="book-title">
-                <h2>I Want To Show You More</h2>
+            <div>
+                <NuxtLink class="link" to="/other-work">
+                    <div class="book-container">
+                        <div class="book-cover-image-container">
+                            <img class="book-image-itself" src="/img/RachelPerry.png">
+                        </div>
+                        <div class="book-title">
+                            <h2>Other Work</h2>
+                        </div>
+                    </div>
+                </NuxtLink>
             </div>
         </div>
     </div>
@@ -31,29 +55,43 @@
 
 <style scoped>
 #bookSelector {
-    height: 100%;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+}
+
+.all-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     gap: 32px;
+    justify-content: center;
+    align-items: center;
 }
 
 .link {
     text-decoration: none;
     color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .book-container {
-    width: 80%;
-    height: 256px;
+    overflow: hidden;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
 }
 
-.book-cover-image-container {
-    flex: 0 0 33%;
+.book-container:hover {
+    transform: scale(1.1);
 }
 
 .book-image-itself {
@@ -63,6 +101,25 @@
 .book-title {
     font-size: 1.5rem;
     color: black;
-    justify-self: flex-end;
 }
+
+h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+
+@media (min-width: 800px) {
+    #bookSelector {
+        /* flex-direction: row; */
+        gap: 32px;
+        justify-content: center;
+    }
+    .all-links {
+        flex-direction: row;
+        gap: 80px;
+    }
+}
+
 </style>

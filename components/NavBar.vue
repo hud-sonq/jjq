@@ -7,10 +7,10 @@
       </div>
       <div class="links-all" ref="links">
         <div class="links-all-spacing">
-          <NuxtLink to="/books" style="text-decoration: none; color: black;"><span>BOOKS</span></NuxtLink>
-          <NuxtLink to="/events" style="text-decoration: none; color: black;"><span>EVENTS</span></NuxtLink>
-          <NuxtLink to="/about" style="text-decoration: none; color: black;"><span>ABOUT</span></NuxtLink>
-          <NuxtLink to="/contact" style="text-decoration: none; color: black;"><span>CONTACT</span></NuxtLink>
+          <NuxtLink to="/books" style="text-decoration: none; color: black; font-size: 20px;"><span>BOOKS</span></NuxtLink>
+          <NuxtLink to="/events" style="text-decoration: none; color: black; font-size: 20px;"><span>EVENTS</span></NuxtLink>
+          <NuxtLink to="/about" style="text-decoration: none; color: black; font-size: 20px;"><span>ABOUT</span></NuxtLink>
+          <NuxtLink to="/contact" style="text-decoration: none; color: black; font-size: 20px;"><span>CONTACT</span></NuxtLink>
         </div>
       </div>
     </div>  
@@ -42,6 +42,7 @@
 }
 
 .name-link {
+  letter-spacing: 5px;
   height: 100%;
   cursor: pointer;
   position: absolute;

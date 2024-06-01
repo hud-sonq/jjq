@@ -1,14 +1,14 @@
 <template>
-  <div class="tsd-wrapper" ref="tsdWrapper">
+  <div>
     <div class="tsd-split">
-      <div class="tsd-cover" ref="tsdCover">
+      <div class="tsd-cover">
         <img class="cover-3d" src="/img/tsd/book.png">
       </div>
-      <div id="buttonsBetween" ref="buttonsBetween">
+      <div id="buttonsBetween">
         <p style="border-bottom: 1px solid red;">PRE-ORDER NOW:</p>
         <PurchaseButtons />
       </div>
-      <div class="tsd-content" ref="tsdContent">
+      <div class="tsd-content">
         <div class="description-wrapper">
           <div class="" style="">
             <p style="font-weight: bold; font-size: 1.2rem;">From a New York Times Notable "writer of great originality" comes a bold novel about love, faith and two societal outsiders whose lives converge in the contemporary American South. </p>
@@ -18,7 +18,7 @@
         </div>
       </div>
     </div>
-    <div id="buttonsBelow" ref="buttonsBelow">
+    <div id="buttonsBelow">
       <p style="border-bottom: 1px solid red;">PRE-ORDER NOW:</p>
       <PurchaseButtons />
     </div>
@@ -27,9 +27,6 @@
     </div>
   </div>
 </template>
-  
-<script lang="ts" setup>
-</script>
   
 <style scoped>
 
