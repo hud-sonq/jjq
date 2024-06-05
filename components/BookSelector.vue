@@ -55,6 +55,8 @@
 
 <style scoped>
 #bookSelector {
+    padding-top: 24px;
+    padding-bottom: 24px;
     width: 100%;
     height: 100%;
     display: flex;

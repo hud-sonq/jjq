@@ -16,7 +16,7 @@
                 <p style="padding-left: 12px; padding-right: 12px;">|</p>
             </div>
             <div>
-                <a href="https://hudson.cosmic118.com" target="_blank" style="text-decoration: underline; color: black;"><p>u like this site?</p></a>
+                <a href="https://byhudson.dev" target="_blank" style="text-decoration: underline; color: black;"><p>u like this site?</p></a>
             </div>
         </div>
     </div>

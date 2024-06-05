@@ -18,10 +18,10 @@
 </template>
 
 <script setup lang="ts">
-import { shortenedBlurbs } from '~/public/constants/blurbs.js'
+import { shortenedTsdBlurbs } from '~/public/constants/blurbs.js'
 
-const blurb = ref(shortenedBlurbs[0]);
-let currentIdx = Math.floor(Math.random() * shortenedBlurbs.length);
+const blurb = ref(shortenedTsdBlurbs[0]);
+let currentIdx = Math.floor(Math.random() * shortenedTsdBlurbs.length);
 
 let intervalId: NodeJS.Timeout;
 
@@ -47,8 +47,8 @@ const leave = (el: Element, done: () => void) => {
 };
 
 const nextQuote = () => {
-    currentIdx = (currentIdx + 1) % shortenedBlurbs.length;
-    blurb.value = shortenedBlurbs[currentIdx];
+    currentIdx = (currentIdx + 1) % shortenedTsdBlurbs.length;
+    blurb.value = shortenedTsdBlurbs[currentIdx];
 };
 
 onMounted(() => {

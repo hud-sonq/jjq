@@ -13,7 +13,6 @@
             <div class="order-button"><BlobButton text="Barnes & Noble"/></div>
         </a>
     </div>
-    
 </template>
 
 <script setup lang="ts"></script>

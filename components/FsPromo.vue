@@ -5,7 +5,7 @@
         <img src="/img/fs/book.png" alt="Fire Sermon cover">
       </div>
       <div>
-        <PurchaseButtons />
+        <p>“Passionate, sensuous, savagely intense, and remarkable . . . Moves between carnality and spirit like some franker, modernized Flannery O’Connor . . . Quatro has a poet’s compound eye . . . [and] fearless lyricism. . . . Expansive, joyful, with forgiveness supplanting ruination.”</p>
       </div>
     </div>
   </div>

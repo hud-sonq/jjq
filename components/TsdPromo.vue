@@ -2,7 +2,7 @@
   <div>
     <div class="tsd-split">
       <div class="tsd-cover">
-        <img class="cover-3d" src="/img/tsd/book.png">
+        <img src="/img/tsd/book.png">
       </div>
       <div id="buttonsBetween">
         <p style="border-bottom: 1px solid red;">PRE-ORDER NOW:</p>
@@ -62,7 +62,7 @@
 }
 
 .description-wrapper {
-  width: 100%;
+  max-width: 850px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -114,6 +114,9 @@
   }
   .tsd-content {
     width: 40%;
+  }
+  .description-wrapper {
+    /* max-height: 400px; */
   }
 }
 
