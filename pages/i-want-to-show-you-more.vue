@@ -6,7 +6,7 @@
 
 const bookProps = {
     book: 'sym',
-    image: "/jjq/img/sym/book.png",
+    image: "/jjq/img/sym/book_compressed.png",
     showButtons: true,
     purchaseLinks: [
         {name: 'Parnassus', url: 'https://www.parnassusbooks.net/book/9780802122230'},

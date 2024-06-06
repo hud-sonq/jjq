@@ -2,7 +2,7 @@
   <div>
     <div class="tsd-split">
       <div class="tsd-cover">
-        <img src="/img/tsd/book.png">
+        <img src="/img/tsd/book_compressed.png">
       </div>
       <div id="buttonsBetween">
         <p style="border-bottom: 1px solid red;">PRE-ORDER NOW:</p>
@@ -31,7 +31,7 @@
 <script setup lang="ts">
 const bookProps = {
     book: 'tsd',
-    image: "/jjq/img/tsd/book.png",
+    image: "/jjq/img/tsd/book_compressed.png",
     showButtons: true,
     purchaseLinks: [
         {name: 'Parnassus', url: 'https://www.parnassusbooks.net/book/9780802163134'},

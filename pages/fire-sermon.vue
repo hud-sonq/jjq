@@ -5,7 +5,7 @@
 <script setup lang="ts">
 const bookProps = {
     book: 'fs',
-    image: "/jjq/img/fs/book.png",
+    image: "/jjq/img/fs/book_compressed.png",
     showButtons: true,
     purchaseLinks: [
         {name: 'Parnassus', url: 'https://www.parnassusbooks.net/book/9780802128980'},

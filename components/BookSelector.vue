@@ -5,7 +5,7 @@
                 <NuxtLink class="link" to="/tsd">
                     <div class="book-container">
                         <div class="book-cover-image-container">
-                            <img class="book-image-itself" src="/img/tsd/book.png">
+                            <img class="book-image-itself" src="/img/tsd/book_compressed.png">
                         </div>
                         <div class="book-title">
                             <h2>Two-Step Devil</h2>
@@ -17,7 +17,7 @@
                 <NuxtLink class="link" to="/fire-sermon">
                     <div class="book-container">
                         <div class="book-cover-image-container">
-                            <img class="book-image-itself" src="/img/fs/book.png">
+                            <img class="book-image-itself" src="/img/fs/book_compressed.png">
                         </div>
                         <div class="book-title">
                             <h2>Fire Sermon</h2>
@@ -29,7 +29,7 @@
                 <NuxtLink class="link" to="/i-want-to-show-you-more">
                     <div class="book-container">
                         <div class="book-cover-image-container">
-                            <img class="book-image-itself" src="/img/sym/book.png">
+                            <img class="book-image-itself" src="/img/sym/book_compressed.png">
                         </div>
                         <div class="book-title">
                             <h2>I Want To Show You More</h2>
@@ -41,7 +41,7 @@
                 <NuxtLink class="link" to="/other-work">
                     <div class="book-container">
                         <div class="book-cover-image-container">
-                            <img class="book-image-itself" src="/img/RachelPerry.png">
+                            <img class="book-image-itself" src="/img/RachelPerry_compressed.png">
                         </div>
                         <div class="book-title">
                             <h2>Other Work</h2>

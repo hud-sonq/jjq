@@ -2,7 +2,7 @@
   <div id="aboutContainer">
     <div class="photo-and-about-container">
       <div class="pic-container">
-        <img class="pic-itself" src="/img/portriat.png" />
+        <img class="pic-itself" src="/img/portriat_compressed.png" />
       </div>
       <div class="about-text-container">
         <div style="padding-bottom: 10px;">

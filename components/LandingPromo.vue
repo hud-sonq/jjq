@@ -4,7 +4,7 @@
             <div class="goat-blurb-split">
                 <div class="goat-wrapper" ref="goat">
                     <img src="/img/tsd/wink_square.gif" class="gif" ref="goatGif">
-                    <img src="/img/tsd/goat_square.png" class="pic" ref="goatPic">
+                    <img src="/img/tsd/goat_square_compressed.png" class="pic" ref="goatPic">
                 </div>
                 <div class="blurb-wrapper" ref="blurb">
                     <BlurbFader @wink="makeItWink"/>
