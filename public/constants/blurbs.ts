@@ -99,33 +99,33 @@ const shortenedTsdBlurbs = [
 const fsBlurbs = [
     {
         quote: `"Roiling, raw and sensual on the surface, this mazy novel rewards a second reading… The sentences burn with desire and disquiet. The novel is generously condensed, ardently focused, its mechanisms poetic, not expository. In fact, although it is fiction, Fire Sermon reminds me most of confessional poetry, the aim of which is uncompromising honesty and self-exposure. .. You may enter this book through an interest in poetry or theology, but once you are there, it shows you more."`,
-        speaker: `New York Times Book Review`,
-        title: ` `,
+        speaker: ` `,
+        title: `New York Times Book Review`,
     },
     {
         quote: `"The state of marriage makes yearning possible, and yearning makes us burn, which Maggie (and perhaps Quatro) sees as a good and essential and human thing. I was stunned by the notion, and enchanted by the way the book built to a crystallized idea rather than a scene or an event—thinking as a dramatic gesture is a pleasure found more commonly in nonfiction than in fiction...By the time she’s done bobbing and weaving her way through her narrative, Quatro makes us feel the absolute necessity of desire, which she reveals as something shining: a hammered-gold necklace, begged for, worn twice, given away."`,
-        speaker: `The Atlantic`,
-        title: ` `,
+        speaker: ` `,
+        title: `The Atlantic`,
     },
     {
         quote: `"As with Graham Greene’s 'The End of the Affair,' Fire Sermon examines infidelity by deftly balancing the sexual and the spiritual. There is agony and ecstasy, and the tantalizing hope of redemption through confession. All is rendered with fierce intelligence and lyrical grace. Passionate and intimate, few first novels are so adept at tracking 'the guiltiest swervings of the weaving heart.' "`,
-        speaker: `Minneapolis Star Tribune`,
-        title: ` `,
+        speaker: ` `,
+        title: `Minneapolis Star Tribune`,
     },
     {
         quote: `"Nothing on Earth has ever not been about the passage of time — not a film, a poem, a cave painting, a house, a poncho, a comic book, a snowman or a fugue. But some art is particularly obsessed….Jamie Quatro, in her very sad first novel, Fire Sermon, squeezes large flows of time into a book as thin as my little finger. Time haunts every sentence…. The reader is left to intuit all the life those numbers once contained — the people who lived then, the children who memorized the numbers, the parents who helped them do the memorizing. And then of course we think of our own number, and what it might mean to someone who might memorize it someday, and what it feels like, right now, to be inside of it: 2018."`,
-        speaker: `New York Times Magazine`,
-        title: ` `,
+        speaker: ` `,
+        title: `New York Times Magazine`,
     },
     {
         quote: `"Adultery may be a tale as old as time, but Quatro’s take is freshly urgent...Fire Sermon burns with emotional honesty. Unlike the great adulteresses of fiction, Anna Karenina and Emma Bovary, Quatro’s conflicted heroine is not miserably married; nor is her lover an unworthy boor. The result is an impassioned, deeply moral exploration of devotion and 'what’s waiting on the far side of fidelity.'”`,
-        speaker: `San Francisco Chronicle`,
-        title: ` `,
+        speaker: ` `,
+        title: `San Francisco Chronicle`,
     },
     {
         quote: `"Affecting...powerful...Quatro's novel, full of vivid, mercurial prose, breathes new life into the subject [of adultery] and sets it gloriously ablaze."`,
-        speaker: `Publishers Weekly`,
-        title: ` `,
+        speaker: ` `,
+        title: `Publishers Weekly`,
     }
 ].map(b => ({ ...b, quote: italicizeFireSermon(b.quote) })) satisfies readonly Blurb[];
 
