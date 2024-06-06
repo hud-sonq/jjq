@@ -14,7 +14,7 @@
     </div>
     <div class="buy-container">
       <span style="border-bottom: 1px solid red;">Purchase below:</span>
-      <p>TODO</p>
+      <PurchaseButtons :purchaseLinks="purchaseLinks" v-if="props.showButtons" />
     </div>
     <div class="static-blurbs">
       <div class="single-blurb" v-for="{quote, speaker, title} in blurbs">
@@ -35,6 +35,7 @@ const props = defineProps<{
   book: string;
   image: string;
   showButtons: boolean;
+  purchaseLinks: Array<{name: string, url: string}>;
 }>()
 
 let blurbs: any;
@@ -47,6 +48,33 @@ switch (props.book) {
     break;
   default:
     blurbs = fsBlurbs;
+}
+
+let purchaseLinks = props.purchaseLinks;
+switch (props.book) {
+  case 'fs':
+    purchaseLinks = [
+      {name: 'Parnassus', url: 'https://www.parnassusbooks.net/book/9780802128980'},
+      {name: 'Bookshop', url: 'https://bookshop.org/p/books/fire-sermon-jamie-quatro/11063969?ean=9780802127044'},
+      {name: 'Amazon', url: 'https://www.amazon.com/s?k=9780802127044&i=stripbooks&camp=1789&creative=9325&linkCode=ur2&tag=grovatla-20'},
+      {name: 'Barnes & Noble', url: 'https://www.barnesandnoble.com/w/fire-sermon-jamie-quatro/1126743870?ean=9780802128980'}
+    ];
+    break;
+  case 'sym':
+    purchaseLinks = [
+      {name: 'Parnassus', url: 'https://www.parnassusbooks.net/book/9780802122230'},
+      {name: 'Bookshop', url: 'https://bookshop.org/p/books/i-want-to-show-you-more-jamie-quatro/12459872?ean=9780802122230'},
+      {name: 'Amazon', url: 'https://www.amazon.com/dp/B009W73XWE/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1'},
+      {name: 'Barnes & Noble', url: 'https://www.barnesandnoble.com/w/i-want-to-show-you-more-jamie-quatro/1112319055?ean=9780802122230'}
+    ];
+    break;
+  default:
+    purchaseLinks = [
+      {name: 'Parnassus', url: 'https://www.parnassusbooks.net/book/9780802128980'},
+      {name: 'Bookshop', url: 'https://bookshop.org/p/books/fire-sermon-jamie-quatro/11063969?ean=9780802127044'},
+      {name: 'Amazon', url: 'https://www.amazon.com/s?k=9780802127044&i=stripbooks&camp=1789&creative=9325&linkCode=ur2&tag=grovatla-'},
+      {name: 'Barnes & Noble', url: 'https://www.barnesandnoble.com/w/fire-sermon-jamie-quatro/1126743870?ean=9780802128980'}
+    ];
 }
 </script>
 

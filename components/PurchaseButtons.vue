@@ -1,21 +1,27 @@
 <template>
-    <div class="buttons">
-        <a class="linka" href="https://www.parnassusbooks.net/book/9780802163134" target="_blank">
-            <div class="order-button"><BlobButton text="Parnassus"/></div>
-        </a>
-        <a class="linka" href="https://bookshop.org/p/books/two-step-devil/20490963?ean=9780802163134" target="_blank">
-            <div class="order-button"><BlobButton text="Bookshop"/></div>
-        </a>
-        <a class="linka" href="https://www.amazon.com/dp/0802163130" target="_blank">
-            <div class="order-button"><BlobButton text="Amazon"/></div>
-        </a>
-        <a class="linka" href="https://www.barnesandnoble.com/w/two-step-devil-jamie-quatro/1144929218" target="_blank">
-            <div class="order-button"><BlobButton text="Barnes & Noble"/></div>
-        </a>
-    </div>
+        <!-- <div :href="link">
+            <a  v-for="link in purchaseLinks" class="linka" :href="link.url" target="_blank">
+                <div class="order-button"><BlobButton :text="link.name"/></div>
+            </a>
+        </div> -->
+        <div class="buttons">
+            <div v-for="link in purchaseLinks" class="linka" :href="link.url" target="_blank" @click="navigate(link.url)">
+                <div class="order-button"><BlobButton :text="link.name"/></div>
+            </div>
+        </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+const props = defineProps<{
+    purchaseLinks: Array<{name: string, url: string}>;
+}>()
+
+const navigate = (url: any) => {
+  window.open(url, '_blank')
+}
+
+</script>
 
 <style scoped>
 .buttons {

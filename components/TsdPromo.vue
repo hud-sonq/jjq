@@ -6,7 +6,7 @@
       </div>
       <div id="buttonsBetween">
         <p style="border-bottom: 1px solid red;">PRE-ORDER NOW:</p>
-        <PurchaseButtons />
+        <PurchaseButtons v-bind="bookProps" />
       </div>
       <div class="tsd-content">
         <div class="description-wrapper">
@@ -20,13 +20,28 @@
     </div>
     <div id="buttonsBelow">
       <p style="border-bottom: 1px solid red;">PRE-ORDER NOW:</p>
-      <PurchaseButtons />
+      <PurchaseButtons v-bind="bookProps"/>
     </div>
     <div id="staticBlurbs">
       <BlurbStatic />
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const bookProps = {
+    book: 'tsd',
+    image: "/jjq/img/tsd/book.png",
+    showButtons: true,
+    purchaseLinks: [
+        {name: 'Parnassus', url: 'https://www.parnassusbooks.net/book/9780802163134'},
+        {name: 'Bookshop', url: 'https://bookshop.org/p/books/two-step-devil/20490963?ean=9780802163134'},
+        {name: 'Amazon', url: 'https://www.amazon.com/dp/0802163130'},
+        {name: 'Barnes & Noble', url: 'https://www.barnesandnoble.com/w/two-step-devil-jamie-quatro/1144929218'}
+    ]
+}
+
+</script>
   
 <style scoped>
 

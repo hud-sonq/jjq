@@ -132,38 +132,38 @@ const fsBlurbs = [
 const symBlurbs = [
     {
         quote: `“The best stories in Jamie Quatro's first collection, I Want to Show You More, are about adultery. They are passionate, sensuous, savagely intense, and remarkable for their brave dualism. . . . Moves between carnality and spirit like some franker, modernized Flannery O'Connor tale. Quatro has a poet's compound eye . . . [and] fearless lyricism. . . . Expansive, joyful, with forgiveness supplanting ruination. Who needs the New Testament? In Quatro's world, hard Genesis is always making way for the softer Song of Solomon: 'I sat down under his shadow with great delight, and his fruit was sweet to my taste.'"`,
-        speaker: `James Wood`,
+        speaker: `James Wood, `,
         title: `The New Yorker`,
     },
     {
         quote: `“Subtle, sexy, and reflective . . . Quatro is incisive on technology and our new varities of instant gratification. . . . Quatro’s stories [have] led some to compare her work to that of Walker Percy and Flannery O’Connor. I also picked up metal-detector traces of Jayne Anne Phillips . . . and of Lorrie Moore’s pulverizing wit. . . . In order to be good at big things, writers must be good at small ones. Quatro’s details resonate. . . . There’s so much in these stories that’s shocking. Yet there’s so much solace.”`,
-        speaker: `Dwight Garner`,
+        speaker: `Dwight Garner, `,
         title: `The New York Times`,
     },
     {
         quote: `“[With its] impressive agility and inventiveness . . . I Want to Show You More is an obsessive first collection that feels like a fifth or sixth. It is a dogged, brutally thoughtful piece of work, and gives us a writer of great originality and apparent artistic maturity who seems to have come out of nowhere. . . . Strange, thrilling, and disarmingly honest . . . Quatro hits the right balance, giving us the closest thing I’ve seen in years to Donald Barthelme’s insouciance, sweetness, and ominousness. . . . Provides the most engaging literary treatment of Christianity since O’Connor, without a hint of the condescension the subject often receives in contemporary fiction. . . . [Quatro's] flights of fancy are never ostentatious or arbitrary; instead they grow naturally out of the emotional and psychological states of her characters. Readers may hope to see more of this hallucinatory mode from her, but—if they’re like me—they will welcome whatever they can get.”`,
-        speaker: `J. Robert Lennon`,
+        speaker: `J. Robert Lennon, `,
         title: `The New York Times Book Review`,
     },
     {
         quote: `"Haunting and sharp . . . [reminiscent] of the dark-meets-light style of Lydia Davis or Alice Munro—but it leaves room for zingers, too. Quatro is so good . . . the title of this debut collection isn't just a tease."`,
-        speaker: `Elle`,
-        title: ` `,
+        speaker: ` `,
+        title: `Elle`,
     },
     {
         quote: `"A remarkable debut by an important new voice . . . Quatro [has] a mature understanding of how we handle disappointment and how, quite often, we take refuge in the most unhelpful places. How we feel doesn't affect our lives nearly so much as where we take our feelings."`,
-        speaker: `The Toronto Star`,
-        title: ` `,
+        speaker: ` `,
+        title: `The Toronto Star`,
     },
     {
         quote: `"Vivid . . . Arresting . . . Quatro very much establishes her own distinctive voice and style. . . . A luminous collection that announces a unique literary talent. Quatro's stories dazzle and shine."`,
-        speaker: `San Francisco Chronicle`,
-        title: ` `,
+        speaker: ` `,
+        title: `San Francisco Chronicle`,
     },
     {
         quote: `"Delicious reading . . . [An] impressive debutabout the shortcomings of people who wrestle with angels, and usually lose."`,
-        speaker: `Chicago Tribune`,
-        title: ` `,
+        speaker: ` `,
+        title: `Chicago Tribune`,
     },
 ].map(b => ({ ...b, quote: italicizeSym(b.quote) })) satisfies readonly Blurb[];
 
