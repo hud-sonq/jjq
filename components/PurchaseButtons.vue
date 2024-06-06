@@ -4,8 +4,13 @@
                 <div class="order-button"><BlobButton :text="link.name"/></div>
             </a>
         </div> -->
-        <div class="buttons">
+        <!-- <div class="buttons">
             <div v-for="link in purchaseLinks" class="linka" :href="link.url" target="_blank" @click="navigate(link.url)">
+                <div class="order-button"><BlobButton :text="link.name"/></div>
+            </div>
+        </div> -->
+        <div class="buttons">
+            <div v-for="(link, index) in purchaseLinks" :key="index" class="linka" :href="link.url" target="_blank" @click="navigate(link.url)">
                 <div class="order-button"><BlobButton :text="link.name"/></div>
             </div>
         </div>

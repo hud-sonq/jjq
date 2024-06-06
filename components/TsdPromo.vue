@@ -130,9 +130,6 @@ const bookProps = {
   .tsd-content {
     width: 40%;
   }
-  .description-wrapper {
-    /* max-height: 400px; */
-  }
 }
 
 </style>

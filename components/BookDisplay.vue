@@ -7,9 +7,9 @@
         </div>
       </div>
       <div class="other-container" v-if="props.book === 'fs'">
-        <p style="font-weight: bold; font-size: 1.2rem">A 2018 Book of the Year for the Economist, San Francisco Chronicle, LitHub, Bloomberg, and Times Literary Supplement.</p>
-        <p style="font-size: 1.2rem">Married twenty years to Thomas and living in Nashville with their two children, Maggie is drawn ineluctably into a passionate affair while still fiercely committed to her husband and family. What begins as a platonic intellectual and spiritual exchange between writer Maggie and poet James, gradually transforms into an emotional and erotically-charged bond that challenges Maggie’s sense of loyalty and morality, drawing her deeper into the darkness of desire.</p>
-        <p style="font-size: 1.2rem">Using an array of narrative techniques and written in spare, elegant prose, Jamie Quatro gives us a compelling account of one woman’s emotional, psychological, physical, and spiritual yearnings—unveiling the impulses and contradictions that reside in us all. Fire Sermon is an unflinchingly honest and formally daring debut novel from a writer of enormous talent.</p>
+        <!-- <p style="font-weight: bold; font-size: 1.2rem">A 2018 Book of the Year for the Economist, San Francisco Chronicle, LitHub, Bloomberg, and Times Literary Supplement.</p> -->
+        <p style="font-size: 1.2rem">“It would be difficult to overstate the wonder I felt while reading this novel. It’s among the most beautiful books I’ve ever read about longing—for beauty, for sex, for God, for a coherent life. Great writers write with their whole lives, with everything they have seen and thought and felt, with their obsessions and their desires; their books have the density and richness of existence. Jamie Quatro is a such a writer, and Fire Sermon is such a book.”</p>
+        <p style="font-size: 1.2rem; font-weight: bold;">—Garth Greenwell </p>
       </div>
       <div class="other-container" v-if="props.book === 'sym'">
         <p><span style="font-size: 1.2rem">“Passionate, sensuous, savagely intense, and remarkable . . . Moves between carnality and spirit like some franker, modernized Flannery O’Connor . . . Quatro has a poet’s compound eye . . . [and] fearless lyricism. . . . Expansive, joyful, with forgiveness supplanting ruination.”</span></p>
@@ -84,7 +84,6 @@ switch (props.book) {
 </script>
 
 <style scoped>
-
 #bookDisplay {
   width: 100%;
   overflow: auto;
@@ -150,5 +149,4 @@ switch (props.book) {
     width: 40%;
   }
 }
-
 </style>
