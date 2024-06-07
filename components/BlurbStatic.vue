@@ -17,7 +17,7 @@
 </template>
 
 <script setup lang="ts">
-import { fullTsdBlurbs } from '~/public/constants/blurbs.js'
+import { fullTsdBlurbs } from '~/public/constants.js';
 </script>
 
 <style scoped>

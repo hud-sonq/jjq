@@ -3,7 +3,6 @@
 </template>
 
 <script setup lang="ts">
-
 const bookProps = {
     book: 'sym',
     image: "/jjq/img/sym/book_compressed.png",
@@ -15,6 +14,4 @@ const bookProps = {
         {name: 'Barnes & Noble', url: 'https://www.barnesandnoble.com/w/i-want-to-show-you-more-jamie-quatro/1112319055?ean=9780802122230'}
     ]
 }
-
-
 </script>

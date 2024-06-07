@@ -34,7 +34,7 @@
 </template>
 
 <script lang="ts" setup>
-import { fsBlurbs, symBlurbs } from '~/public/constants/blurbs.js'
+import { fsBlurbs, symBlurbs } from '~/public/constants.js';
 
 const props = defineProps<{
   book: string;

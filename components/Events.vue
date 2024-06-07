@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import { events } from '~/public/constants/blurbs.js';
+import { events } from '~/public/constants.js';
 
 const navigate = (url: any) => {
   window.open(url, '_blank')
@@ -21,6 +21,11 @@ const navigate = (url: any) => {
 </script>
 
 <style scoped>
+
+p {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
 
 .hyperlink {
   color: #669be5;
@@ -54,7 +59,7 @@ const navigate = (url: any) => {
 .event {
     width: 500px;
     margin-top: 16px;
-    border-left: 2px solid skyblue;
+    border-left: 2px solid #669be5;
     padding-left: 16px;
     margin-left: 16px;
 }
