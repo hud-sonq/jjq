@@ -5,9 +5,6 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/jjq/',
     pageTransition: { name: 'page', mode: 'out-in' },
-    head: {
-      link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }]
-    }
   },
 })
 
