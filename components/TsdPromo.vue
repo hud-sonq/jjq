@@ -44,7 +44,6 @@ const bookProps = {
 </script>
   
 <style scoped>
-
 .tsd-split {
   height: 100%;
   display: flex;
@@ -131,5 +130,4 @@ const bookProps = {
     width: 40%;
   }
 }
-
 </style>

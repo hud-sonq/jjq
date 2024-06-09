@@ -60,7 +60,7 @@ onBeforeUnmount(() => {
 });
 </script>
 
-<style>
+<style scoped>
 #blurbContainer {
     width: 100%;
     display: flex;

@@ -10,7 +10,6 @@
 </template>
 
 <style scoped>
-
 #mobileNavMenu {
     position: fixed;
     z-index: 10;
@@ -44,6 +43,4 @@
 span {
     font-size: 32px;
 }
-
-
 </style>

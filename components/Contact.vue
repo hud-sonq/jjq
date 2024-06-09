@@ -35,7 +35,6 @@
 </template>
 
 <style scoped>
-
 .ctg {
     margin-bottom: 4px;
     width: 100%;
@@ -61,7 +60,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
 
 #contactContainer {
     padding-top: 16px;
@@ -95,6 +93,7 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
 @media (min-width: 800px) {
     #contactContainer {
         width: 100%;
@@ -127,5 +126,4 @@ a:hover {
         text-decoration: none;
     }
 }
-
 </style>

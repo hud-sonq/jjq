@@ -21,7 +21,6 @@ const navigate = (url: any) => {
 </script>
 
 <style scoped>
-
 p {
     margin-bottom: 4px;
     margin-top: 4px;
@@ -55,23 +54,23 @@ p {
     justify-content: center;
     align-items: center;
     gap: 32px;
+    padding-left: 32px;
+    margin-bottom: 32px;
 }
 
 .event {
-    width: 500px;
+    width: 100%;
     margin-top: 16px;
     border-left: 2px solid #669be5;
-    padding-left: 16px;
-    margin-left: 16px;
+    padding-left: 8px;
 }
 
 @media(min-width: 850px) {
     .many-events-container {
-        width: 70%;
+        width: 100%;
     }
     .hyperlink {
         text-decoration: none;
     }
 }
-
 </style>

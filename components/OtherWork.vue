@@ -73,7 +73,6 @@
 </script>
 
 <style scoped>
-
 .pic-itself {
     max-height: 600px;
 }
