@@ -25,6 +25,7 @@ const navigate = (url: any) => {
 p {
     margin-bottom: 4px;
     margin-top: 4px;
+    font-size: 1.2rem
 }
 
 .hyperlink {

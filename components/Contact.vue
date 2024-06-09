@@ -2,7 +2,7 @@
     <div id="contactContainer">
         <div class="items">
             <div class="pic-container">
-                <img src="/img/contact_portriat_compressed.png" class="pic-itself">
+                <img src="/img/tsd/wink_square.gif" class="pic-itself">
             </div>
             <div class="content">
                 <h3 style="white-space:pre-wrap; margin: 0; padding: 0;">LITERARY AGENT</h3>
@@ -18,6 +18,23 @@
 </template>
 
 <style scoped>
+
+h3 {
+    font-size: 1.2rem
+}
+
+p {
+    font-size: 1.2rem
+}
+
+a {
+    font-size: 1.2rem;
+    color: #669be5;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 
 #contactContainer {
@@ -41,7 +58,7 @@
 }
 
 .pic-itself {
-    max-height: 550px;
+    max-height: 350px;
     object-fit: contain;
 }
 
@@ -78,6 +95,9 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+    }
+    a {
+        text-decoration: none;
     }
 }
 

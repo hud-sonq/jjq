@@ -1,7 +1,7 @@
 <template>
   <div id="navbar">
     <div class="navbar-sections">
-      <NuxtLink to="/" class="name-link" @click="$emit('nameClicked')"><div><span>JAMIE QUATRO</span></div></NuxtLink>
+      <NuxtLink to="/tsd" class="name-link" @click="$emit('nameClicked')"><div><span>JAMIE QUATRO</span></div></NuxtLink>
       <div class="mobile-stack" @click="$emit('stackClicked')">
         <img src="/icons/CarbonMenu.svg">
       </div>
