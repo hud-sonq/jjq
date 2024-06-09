@@ -23,7 +23,7 @@
     <div class="static-blurbs">
       <!-- <div class="single-blurb" v-for="{quote, speaker, title} in blurbs"> -->
       <div class="single-blurb" v-for="(blurb, index) in blurbs" :key="index">
-          <p>
+          <p style="font-size: 20px;">
             <span v-html="blurb.quote"></span>
             <span style="font-weight: bold;">— {{ blurb.speaker }}</span>
             <span style="font-style: italic; font-weight: bold;">{{ blurb.title }}</span>

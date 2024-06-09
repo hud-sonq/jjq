@@ -8,7 +8,7 @@
                             <img class="book-image-itself" src="/img/tsd/book_compressed.png">
                         </div>
                         <div class="book-title">
-                            <h2>Two-Step Devil</h2>
+                            <p style="font-style: italic;">Two-Step Devil</p>
                         </div>
                     </div>
                 </NuxtLink>
@@ -20,7 +20,7 @@
                             <img class="book-image-itself" src="/img/fs/book_compressed.png">
                         </div>
                         <div class="book-title">
-                            <h2>Fire Sermon</h2>
+                            <p style="font-style: italic;">Fire Sermon</p>
                         </div>
                     </div>
                 </NuxtLink>
@@ -32,7 +32,7 @@
                             <img class="book-image-itself" src="/img/sym/book_compressed.png">
                         </div>
                         <div class="book-title">
-                            <h2>I Want To Show You More</h2>
+                            <p style="font-style: italic;">I Want To Show You More</p>
                         </div>
                     </div>
                 </NuxtLink>
@@ -44,7 +44,7 @@
                             <img class="book-image-itself" src="/img/RachelPerry_compressed.png">
                         </div>
                         <div class="book-title">
-                            <h2>Other Work</h2>
+                            <p>Other Work</p>
                         </div>
                     </div>
                 </NuxtLink>
@@ -104,13 +104,6 @@
     font-size: 1.5rem;
     color: black;
 }
-
-h2 {
-    margin: 0;
-    font-size: 1rem;
-}
-
-
 
 @media (min-width: 800px) {
     #bookSelector {

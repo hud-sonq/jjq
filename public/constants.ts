@@ -206,7 +206,7 @@ const events = [
     {
         date: '9/10/24',
         name: 'Two-Step Devil Launch - 6:00PM - 10PM',
-        time: 'Pub day! Jamie will give a short reading from her new novel & sign books. More details + link to RSVP to the afterparty soon!',
+        time: 'Details TBA',
         optionalLink: '',
     },
     {

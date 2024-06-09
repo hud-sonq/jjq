@@ -28,12 +28,12 @@
 
 <style scoped>
 #aboutContainer {
-  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 180px;
+  padding-bottom: 88px;
+  margin-top: 24px;
 }
 
 .hyperlink {
@@ -52,7 +52,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 32px;
+  gap: 24px;
 }
 
 
@@ -85,12 +85,15 @@
 @media (min-width: 800px) {
 
   #aboutContainer {
-    margin-top: 0;
+    height: 100%;
+    padding-bottom: 0px;
+    margin-top: 0px;
   }
 
   .photo-and-about-container {
     flex-direction: row;
     max-width: 80%;
+    gap: 0px;
   }
 
   .pic-container {
