@@ -1,5 +1,5 @@
 <template>
-  <NavBar class="nav" :class="{active: siteEntered}" ref="nav" @nameClicked="refreshIfAtTsd()" @stackClicked="dropNavMenu()"/>
+  <NavBar class="nav" :class="{active: siteEntered}" ref="nav" @stackClicked="dropNavMenu()"/>
   <transition name="slide"><MobileNavMenu style="opacity: 1;" v-if="showMobileNavMenu" @linkClicked="dropNavMenu()"/></transition>
   <div id="page" :class="{'non-scroll': showMobileNavMenu}">
     <NuxtPage/>
@@ -23,12 +23,12 @@ onMounted(() => {
   }
 });
 
-function refreshIfAtTsd() {
-  if (window.location.pathname === '/jjq/tsd') {
-    console.log('refreshing');
-    window.location.reload();
-  }
-}
+// function refreshIfAtTsd() {
+//   if (window.location.pathname === '/jjq/tsd') {
+//     console.log('refreshing');
+//     window.location.reload();
+//   }
+// }
 
 const dropNavMenu = () => showMobileNavMenu.value = !showMobileNavMenu.value;
 </script>
