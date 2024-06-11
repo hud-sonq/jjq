@@ -8,6 +8,7 @@
                 <p class="hyperlink" v-if="event.optionalLink" @click="navigate(event.optionalLink)"> More info here. </p>
             </div>
         </div>
+        <img class="cheeky" src="~/public/img/cheeky.png" alt="cheeky" />
     </div>
 </template>
 
@@ -60,14 +61,9 @@ p {
     width: 300px;
     margin-top: 16px;
     border-left: 2px solid #669be5;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding-left: 8px;
     transition: transform 0.2s;
     cursor: default;
-}
-
-.event:hover {
-    transform: scale(1.02);
 }
 
 @media(min-width: 850px) {
