@@ -42,7 +42,8 @@
 }
 
 .name-link {
-  letter-spacing: 5px;
+  /* letter-spacing: 5px; */
+  font-size: 22px;
   height: 100%;
   cursor: pointer;
   position: absolute;
@@ -54,18 +55,6 @@
   z-index: 11;
   text-decoration: none;
   color: black;
-}
-
-.name-section {
-  height: 100%;
-  cursor: pointer;
-  position: absolute;
-  left: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  z-index: 11;
 }
 
 .links-all {

@@ -54,6 +54,10 @@ span {
     gap: 32px;
 }
 
+.work {
+    text-align: center;
+}
+
 @media (min-width: 800px) {
     /* em {
         text-decoration: none;

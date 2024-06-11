@@ -67,4 +67,7 @@ p {
     .hyperlink {
         text-decoration: none;
     }
+    .cheeky {
+        right: 15%;
+    }
 }

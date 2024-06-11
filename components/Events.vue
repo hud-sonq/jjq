@@ -8,7 +8,7 @@
                 <p class="hyperlink" v-if="event.optionalLink" @click="navigate(event.optionalLink)"> More info here. </p>
             </div>
         </div>
-        <img class="cheeky" src="~/public/img/cheeky.png" alt="cheeky" />
+        <img class="cheeky" src="~/public/img/horndeco.png" alt="cheeky" />
     </div>
 </template>
 
@@ -25,7 +25,7 @@ const navigate = (url: any) => {
 p {
     margin-bottom: 4px;
     margin-top: 4px;
-    font-size: 1.2rem
+    font-size: 1.2rem;
 }
 
 .hyperlink {

@@ -31,6 +31,7 @@
                 </div>
             </div>
         </div>
+        <img class="cheeky" src="~/public/img/horndeco.png" alt="cheeky" />
     </div>
 </template>
 
@@ -124,6 +125,8 @@ a:hover {
     a {
         text-decoration: none;
     }
-    .cheeky {}
+    .cheeky {
+        display: none;
+    }
 }
 </style>
