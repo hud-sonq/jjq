@@ -2,6 +2,7 @@ html {
     height: 100%;
     width: 100%;
 }
+
 @font-face {
     font-family: 'vermi';
     src: url(/fonts/vermiglione.ttf);
@@ -19,6 +20,7 @@ body {
     font-family: vermi;
     overflow-y: auto;
 }
+
 #__nuxt {
     height: 100%;
     width: 100%;
@@ -54,9 +56,15 @@ p {
     text-decoration: underline;
 }
 
+.cheeky {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+}
+
 @media(min-width: 850px) {
     .hyperlink {
         text-decoration: none;
     }
 }
-
