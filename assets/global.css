@@ -42,3 +42,21 @@ p {
     font-size: 1.2rem;
 }
 
+.hyperlink {
+    color: #669be5;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+    width: fit-content;
+}
+  
+.hyperlink:hover {
+    text-decoration: underline;
+}
+
+@media(min-width: 850px) {
+    .hyperlink {
+        text-decoration: none;
+    }
+}
+

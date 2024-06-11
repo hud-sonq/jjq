@@ -11,9 +11,17 @@ type Event = {
     optionalLink: string;
 }
 
+type anotherWork = {
+    title: string;
+    publisher: string;
+    link: string;
+}
+
 export const italicizeTwoDevil = textAutoFormat('Two-Step Devil', 'i');
 export const italicizeFireSermon = textAutoFormat('Fire Sermon', 'i');
 export const italicizeSym = textAutoFormat('I Want to Show You More', 'i');
+export const italicizeHemispheres = textAutoFormat('Hemispheres', 'i');
+export const italicizeLocalSouls= textAutoFormat('Local Souls', 'i');
 
 const fullTsdBlurbs = [
     {
@@ -241,4 +249,126 @@ const events = [
     }
 ]
 
-export { fullTsdBlurbs, shortenedTsdBlurbs, fsBlurbs, symBlurbs, events };
+const shortFiction = [
+    {
+        title: `"Two Men, Mary," `,
+        publisher: 'The Paris Review',
+        link: 'https://www.theparisreview.org/fiction/8040/two-men-mary-jamie-quatro',
+    },
+    {
+        title: `"Yogurt Days," `,
+        publisher: 'The New Yorker',
+        link: 'https://www.newyorker.com/magazine/2023/08/07/yogurt-days-fiction-jamie-quatro',
+    },
+    {
+        title: `"Little House," `,
+        publisher: 'The Paris Review',
+        link: 'https://www.theparisreview.org/fiction/7991/little-house-jamie-quatro',
+    },
+    {
+        title: `"Aubade," `,
+        publisher: 'The New York Review of Books',
+        link: 'https://www.nybooks.com/online/2021/01/30/aubade/',
+    },
+    {
+        title: `"Dirt Man," `,
+        publisher: 'The Kenyon Review',
+        link: 'https://kenyonreview.org/',
+    },
+    {
+        title: `"Hypothetical Love," `,
+        publisher: 'AGNI (issue 84)',
+        link: 'https://agnionline.bu.edu/fiction/hypothetical-love-letter-composed-on-the-occasion-of-my-twentieth-wedding-anniversary/',
+    },
+    {
+        title: `"Holding," `,
+        publisher: 'Virginia Quarterly Review',
+        link: 'https://www.vqronline.org/winter-2016/fiction/holding',
+    },
+    {
+        title: `"Belief," `,
+        publisher: 'Tin House',
+        link: 'https://tinhouse.com/product/faith-spring-2016/',
+    },
+    {
+        title: `"Kyrie, With Endnotes," `,
+        publisher: 'Oxford American',
+        link: 'https://oxfordamerican.org/magazine/issue-90-fall-2015/kyrie-with-endnotes',
+    },
+    {
+        title: `"Wreckage," `,
+        publisher: 'Ecotone',
+        link: 'https://ecotonemagazine.org/fiction/wreckage/',
+    },
+    {
+        title: `"Working, "`,
+        publisher: 'Oxford American',
+        link: 'https://oxfordamerican.org/magazine/issue-88-spring-2015/working',
+    },
+    {
+        title: `"Bedtime Story," `,
+        publisher: 'Tin House',
+        link: 'https://tinhouse.com/product/summer-reading-18/',
+    },
+
+]
+
+const nonFiction = [
+    {
+        title: 'Astrid Lindgren’s Stockholm, Hemispheres, forthcoming',
+        publisher: '',
+        link: '',
+    },
+    {
+        title: `Rim-to-Rim in the Grand Canyon, `,
+        publisher: 'Travel + Leisure',
+        link: 'https://www.travelandleisure.com/trip-ideas/national-parks/hiking-grand-canyon-rim-trail', 
+    },
+    {
+        title: `“Ex Parvis Magna,” `,
+        publisher: 'Oxford American',
+        link: 'https://oxfordamerican.org/magazine/issue-109-110-summer-fall-2020/ex-parvis-magna',
+    },
+    {
+        title: `Pandemic Dispatch, `,
+        publisher: 'The New York Review of Books',
+        link: 'https://www.nybooks.com/online/2020/04/05/pandemic-journal-march-30-april-5/#quatro',
+    },
+    {
+        title: `“Dénaturé, ”`,
+        publisher: 'Greenpeace Climate Visionaries Series',
+        link: 'https://www.greenpeace.org/usa/stories/jamie-quatro-on-our-climate-in-crisis/',
+    },
+    {
+        title: `“The Hidden Life of Anne Vaughan Lock, "`,
+        publisher: 'The New Yorker',
+        link: 'https://www.newyorker.com/books/page-turner/the-hidden-life-of-a-forgotten-sixteenth-century-female-poet',
+    },
+    {
+        title: `"What Does Your Husband Think of Your Novel?" `,
+        publisher: 'Paris Review',
+        link: 'https://www.theparisreview.org/blog/2018/01/16/husband-think-novel/',
+    },
+    {
+        title: `"Speed Away," `,
+        publisher: 'Oxford American',
+        link: 'https://oxfordamerican.org/magazine/issue-97-summer-2017/speed-away',
+    },
+    {
+        title: `“The Sound Before the Song: Flannery O’Connor’s Prayer Journal,” `,
+        publisher: 'Oxford American',
+        link: 'https://oxfordamerican.org/magazine/issue-84-spring-2014/the-sound-before-the-song',
+    },
+    {
+        title: `“What It Takes: The Messy, Beautiful Business of Being a Writer Parent,” `,
+        publisher: 'Poets & Writers',
+        link: 'https://www.pw.org/content/what_it_takes',
+    },
+    {
+        title: `Review of Local Souls by Allan Gurganus,`,
+        publisher: 'New York Times Book Review',
+        link: 'https://www.nytimes.com/2013/10/13/books/review/local-souls-by-allan-gurganus.html',
+    },
+].map(b => ({ ...b, title: italicizeHemispheres(italicizeLocalSouls(b.title)) })) satisfies readonly anotherWork[];
+
+export { fullTsdBlurbs, shortenedTsdBlurbs, fsBlurbs, symBlurbs, events, shortFiction, nonFiction};
