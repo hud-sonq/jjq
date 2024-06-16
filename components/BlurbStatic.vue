@@ -13,7 +13,6 @@
             </p>
         </div>
     </div>
-    <FooterComponent />
 </template>
 
 <script setup lang="ts">

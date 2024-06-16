@@ -3,6 +3,7 @@
   <transition name="slide"><MobileNavMenu style="opacity: 1;" v-if="showMobileNavMenu" @linkClicked="dropNavMenu()"/></transition>
   <div id="page" :class="{'non-scroll': showMobileNavMenu}">
     <NuxtPage/>
+    <FooterComponent/>
   </div>
 </template>
 
