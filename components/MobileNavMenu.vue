@@ -3,6 +3,7 @@
         <div class="links-wrapper">
             <NuxtLink class="link" to="/books" style="text-decoration: none; color: black;" @click="$emit('linkClicked')"><span>BOOKS</span></NuxtLink>
             <NuxtLink class="link" to="/events" style="text-decoration: none; color: black;" @click="$emit('linkClicked')"><span>EVENTS</span></NuxtLink>
+            <NuxtLink class="link" to="/news" style="text-decoration: none; color: black;" @click="$emit('linkClicked')"><span>NEWS</span></NuxtLink>
             <NuxtLink class="link" to="/about" style="text-decoration: none; color: black;" @click="$emit('linkClicked')"><span>ABOUT</span></NuxtLink>
             <NuxtLink class="link" to="/contact" style="text-decoration: none; color: black;" @click="$emit('linkClicked')"><span>CONTACT</span></NuxtLink>
         </div>

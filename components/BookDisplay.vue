@@ -8,11 +8,11 @@
       </div>
       <div class="other-container" v-if="props.book === 'fs'">
         <!-- <p style="font-weight: bold; font-size: 1.2rem">A 2018 Book of the Year for the Economist, San Francisco Chronicle, LitHub, Bloomberg, and Times Literary Supplement.</p> -->
-        <p style="font-size: 1.2rem">“It would be difficult to overstate the wonder I felt while reading this novel. It’s among the most beautiful books I’ve ever read about longing—for beauty, for sex, for God, for a coherent life. Great writers write with their whole lives, with everything they have seen and thought and felt, with their obsessions and their desires; their books have the density and richness of existence. Jamie Quatro is a such a writer, and Fire Sermon is such a book.”</p>
+        <p style="font-size: 1.2rem;">“It would be difficult to overstate the wonder I felt while reading this novel. It’s among the most beautiful books I’ve ever read about longing—for beauty, for sex, for God, for a coherent life. Great writers write with their whole lives, with everything they have seen and thought and felt, with their obsessions and their desires; their books have the density and richness of existence. Jamie Quatro is a such a writer, and Fire Sermon is such a book.”</p>
         <p style="font-size: 1.2rem; font-weight: bold;">—Garth Greenwell </p>
       </div>
       <div class="other-container" v-if="props.book === 'sym'">
-        <p><span style="font-size: 1.2rem">“Passionate, sensuous, savagely intense, and remarkable . . . Moves between carnality and spirit like some franker, modernized Flannery O’Connor . . . Quatro has a poet’s compound eye . . . [and] fearless lyricism . . . Expansive, joyful, with forgiveness supplanting ruination.”</span></p>
+        <p><span style="font-size: 1.2rem;">“Passionate, sensuous, savagely intense, and remarkable . . . Moves between carnality and spirit like some franker, modernized Flannery O’Connor . . . Quatro has a poet’s compound eye . . . [and] fearless lyricism . . . Expansive, joyful, with forgiveness supplanting ruination.”</span></p>
         <p style="font-weight: bold; font-size: 1.2rem"><span>—James Wood, <span style="font-style: italic;">The New Yorker</span></span></p>
       </div>
     </div>
@@ -119,6 +119,7 @@ switch (props.book) {
   justify-content: center;
   align-items: center;
   max-width: 850px;
+  padding-inline: 4%;
 }
 
 .buy-container {
@@ -134,6 +135,7 @@ switch (props.book) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-inline: 4%;
 }
 
 @media (min-width: 800px) {
@@ -144,9 +146,11 @@ switch (props.book) {
   .static-blurbs {
     width: 60%;
     font-size: 20px;
+    padding-inline: 0px;
   }
   .other-container {
     width: 40%;
+    padding-inline: none;
   }
 }
 </style>

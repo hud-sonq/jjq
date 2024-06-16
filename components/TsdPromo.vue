@@ -10,7 +10,7 @@
       </div>
       <div class="tsd-content">
         <div class="description-wrapper">
-          <div class="" style="">
+          <div class="mobile-padding">
             <p style="font-weight: bold; font-size: 1.2rem;">From a New York Times Notable "writer of great originality" comes a bold novel about love, faith and two societal outsiders whose lives converge in the contemporary American South. </p>
             <p style="font-size: 1.2rem;">It's 2014 in Lookout Mountain, Alabama, where the Prophet—a 70-year-old man who paints his visions—lives off the grid in a cabin near the Georgia border. While scrounging for materials at the local dump, the Prophet sees a car pull up to an abandoned gas station. In the back seat is a teenage girl with zip ties on her wrists, a girl he realizes he must rescue from her current life.</p>
             <p style="font-size: 1.2rem;">Her name is Michael, and the Prophet feels certain that she is his Big Fish, a messenger sent by God to take his apocalyptic warnings to the White House. Michael finds herself in the Prophet’s remote, art-filled cabin, and as their uncertain dynamic evolves into tender friendship, she is offered a surprising opportunity to escape her past—and perhaps change her future.</p>
@@ -22,7 +22,7 @@
       <p style="border-bottom: 1px solid red;">PRE-ORDER NOW:</p>
       <PurchaseButtons v-bind="bookProps"/>
     </div>
-    <div id="staticBlurbs">
+    <div id="staticBlurbs" class="mobile-padding">
       <BlurbStatic />
     </div>
   </div>
@@ -103,7 +103,7 @@ const bookProps = {
 }
 
 #staticBlurbs {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,6 +114,10 @@ const bookProps = {
   0% { transform: translateX(0); }
   50% { transform: translateX(10px); }
   100% { transform: translateX(0); }
+}
+
+.mobile-padding {
+  padding-left: 4%;
 }
 @media (min-width: 800px) {
   .tsd-split {
@@ -128,6 +132,9 @@ const bookProps = {
   }
   .tsd-content {
     width: 40%;
+  }
+  .mobile-padding {
+    padding-left: 0;
   }
 }
 </style>
