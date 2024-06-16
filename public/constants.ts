@@ -111,12 +111,12 @@ const shortenedTsdBlurbs = [
 
 const fsBlurbs = [
     {
-        quote: `"Roiling, raw and sensual on the surface, this mazy novel rewards a second reading… The sentences burn with desire and disquiet. The novel is generously condensed, ardently focused, its mechanisms poetic, not expository. In fact, although it is fiction, Fire Sermon reminds me most of confessional poetry, the aim of which is uncompromising honesty and self-exposure. .. You may enter this book through an interest in poetry or theology, but once you are there, it shows you more."`,
+        quote: `"Roiling, raw and sensual on the surface, this mazy novel rewards a second reading… The sentences burn with desire and disquiet. The novel is generously condensed, ardently focused, its mechanisms poetic, not expository. In fact, although it is fiction, Fire Sermon reminds me most of confessional poetry, the aim of which is uncompromising honesty and self-exposure. You may enter this book through an interest in poetry or theology, but once you are there, it shows you more."`,
         speaker: ` `,
         title: `New York Times Book Review`,
     },
     {
-        quote: `"The state of marriage makes yearning possible, and yearning makes us burn, which Maggie (and perhaps Quatro) sees as a good and essential and human thing. I was stunned by the notion, and enchanted by the way the book built to a crystallized idea rather than a scene or an event—thinking as a dramatic gesture is a pleasure found more commonly in nonfiction than in fiction...By the time she’s done bobbing and weaving her way through her narrative, Quatro makes us feel the absolute necessity of desire, which she reveals as something shining: a hammered-gold necklace, begged for, worn twice, given away."`,
+        quote: `"The state of marriage makes yearning possible, and yearning makes us burn, which Maggie (and perhaps Quatro) sees as a good and essential and human thing. I was stunned by the notion, and enchanted by the way the book built to a crystallized idea rather than a scene or an event—thinking as a dramatic gesture is a pleasure found more commonly in nonfiction than in fiction... By the time she’s done bobbing and weaving her way through her narrative, Quatro makes us feel the absolute necessity of desire, which she reveals as something shining: a hammered-gold necklace, begged for, worn twice, given away."`,
         speaker: ` `,
         title: `The Atlantic`,
     },
@@ -131,12 +131,12 @@ const fsBlurbs = [
         title: `New York Times Magazine`,
     },
     {
-        quote: `"Adultery may be a tale as old as time, but Quatro’s take is freshly urgent...Fire Sermon burns with emotional honesty. Unlike the great adulteresses of fiction, Anna Karenina and Emma Bovary, Quatro’s conflicted heroine is not miserably married; nor is her lover an unworthy boor. The result is an impassioned, deeply moral exploration of devotion and 'what’s waiting on the far side of fidelity.'”`,
+        quote: `"Adultery may be a tale as old as time, but Quatro’s take is freshly urgent... Fire Sermon burns with emotional honesty. Unlike the great adulteresses of fiction, Anna Karenina and Emma Bovary, Quatro’s conflicted heroine is not miserably married; nor is her lover an unworthy boor. The result is an impassioned, deeply moral exploration of devotion and 'what’s waiting on the far side of fidelity.'”`,
         speaker: ` `,
         title: `San Francisco Chronicle`,
     },
     {
-        quote: `"Affecting...powerful...Quatro's novel, full of vivid, mercurial prose, breathes new life into the subject [of adultery] and sets it gloriously ablaze."`,
+        quote: `"Affecting... powerful... Quatro's novel, full of vivid, mercurial prose, breathes new life into the subject [of adultery] and sets it gloriously ablaze."`,
         speaker: ` `,
         title: `Publishers Weekly`,
     }
@@ -144,17 +144,17 @@ const fsBlurbs = [
 
 const symBlurbs = [
     {
-        quote: `“The best stories in Jamie Quatro's first collection, I Want to Show You More, are about adultery. They are passionate, sensuous, savagely intense, and remarkable for their brave dualism. . . . Moves between carnality and spirit like some franker, modernized Flannery O'Connor tale. Quatro has a poet's compound eye . . . [and] fearless lyricism. . . . Expansive, joyful, with forgiveness supplanting ruination. Who needs the New Testament? In Quatro's world, hard Genesis is always making way for the softer Song of Solomon: 'I sat down under his shadow with great delight, and his fruit was sweet to my taste.'"`,
+        quote: `“The best stories in Jamie Quatro's first collection, I Want to Show You More, are about adultery. They are passionate, sensuous, savagely intense, and remarkable for their brave dualism . . . Moves between carnality and spirit like some franker, modernized Flannery O'Connor tale. Quatro has a poet's compound eye . . . [and] fearless lyricism . . . Expansive, joyful, with forgiveness supplanting ruination. Who needs the New Testament? In Quatro's world, hard Genesis is always making way for the softer Song of Solomon: 'I sat down under his shadow with great delight, and his fruit was sweet to my taste.'"`,
         speaker: `James Wood, `,
         title: `The New Yorker`,
     },
     {
-        quote: `“Subtle, sexy, and reflective . . . Quatro is incisive on technology and our new varities of instant gratification. . . . Quatro’s stories [have] led some to compare her work to that of Walker Percy and Flannery O’Connor. I also picked up metal-detector traces of Jayne Anne Phillips . . . and of Lorrie Moore’s pulverizing wit. . . . In order to be good at big things, writers must be good at small ones. Quatro’s details resonate. . . . There’s so much in these stories that’s shocking. Yet there’s so much solace.”`,
+        quote: `“Subtle, sexy, and reflective . . . Quatro is incisive on technology and our new varities of instant gratification . . . Quatro’s stories [have] led some to compare her work to that of Walker Percy and Flannery O’Connor. I also picked up metal-detector traces of Jayne Anne Phillips . . . and of Lorrie Moore’s pulverizing wit . . . In order to be good at big things, writers must be good at small ones. Quatro’s details resonate . . . There’s so much in these stories that’s shocking. Yet there’s so much solace.”`,
         speaker: `Dwight Garner, `,
         title: `The New York Times`,
     },
     {
-        quote: `“[With its] impressive agility and inventiveness . . . I Want to Show You More is an obsessive first collection that feels like a fifth or sixth. It is a dogged, brutally thoughtful piece of work, and gives us a writer of great originality and apparent artistic maturity who seems to have come out of nowhere. . . . Strange, thrilling, and disarmingly honest . . . Quatro hits the right balance, giving us the closest thing I’ve seen in years to Donald Barthelme’s insouciance, sweetness, and ominousness. . . . Provides the most engaging literary treatment of Christianity since O’Connor, without a hint of the condescension the subject often receives in contemporary fiction. . . . [Quatro's] flights of fancy are never ostentatious or arbitrary; instead they grow naturally out of the emotional and psychological states of her characters. Readers may hope to see more of this hallucinatory mode from her, but—if they’re like me—they will welcome whatever they can get.”`,
+        quote: `“[With its] impressive agility and inventiveness . . . I Want to Show You More is an obsessive first collection that feels like a fifth or sixth. It is a dogged, brutally thoughtful piece of work, and gives us a writer of great originality and apparent artistic maturity who seems to have come out of nowhere . . . Strange, thrilling, and disarmingly honest . . . Quatro hits the right balance, giving us the closest thing I’ve seen in years to Donald Barthelme’s insouciance, sweetness, and ominousness . . . Provides the most engaging literary treatment of Christianity since O’Connor, without a hint of the condescension the subject often receives in contemporary fiction. . . [Quatro's] flights of fancy are never ostentatious or arbitrary; instead they grow naturally out of the emotional and psychological states of her characters. Readers may hope to see more of this hallucinatory mode from her, but—if they’re like me—they will welcome whatever they can get.”`,
         speaker: `J. Robert Lennon, `,
         title: `The New York Times Book Review`,
     },
@@ -169,7 +169,7 @@ const symBlurbs = [
         title: `The Toronto Star`,
     },
     {
-        quote: `"Vivid . . . Arresting . . . Quatro very much establishes her own distinctive voice and style. . . . A luminous collection that announces a unique literary talent. Quatro's stories dazzle and shine."`,
+        quote: `"Vivid . . . Arresting . . . Quatro very much establishes her own distinctive voice and style . . . A luminous collection that announces a unique literary talent. Quatro's stories dazzle and shine."`,
         speaker: ` `,
         title: `San Francisco Chronicle`,
     },
