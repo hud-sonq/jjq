@@ -88,7 +88,7 @@ const shortenedTsdBlurbs = [
         title: `A Hand Reached Down To Guide Me `,
     },
     {
-        quote: `“Two-Step Devil compelled me with almost supernatural force. I could not turn away...unequivocally human, tender and alive—formally daring and utterly riveting."`,
+        quote: `“Two-Step Devil compelled me with almost supernatural force. I could not turn away . . . unequivocally human, tender and alive—formally daring and utterly riveting."`,
         speaker: `Leslie Jamison`,
         title: `Splinters`,
     },
@@ -111,12 +111,12 @@ const shortenedTsdBlurbs = [
 
 const fsBlurbs = [
     {
-        quote: `"Roiling, raw and sensual on the surface, this mazy novel rewards a second reading… The sentences burn with desire and disquiet. The novel is generously condensed, ardently focused, its mechanisms poetic, not expository. In fact, although it is fiction, Fire Sermon reminds me most of confessional poetry, the aim of which is uncompromising honesty and self-exposure. You may enter this book through an interest in poetry or theology, but once you are there, it shows you more."`,
+        quote: `"Roiling, raw and sensual on the surface, this mazy novel rewards a second reading . . . The sentences burn with desire and disquiet. The novel is generously condensed, ardently focused, its mechanisms poetic, not expository. In fact, although it is fiction, Fire Sermon reminds me most of confessional poetry, the aim of which is uncompromising honesty and self-exposure. You may enter this book through an interest in poetry or theology, but once you are there, it shows you more."`,
         speaker: ` `,
         title: `New York Times Book Review`,
     },
     {
-        quote: `"The state of marriage makes yearning possible, and yearning makes us burn, which Maggie (and perhaps Quatro) sees as a good and essential and human thing. I was stunned by the notion, and enchanted by the way the book built to a crystallized idea rather than a scene or an event—thinking as a dramatic gesture is a pleasure found more commonly in nonfiction than in fiction... By the time she’s done bobbing and weaving her way through her narrative, Quatro makes us feel the absolute necessity of desire, which she reveals as something shining: a hammered-gold necklace, begged for, worn twice, given away."`,
+        quote: `"The state of marriage makes yearning possible, and yearning makes us burn, which Maggie (and perhaps Quatro) sees as a good and essential and human thing. I was stunned by the notion, and enchanted by the way the book built to a crystallized idea rather than a scene or an event—thinking as a dramatic gesture is a pleasure found more commonly in nonfiction than in fiction . . . By the time she’s done bobbing and weaving her way through her narrative, Quatro makes us feel the absolute necessity of desire, which she reveals as something shining: a hammered-gold necklace, begged for, worn twice, given away."`,
         speaker: ` `,
         title: `The Atlantic`,
     },
@@ -131,12 +131,12 @@ const fsBlurbs = [
         title: `New York Times Magazine`,
     },
     {
-        quote: `"Adultery may be a tale as old as time, but Quatro’s take is freshly urgent... Fire Sermon burns with emotional honesty. Unlike the great adulteresses of fiction, Anna Karenina and Emma Bovary, Quatro’s conflicted heroine is not miserably married; nor is her lover an unworthy boor. The result is an impassioned, deeply moral exploration of devotion and 'what’s waiting on the far side of fidelity.'”`,
+        quote: `"Adultery may be a tale as old as time, but Quatro’s take is freshly urgent . . . Fire Sermon burns with emotional honesty. Unlike the great adulteresses of fiction, Anna Karenina and Emma Bovary, Quatro’s conflicted heroine is not miserably married; nor is her lover an unworthy boor. The result is an impassioned, deeply moral exploration of devotion and 'what’s waiting on the far side of fidelity.'”`,
         speaker: ` `,
         title: `San Francisco Chronicle`,
     },
     {
-        quote: `"Affecting... powerful... Quatro's novel, full of vivid, mercurial prose, breathes new life into the subject [of adultery] and sets it gloriously ablaze."`,
+        quote: `"Affecting . . . powerful . . . Quatro's novel, full of vivid, mercurial prose, breathes new life into the subject [of adultery] and sets it gloriously ablaze."`,
         speaker: ` `,
         title: `Publishers Weekly`,
     }

@@ -12,7 +12,7 @@
         <p style="font-size: 1.2rem; font-weight: bold;">—Garth Greenwell </p>
       </div>
       <div class="other-container" v-if="props.book === 'sym'">
-        <p><span style="font-size: 1.2rem">“Passionate, sensuous, savagely intense, and remarkable . . . Moves between carnality and spirit like some franker, modernized Flannery O’Connor . . . Quatro has a poet’s compound eye . . . [and] fearless lyricism. . . . Expansive, joyful, with forgiveness supplanting ruination.”</span></p>
+        <p><span style="font-size: 1.2rem">“Passionate, sensuous, savagely intense, and remarkable . . . Moves between carnality and spirit like some franker, modernized Flannery O’Connor . . . Quatro has a poet’s compound eye . . . [and] fearless lyricism . . . Expansive, joyful, with forgiveness supplanting ruination.”</span></p>
         <p style="font-weight: bold; font-size: 1.2rem"><span>—James Wood, <span style="font-style: italic;">The New Yorker</span></span></p>
       </div>
     </div>
