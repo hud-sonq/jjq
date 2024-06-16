@@ -6,8 +6,8 @@ type Blurb = {
 
 type Event = {
     date: string;
+    city: string;
     name: string;
-    time: string;
     optionalLink: string;
 }
 
@@ -181,72 +181,76 @@ const symBlurbs = [
 ].map(b => ({ ...b, quote: italicizeSym(b.quote) })) satisfies readonly Blurb[];
 
 const events = [
-    // {
-    //     date: '6/3/2024 - 7/15/2024',
-    //     name: 'Fiction Faculty, Sewanee School of Letters',
-    //     time: '',
-    //     optionalLink: '',
-    // },
+// template 
+
+// {
+//     date: '',
+//     city: '',
+//     name: '',
+//     optionalLink: '',
+// }
     {
-        date: '6/20/2024',
-        name: 'Conversation with Jill McCorkle',
-        time: '5:30PM - 6:30PM, The Sewanee Inn, Sewanee, TN',
-        optionalLink: 'https://letters.sewanee.edu/literary-community/guest-lectures/jill-mccorkle/',
-    },
-    {
-        date: '6/26/2024',
-        name: 'Two-Step Devil Reading (with Ryan Chapman and Tiana Clark)',
-        time: '4:30PM - 5:30PM, Gailor Hall, Sewanee',
+        date: '6/26',
+        // name: 'Two-Step Devil Reading (with Ryan Chapman and Tiana Clark)',
+        // time: '4:30PM - 5:30PM, Gailor Hall, Sewanee',
+        city: 'Sewanee, TN',
+        name: 'Reading',
         optionalLink: 'https://letters.sewanee.edu/literary-community/guest-lectures/',
     },
     {
-        date: '7/21/24 - 7/27/24',
+        date: '7/21 - 7/27',
+        city: 'Seattle, WA',
         name: 'The Glen Workshops',
-        time: 'Seattle, WA',
         optionalLink: 'https://imagejournal.org/2024-the-glen-workshop-classes-fiction/',
     },
     {
-        date: '8/8/24 - 8/11/24',
-        name: 'NAIBA / SIBA "New Voices, New Rooms"',
-        time: 'Alexandria, VA',
+        date: '8/8 - 8/11',
+        city: 'Alexandria, VA',
+        name: 'NAIBA / SIBA',
         optionalLink: 'https://newvoicesnewrooms.org/',
     },
     {
-        date: '9/10/24',
-        name: 'Two-Step Devil Launch - 6:00PM - 10PM',
-        time: 'Details TBA',
+        date: '9/10',
+        city: 'Chattanooga, TN',
+        name: 'Two-Step Devil Launch',
         optionalLink: '',
     },
     {
-        date: '9/14/24',
+        date: '9/14',
+        city: 'Jackson, MS',
         name: 'Mississippi Book Festival',
-        time: '10:30AM - 7:00PM, Jackson, MS',
         optionalLink: 'https://msbookfestival.com/authors/panelists',
     },
     {
-        date: '9/16/24',
-        name: 'Square Books, Oxford, MS',
-        time: '5:30PM - 6:30PM',
-        optionalLink: '',
+        date: '9/16',
+        city: 'Oxford, MS',
+        name: 'Reading, Square Books, Oxford, MS',
+        optionalLink: 'https://www.squarebooks.com/event/square-books-presents-conversation-minrose-gwin-jamie-quatro',
     },
     {
-        date: '10/1/24',
-        name: 'Center For Fiction in conversation with Sloane Crosley',
-        time: '7:00PM - 8:00PM, Brooklyn, NY',
-        optionalLink: '',
+        date: '10/1',
+        city: 'Brooklyn, NY',
+        name: 'Center For Fiction (w/ Sloane Crosley)',
+        optionalLink: 'https://centerforfiction.org/events/',
     },
     {
-        date: '10/26/24',
+        date: '10/26',
+        city: 'Boston, MA',
         name: 'Boston Book Festival',
-        time: '10:30AM - 8:00PM, Boston, MA',
         optionalLink: 'https://bostonbookfest.org/',
     },
     {
-        date: '11/23/24 - 11/24/24',
+        date: '10/27',
+        city: 'Nashville, TN',
+        name: 'Southern Festival of Books',
+        optionalLink: 'https://www.sofestofbooks.org/',
+    },
+    {
+        date: '11/23 - 11/24',
+        city: 'Miama, FL',
         name: 'Miami Book Fair',
-        time: '10:00AM Sat - 11:00AM Sun',
-        optionalLink: '',
-    }
+        optionalLink: 'https://www.miamibookfair.com/',
+    },
 ]
 
 const shortFiction = [
@@ -315,9 +319,9 @@ const shortFiction = [
 
 const nonFiction = [
     {
-        title: 'Astrid Lindgren’s Stockholm, Hemispheres, forthcoming',
-        publisher: '',
-        link: '',
+        title: 'Astrid Lindgren’s Stockholm, ',
+        publisher: 'Hemispheres',
+        link: 'https://www.hemispheresmag.com/the-magazine/',
     },
     {
         title: `Rim-to-Rim in the Grand Canyon, `,

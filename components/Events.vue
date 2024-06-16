@@ -3,9 +3,10 @@
         <div class="many-events-container">
             <div class="event" v-for="(event, index) in events" :key="index">
                 <p>{{ event.date }}</p>
+                <p>{{ event.city }}</p>
                 <p>{{ event.name }}</p>
-                <p>{{ event.time }}</p>
                 <p class="hyperlink" v-if="event.optionalLink" @click="navigate(event.optionalLink)"> More info here. </p>
+                <p class="tba" v-else>Details TBA</p>
             </div>
         </div>
         <img class="cheeky" src="~/public/img/horndeco.png" alt="cheeky" />
