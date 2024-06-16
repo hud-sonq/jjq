@@ -3,29 +3,33 @@
   <transition name="slide"><MobileNavMenu style="opacity: 1;" v-if="showMobileNavMenu" @linkClicked="dropNavMenu()"/></transition>
   <div id="page" :class="{'non-scroll': showMobileNavMenu}">
     <NuxtPage/>
-    <FooterComponent/>
+    <div><FooterComponent v-if="showFooter" ref="footer"/></div>
   </div>
 </template>
 
 <script setup lang=ts>
 let nav = ref<HTMLElement | null>(null);
+let footer = ref<HTMLElement | null>(null);
 let siteEntered = ref(false);
 let router = useRouter();
 let showMobileNavMenu = ref(false);
+const route = useRoute();
+
+const showFooter = computed(() => route.path !== '/');
 
 onMounted(() => {
   router.afterEach((to, from) => {
     setTimeout(() => {
-      siteEntered.value = to.path !== '/jjq/';
+      siteEntered.value = to.path !== '/';
     }, 500);
   });
-  if(window.location.pathname !== '/jjq/') {
+  if(window.location.pathname !== '/') {
     siteEntered.value = true;
   }
 });
 
 function refreshIfAtTsd() {
-  if (window.location.pathname === '/jjq/tsd') {
+  if (window.location.pathname === '/tsd') {
     console.log('refreshing');
     window.location.reload();
   }

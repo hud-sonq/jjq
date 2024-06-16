@@ -1,5 +1,5 @@
 <template>
-    <div class="footer">
+    <div class="footer" ref="footer">
         <div class="footer-content">
             <div><p>Copyright © 2024 by Jamie Quatro</p></div>
             <div>

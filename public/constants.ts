@@ -174,7 +174,7 @@ const symBlurbs = [
         title: `San Francisco Chronicle`,
     },
     {
-        quote: `"Delicious reading . . . [An] impressive debutabout the shortcomings of people who wrestle with angels, and usually lose."`,
+        quote: `"Delicious reading . . . [An] impressive debut about the shortcomings of people who wrestle with angels, and usually lose."`,
         speaker: ` `,
         title: `Chicago Tribune`,
     },
