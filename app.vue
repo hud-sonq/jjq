@@ -15,7 +15,22 @@ let router = useRouter();
 let showMobileNavMenu = ref(false);
 const route = useRoute();
 
-const showFooter = computed(() => route.path !== '/');
+const showFooter = ref(false) // Initially, showFooter is false
+
+// Computed property to determine if the current route is not the home page
+const isNotHome = computed(() => route.path !== '/')
+
+watch(isNotHome, (newValue) => {
+  if (newValue) {
+    // If the route is not home, wait for a specified timeout before showing the footer
+    setTimeout(() => {
+      showFooter.value = true
+    }, 1000) // Adjust the timeout duration (in milliseconds) as needed
+  } else {
+    // If the route is home, immediately set showFooter to false
+    showFooter.value = false
+  }
+})
 
 onMounted(() => {
   router.afterEach((to, from) => {

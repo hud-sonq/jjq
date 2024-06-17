@@ -117,7 +117,7 @@ const bookProps = {
 }
 
 .mobile-padding {
-  padding-left: 4%;
+  padding-inline: 4%;
 }
 @media (min-width: 800px) {
   .tsd-split {
