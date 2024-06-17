@@ -20,16 +20,16 @@ const showFooter = computed(() => route.path !== '/');
 onMounted(() => {
   router.afterEach((to, from) => {
     setTimeout(() => {
-      siteEntered.value = to.path !== '/';
+      siteEntered.value = to.path !== '/jjq/';
     }, 500);
   });
-  if(window.location.pathname !== '/') {
+  if(window.location.pathname !== '/jjq/') {
     siteEntered.value = true;
   }
 });
 
 function refreshIfAtTsd() {
-  if (window.location.pathname === '/tsd') {
+  if (window.location.pathname === '/jjq/tsd') {
     console.log('refreshing');
     window.location.reload();
   }
