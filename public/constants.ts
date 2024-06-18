@@ -224,7 +224,7 @@ const events = [
     {
         date: '9/16',
         city: 'Oxford, MS',
-        name: 'Reading, Square Books, Oxford, MS',
+        name: 'Square Books',
         optionalLink: 'https://www.squarebooks.com/event/square-books-presents-conversation-minrose-gwin-jamie-quatro',
     },
     {
