@@ -2,7 +2,7 @@
     <div class="coming-soon">
         <div class="news-container">
             <div><img src="~/public/img/horndeco.png" alt="coming-soon" class="deco-itself"/></div>
-            <div class="text-content"><span style="font-size: 32px;">coming soon</span></div>
+            <div class="text-content"><span style="font-size: 32px;">stay tuned</span></div>
         </div>
     </div>
 </template>
