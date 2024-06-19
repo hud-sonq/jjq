@@ -73,19 +73,9 @@ const shortenedTsdBlurbs = [
         title: `Small Rain`,
     },
     {
-        quote: `"Beautiful and brave and brilliant, shot through with mystery and love, Two-Step Devil is a novel that only Jamie Quatro could have written — and only, I suspect, with an angel peering over her shoulder."`,
-        speaker: `Margaret Renkl`,
-        title: `The Vaster Wilds`,
-    },
-    {
         quote: `“Reading this novel is like holding on to a live wire. Jamie Quatro is the real thing. The music of these sentences lights my hair on fire.”`,
         speaker: `Garth Greenwell`,
         title: `The Comfort of Crows`,
-    },
-    {
-        quote: `"Bold, ingenious, impassioned . . .  a wild and rich entertainment, a profound interrogation of God’s ways to Man, and–perhaps most daring of all—a story of simple human compassion.”`,
-        speaker: `David Gates`,
-        title: `A Hand Reached Down To Guide Me `,
     },
     {
         quote: `“Two-Step Devil compelled me with almost supernatural force. I could not turn away . . . unequivocally human, tender and alive—formally daring and utterly riveting."`,
@@ -93,19 +83,29 @@ const shortenedTsdBlurbs = [
         title: `Splinters`,
     },
     {
+        quote: `"Beautiful and brave and brilliant, shot through with mystery and love, Two-Step Devil is a novel that only Jamie Quatro could have written — and only, I suspect, with an angel peering over her shoulder."`,
+        speaker: `Margaret Renkl`,
+        title: `The Vaster Wilds`,
+    },
+    {
+        quote: `"Bold, ingenious, impassioned . . .  a wild and rich entertainment, a profound interrogation of God’s ways to Man, and–perhaps most daring of all—a story of simple human compassion.”`,
+        speaker: `David Gates`,
+        title: `A Hand Reached Down To Guide Me `,
+    },
+    {
         quote: `"Glorious, rich, mad, wonderful, daring and epic in its scope, Two-Step Devil is simply thrilling to read."`,
         speaker: `Samantha Harvey`,
         title: `Orbital`,
     },
     {
-        quote: `"The characters in Jamie Quatro's Two-Step Devil will surely join the pantheon of Hazel Motes, Temple Drake, and Howard Finster."`,
-        speaker: `Charles Marsh`,
-        title: `Evangelical Anxiety`,
-    },
-    {
         quote: `"Jamie Quatro is one of the finest, and most fearless, American writers currently working."`,
         speaker: `Tom Bissell`,
         title: `Creative Types`,
+    },
+    {
+        quote: `"The characters in Jamie Quatro's Two-Step Devil will surely join the pantheon of Hazel Motes, Temple Drake, and Howard Finster."`,
+        speaker: `Charles Marsh`,
+        title: `Evangelical Anxiety`,
     },
 ].map(b => ({ ...b, quote: italicizeTwoDevil(b.quote) })) satisfies readonly Blurb[];
 
