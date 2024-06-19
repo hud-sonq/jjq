@@ -21,7 +21,8 @@
 import { shortenedTsdBlurbs } from '~/public/constants.js';
 
 const blurb = ref(shortenedTsdBlurbs[0]);
-let currentIdx = Math.floor(Math.random() * shortenedTsdBlurbs.length);
+// let currentIdx = Math.floor(Math.random() * shortenedTsdBlurbs.length);
+let currentIdx = 0;
 
 let intervalId: NodeJS.Timeout;
 

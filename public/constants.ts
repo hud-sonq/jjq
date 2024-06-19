@@ -68,14 +68,14 @@ const fullTsdBlurbs = [
 
 const shortenedTsdBlurbs = [
     {
-        quote: `"Beautiful and brave and brilliant, shot through with mystery and love, Two-Step Devil is a novel that only Jamie Quatro could have written — and only, I suspect, with an angel peering over her shoulder."`,
-        speaker: `Margaret Renkl`,
-        title: `The Vaster Wilds`,
-    },
-    {
         quote: `“Jamie Quatro is a writer of sinuous, muscular power and grace. Two-Step Devil is a starkly gorgeous story of God and loss and art and love, and her best book yet.”`,
         speaker: `Lauren Groff`,
         title: `Small Rain`,
+    },
+    {
+        quote: `"Beautiful and brave and brilliant, shot through with mystery and love, Two-Step Devil is a novel that only Jamie Quatro could have written — and only, I suspect, with an angel peering over her shoulder."`,
+        speaker: `Margaret Renkl`,
+        title: `The Vaster Wilds`,
     },
     {
         quote: `“Reading this novel is like holding on to a live wire. Jamie Quatro is the real thing. The music of these sentences lights my hair on fire.”`,
