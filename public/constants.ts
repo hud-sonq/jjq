@@ -25,19 +25,29 @@ export const italicizeLocalSouls= textAutoFormat('Local Souls', 'i');
 
 const fullTsdBlurbs = [
     {
-        quote: `"In this spellbinding story of good and evil, revelation and madness, Jamie Quatro ponders all the ways in which innocence and vulnerability can be exploited in a culture that deliberately turns from human suffering. Beautiful and brave and brilliant, shot through with mystery and love, Two-Step Devil is a novel that only Jamie Quatro could have written — and only, I suspect, with an angel peering over her shoulder."`,
-        speaker: `Margaret Renkl`,
-        title: `The Vaster Wilds`,
+        quote: `"Quatro reckons with faith and the nature of evil in her daring and disturbing latest...It's hard to turn away from Quatro's electrifying vision."`,
+        speaker: `Publishers Weekly`,
+        title: ``,
     },
     {
-        quote: `"Jamie Quatro is a writer of sinuous, muscular power and grace. Two-Step Devil is a starkly gorgeous story of God and loss and art and love, and her best book yet."`,
-        speaker: `Lauren Groff`,
-        title: `Small Rain`,
+        quote: `"In 2014, a visionary 70-year-old man develops a bond with a captive teenage girl that could change both their destinies…By alternating between perspectives and pushing the novel’s formal boundaries, Quatro daringly explores the evils and mercies, large and small, that steer the courses of human lives. A searing and innovative allegory for our turbulent times.”`,
+        speaker: `Kirkus Reviews`,
+        title: ``,
     },
+    {
+        quote: `"In this spellbinding story of good and evil, revelation and madness, Jamie Quatro ponders all the ways in which innocence and vulnerability can be exploited in a culture that deliberately turns from human suffering. Beautiful and brave and brilliant, shot through with mystery and love, Two-Step Devil is a novel that only Jamie Quatro could have written — and only, I suspect, with an angel peering over her shoulder."`,
+        speaker: `Margaret Renkl`,
+        title: `The Comfort of Crows`,
+    },
+    // {
+    //     quote: `"Jamie Quatro is a writer of sinuous, muscular power and grace. Two-Step Devil is a starkly gorgeous story of God and loss and art and love, and her best book yet."`,
+    //     speaker: `Lauren Groff`,
+    //     title: `The Vaster Wilds`,
+    // },
     {
         quote: `"Reading this novel is like holding on to a live wire. Jamie Quatro is the real thing. The music of these sentences lights my hair on fire."`,
         speaker: `Garth Greenwell`,
-        title: `The Comfort of Crows`,
+        title: `Small Rain`,
     },
     {
         quote: `"The bold, ingenious, impassioned Two-Step Devil takes risks—tonally, formally and theologically—that would terrify a less masterly writer than Jamie Quatro. Her unforgettable characters, her meticulous observation of backwoods folklife and her wide-ranging intellect come together to create a novel that's a wild and rich entertainment, a profound interrogation of God's ways to Man, and—perhaps most daring of all—a story of simple human compassion."`,
@@ -67,6 +77,16 @@ const fullTsdBlurbs = [
 ].map(b => ({ ...b, quote: italicizeTwoDevil(b.quote) })) satisfies readonly Blurb[];
 
 const shortenedTsdBlurbs = [
+    {
+        quote: `"Quatro daringly explores the evils and mercies, large and small, that steer the courses of human lives. A searing and innovative allegory for our turbulent times.”`,
+        speaker: `Kirkus Reviews`,
+        title: ``,
+    },
+    {
+        quote: `"Quatro reckons with faith and the nature of evil in her daring and disturbing latest . . . It's hard to turn away from Quatro's electrifying vision."`,
+        speaker: `Publishers Weekly`,
+        title: ``,
+    },
     {
         quote: `“Jamie Quatro is a writer of sinuous, muscular power and grace. Two-Step Devil is a starkly gorgeous story of God and loss and art and love, and her best book yet.”`,
         speaker: `Lauren Groff`,
@@ -189,14 +209,14 @@ const events = [
 //     name: '',
 //     optionalLink: '',
 // }
-    {
-        date: '6/26',
-        // name: 'Two-Step Devil Reading (with Ryan Chapman and Tiana Clark)',
-        // time: '4:30PM - 5:30PM, Gailor Hall, Sewanee',
-        city: 'Sewanee, TN',
-        name: 'Reading',
-        optionalLink: 'https://letters.sewanee.edu/literary-community/guest-lectures/',
-    },
+// {
+//     date: '6/26',
+//     // name: 'Two-Step Devil Reading (with Ryan Chapman and Tiana Clark)',
+//     // time: '4:30PM - 5:30PM, Gailor Hall, Sewanee',
+//     city: 'Sewanee, TN',
+//     name: 'Reading',
+//     optionalLink: 'https://letters.sewanee.edu/literary-community/guest-lectures/',
+// },
     {
         date: '7/21 - 7/27',
         city: 'Seattle, WA',
@@ -228,10 +248,22 @@ const events = [
         optionalLink: 'https://www.squarebooks.com/event/square-books-presents-conversation-minrose-gwin-jamie-quatro',
     },
     {
-        date: '10/1',
+        date: '9/18',
+        city: 'Gainesville, FL',
+        name: 'The Lynx (w/ Lauren Groff)',
+        optionalLink: 'https://thelynxbooks.com/events',
+    },
+    {
+        date: '10/3',
         city: 'Brooklyn, NY',
         name: 'Center For Fiction (w/ Sloane Crosley)',
         optionalLink: 'https://centerforfiction.org/events/',
+    },
+    {
+        date: '10/16 - 10/17',
+        city: 'Austin, TX',
+        name: 'Texas Book Festival',
+        optionalLink: 'https://www.texasbookfestival.org/',
     },
     {
         date: '10/26',
@@ -254,6 +286,11 @@ const events = [
 ]
 
 const shortFiction = [
+    {
+        title: `"Ezekiel Machine," forthcoming, `,
+        publisher: `Harper's, August 2024`,
+        link: 'https://harpers.org/archive/2024/07/',
+    },
     {
         title: `"Two Men, Mary," `,
         publisher: 'The Paris Review',

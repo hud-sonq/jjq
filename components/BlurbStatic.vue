@@ -4,12 +4,15 @@
         <div class="single-blurb" v-for="{ quote, speaker, title } in fullTsdBlurbs" :key="quote">
             <p style="text-align: left;">
                 <span v-html="quote"></span>
-                <span style=" text-align: left; font-weight: bold;">
+                <!-- <span style=" text-align: left; font-weight: bold;">
                     — {{ speaker }}, author of
                 </span>
                 <span style="font-style: italic; text-align: left; font-weight: bold;">
                     {{ title }}
-                </span>
+                </span> -->
+                <span v-if="title" style=" text-align: left; font-weight: bold;">— {{ speaker }}, author of </span>
+                <span v-if="title" style="font-style: italic; text-align: left; font-weight: bold;">{{ title }}</span>
+                <span v-if="!title" style="font-style: italic; text-align: left; font-weight: bold;">— {{ speaker }}</span>
             </p>
         </div>
     </div>
