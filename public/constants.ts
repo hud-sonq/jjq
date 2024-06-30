@@ -25,12 +25,12 @@ export const italicizeLocalSouls= textAutoFormat('Local Souls', 'i');
 
 const fullTsdBlurbs = [
     {
-        quote: `"Quatro reckons with faith and the nature of evil in her daring and disturbing latest...It's hard to turn away from Quatro's electrifying vision."`,
+        quote: `"Quatro reckons with faith and the nature of evil in her daring and disturbing latest . . . It's hard to turn away from Quatro's electrifying vision."`,
         speaker: `Publishers Weekly`,
         title: ``,
     },
     {
-        quote: `"In 2014, a visionary 70-year-old man develops a bond with a captive teenage girl that could change both their destinies…By alternating between perspectives and pushing the novel’s formal boundaries, Quatro daringly explores the evils and mercies, large and small, that steer the courses of human lives. A searing and innovative allegory for our turbulent times.”`,
+        quote: `"In 2014, a visionary 70-year-old man develops a bond with a captive teenage girl that could change both their destinies . . . By alternating between perspectives and pushing the novel’s formal boundaries, Quatro daringly explores the evils and mercies, large and small, that steer the courses of human lives. A searing and innovative allegory for our turbulent times.”`,
         speaker: `Kirkus Reviews`,
         title: ``,
     },
@@ -131,9 +131,9 @@ const shortenedTsdBlurbs = [
 
 const fsBlurbs = [
     {
-        quote: `"Roiling, raw and sensual on the surface, this mazy novel rewards a second reading . . . The sentences burn with desire and disquiet. The novel is generously condensed, ardently focused, its mechanisms poetic, not expository. In fact, although it is fiction, Fire Sermon reminds me most of confessional poetry, the aim of which is uncompromising honesty and self-exposure. You may enter this book through an interest in poetry or theology, but once you are there, it shows you more."`,
+        quote: `“It would be difficult to overstate the wonder I felt while reading this novel. It’s among the most beautiful books I’ve ever read about longing—for beauty, for sex, for God, for a coherent life. Great writers write with their whole lives, with everything they have seen and thought and felt, with their obsessions and their desires; their books have the density and richness of existence. Jamie Quatro is a such a writer, and Fire Sermon is such a book.”`,
         speaker: ` `,
-        title: `New York Times Book Review`,
+        title: `Garth Greenwell`,
     },
     {
         quote: `"The state of marriage makes yearning possible, and yearning makes us burn, which Maggie (and perhaps Quatro) sees as a good and essential and human thing. I was stunned by the notion, and enchanted by the way the book built to a crystallized idea rather than a scene or an event—thinking as a dramatic gesture is a pleasure found more commonly in nonfiction than in fiction . . . By the time she’s done bobbing and weaving her way through her narrative, Quatro makes us feel the absolute necessity of desire, which she reveals as something shining: a hammered-gold necklace, begged for, worn twice, given away."`,
@@ -159,7 +159,53 @@ const fsBlurbs = [
         quote: `"Affecting . . . powerful . . . Quatro's novel, full of vivid, mercurial prose, breathes new life into the subject [of adultery] and sets it gloriously ablaze."`,
         speaker: ` `,
         title: `Publishers Weekly`,
-    }
+    }, 
+    {
+        quote: `"Affecting...powerful...Quatro's novel, full of vivid, mercurial prose, breathes new life into the subject [of adultery] and sets it gloriously ablaze."`,
+        speaker: `O, `,
+        title: `The Oprah Magazine`,
+    }, 
+    {
+        quote: `"Tender and tumultuous, Fire Sermon is a remarkable novel written by a uniquely talented author."`,
+        speaker: ` `,
+        title: `Financial Times`,
+    }, 
+    {
+        quote: `"Charged with erotic energy and an almost mystical yearning, Jamie Quatro’s debut novel is a tour de force exploration of lust, marriage, longing, and love. . . Quatro’s special magic as a writer is her ability to illuminate and intensify Maggie’s secret (and ultimately finite) love affair so that it seems to resonate across decades of Maggie’s life, continuing to shape and inform her even as her marriage endures, her career thrives, and her children grow into adulthood. . . Fire Sermon is a virtuosic portrait of flesh-and-blood sensuality and the mystery of salvation."`,
+        speaker: ` `,
+        title: `ELLE`,
+    }, 
+    {
+        quote: `"A stunning first novel about faith and yearning in the crucible of a strained marriage and a brief affair. . . Quatro charts Maggie's tormented grappling with desire and conscience in excruciatingly intimate scenes . . . The lyric cadence of Quatro's writing gets into one's veins as she stealthily transforms the most common of plotlines into a scorching analysis of the 'agony of temptation,' prayer, the relationship between Eros and the divine, and a 'renewed sense of holiness.' Maggie longs for a 'return to a viable literature of faith.' Quatro infuses that tradition with fresh, molten energy."`,
+        speaker: ` `,
+        title: `Booklist`,
+    },
+    {
+        quote: `“Quatro is a true cartographer of desire, showing that the longings of the body and the soul aren’t two autonomous states but constitute a singularly vast and singularly wild territory. Her fiction is sexy, it’s theological, and it’s consistently and surprisingly both at the same time.”`,
+        speaker: `Anthony Domestico, `,
+        title: `Commonweal`,
+    },
+    {
+        quote: `“Fire Sermon transcends the familiarity of its subject matter through its formal originality, its erudite meditations on the intersections of religious devotion and erotic desire, and the breathtaking lyricism of Jamie Quatro’s prose, which manages somehow to be both intensely elegiac and as fluent as good conversation…There are so many moments in this fine debut that call to be read and re-read, flipped over and scrutinized—moments of searing, painful truth and gorgeously articulated delusion which ring with their own sort of truth about the lengths to which we will go to make sense of the inexplicable. Isn’t this the task of great fiction?”`,
+        speaker: ` `,
+        title: `Chapter 16`,
+    },
+    {
+        quote: `“What an absolutely beautiful and moving book. I started reading Fire Sermon and literally was cranky when I couldn’t get back to it. The writing is nothing less than masterful. I’ve always been a HUGE fan of Jamie Quatro but now she’s taking my fandom to another level.”`,
+        speaker: `Jacqueline Woodson, author of `,
+        title: `Brown Girl Dreaming + Another Brooklyn`,
+    },
+    {
+        quote: `"This book is bright and dark by turns but always shot through with a vital, unerring grace. Plus it's about love and death, sex and God. What more could a reader want?"`,
+        speaker: `Jenny Offill, author of `,
+        title: `Dept. of Speculation`,
+    },
+    {
+        quote: `"I devoured this novel. Quatro is a fearless marvel. An exquisite story of female desire, faith, and commitment and one of the most haunting portraits of a marriage I've ever read.”`,
+        speaker: `Lily King, author of `,
+        title: `Euphoria`,
+    },
+
 ].map(b => ({ ...b, quote: italicizeFireSermon(b.quote) })) satisfies readonly Blurb[];
 
 const symBlurbs = [
@@ -279,11 +325,11 @@ const events = [
     },
     {
         date: '11/23 - 11/24',
-        city: 'Miama, FL',
+        city: 'Miami, FL',
         name: 'Miami Book Fair',
         optionalLink: 'https://www.miamibookfair.com/',
     },
-]
+] 
 
 const shortFiction = [
     {
