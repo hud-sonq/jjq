@@ -108,7 +108,7 @@ const shortenedTsdBlurbs = [
         title: `The Vaster Wilds`,
     },
     {
-        quote: `"Bold, ingenious, impassioned . . .  a wild and rich entertainment, a profound interrogation of God’s ways to Man, and–perhaps most daring of all—a story of simple human compassion.”`,
+        quote: `"Bold, ingenious, impassioned . . .  a wild and rich entertainment, a profound interrogation of God’s ways to Man, and—perhaps most daring of all—a story of simple human compassion.”`,
         speaker: `David Gates`,
         title: `A Hand Reached Down To Guide Me `,
     },
