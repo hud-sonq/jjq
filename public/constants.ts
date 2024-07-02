@@ -78,7 +78,7 @@ const fullTsdBlurbs = [
 
 const shortenedTsdBlurbs = [
     {
-        quote: `"Quatro daringly explores the evils and mercies, large and small, that steer the courses of human lives. A searing and innovative allegory for our turbulent times.”`,
+        quote: `"By alternating between perspectives and pushing the novel’s formal boundaries, Quatro daringly explores the evils and mercies, large and small, that steer the courses of human lives. A searing and innovative allegory for our turbulent times.”`,
         speaker: `Kirkus Reviews`,
         title: ``,
     },
