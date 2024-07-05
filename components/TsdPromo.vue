@@ -134,7 +134,7 @@ const bookProps = {
     width: 40%;
   }
   .mobile-padding {
-    padding-left: 0;
+    padding-inline: 0;
   }
 }
 </style>
