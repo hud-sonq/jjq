@@ -300,16 +300,16 @@ const events = [
         optionalLink: 'https://thelynxbooks.com/events',
     },
     {
+        date: '9/24',
+        city: 'Spartanburg, SC',
+        name: 'Hub City Books',
+        optionalLink: 'https://hubcity.org/events',
+    },
+    {
         date: '10/3',
         city: 'Brooklyn, NY',
         name: 'Center For Fiction (w/ Sloane Crosley)',
         optionalLink: 'https://centerforfiction.org/events/',
-    },
-    {
-        date: '10/16 - 10/17',
-        city: 'Austin, TX',
-        name: 'Texas Book Festival',
-        optionalLink: 'https://www.texasbookfestival.org/',
     },
     {
         date: '10/26',
@@ -322,6 +322,12 @@ const events = [
         city: 'Nashville, TN',
         name: 'Southern Festival of Books',
         optionalLink: 'https://www.sofestofbooks.org/',
+    },
+    {
+        date: '11/16 - 11/17',
+        city: 'Austin, TX',
+        name: 'Texas Book Festival',
+        optionalLink: 'https://www.texasbookfestival.org/',
     },
     {
         date: '11/23 - 11/24',
