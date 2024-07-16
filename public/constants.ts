@@ -339,7 +339,7 @@ const events = [
 
 const shortFiction = [
     {
-        title: `"Ezekiel Machine"`,
+        title: `"Ezekiel Machine,"`,
         publisher: `Harper's`,
         link: 'https://harpers.org/archive/2024/08/ezekiel-machine-jamie-quatro-two-step-devil/',
     },
