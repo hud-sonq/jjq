@@ -300,6 +300,12 @@ const events = [
         optionalLink: 'https://thelynxbooks.com/events',
     },
     {
+        date: '9/20',
+        city: 'Knoxville, TN',
+        name: 'Union Ave. Books @ Church of the Ascension (w/ Bishop Brian Cole)',
+        optionalLink: 'https://www.knoxvilleascension.org/events',
+    },
+    {
         date: '9/24',
         city: 'Spartanburg, SC',
         name: 'Hub City Books',
