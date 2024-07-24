@@ -278,8 +278,9 @@ const events = [
     {
         date: '9/10',
         city: 'Chattanooga, TN',
-        name: 'Two-Step Devil Launch',
+        name: 'Two-Step Devil LAUNCH!',
         optionalLink: 'https://givebutter.com/two-step-devil',
+        tickets: true,
     },
     {
         date: '9/14',
