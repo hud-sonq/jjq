@@ -279,7 +279,7 @@ const events = [
         date: '9/10',
         city: 'Chattanooga, TN',
         name: 'Two-Step Devil Launch',
-        optionalLink: '',
+        optionalLink: 'https://givebutter.com/two-step-devil',
     },
     {
         date: '9/14',
@@ -303,7 +303,7 @@ const events = [
         date: '9/20',
         city: 'Knoxville, TN',
         name: 'Union Ave. Books @ Church of the Ascension (w/ Bishop Brian Cole)',
-        optionalLink: 'https://www.knoxvilleascension.org/events',
+        optionalLink: 'https://www.unionavebooks.com/event/author-event-jamie-quatro',
     },
     {
         date: '9/24',
