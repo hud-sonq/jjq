@@ -283,8 +283,9 @@ const events = [
     {
         date: '9/10',
         city: 'Chattanooga, TN',
-        name: 'Two-Step Devil Launch',
-        optionalLink: '',
+        name: 'Two-Step Devil LAUNCH!',
+        optionalLink: 'https://givebutter.com/two-step-devil',
+        tickets: true,
     },
     {
         date: '9/14',
@@ -305,16 +306,22 @@ const events = [
         optionalLink: 'https://thelynxbooks.com/events',
     },
     {
+        date: '9/20',
+        city: 'Knoxville, TN',
+        name: 'Union Ave. Books @ Church of the Ascension (w/ Bishop Brian Cole)',
+        optionalLink: 'https://www.unionavebooks.com/event/author-event-jamie-quatro',
+    },
+    {
+        date: '9/24',
+        city: 'Spartanburg, SC',
+        name: 'Hub City Books',
+        optionalLink: 'https://hubcity.org/events',
+    },
+    {
         date: '10/3',
         city: 'Brooklyn, NY',
         name: 'Center For Fiction (w/ Sloane Crosley)',
         optionalLink: 'https://centerforfiction.org/events/',
-    },
-    {
-        date: '10/16 - 10/17',
-        city: 'Austin, TX',
-        name: 'Texas Book Festival',
-        optionalLink: 'https://www.texasbookfestival.org/',
     },
     {
         date: '10/26',
@@ -329,6 +336,12 @@ const events = [
         optionalLink: 'https://www.sofestofbooks.org/',
     },
     {
+        date: '11/16 - 11/17',
+        city: 'Austin, TX',
+        name: 'Texas Book Festival',
+        optionalLink: 'https://www.texasbookfestival.org/',
+    },
+    {
         date: '11/23 - 11/24',
         city: 'Miami, FL',
         name: 'Miami Book Fair',
@@ -338,9 +351,9 @@ const events = [
 
 const shortFiction = [
     {
-        title: `"Ezekiel Machine," forthcoming, `,
-        publisher: `Harper's, August 2024`,
-        link: 'https://harpers.org/archive/2024/07/',
+        title: `"Ezekiel Machine,"`,
+        publisher: `Harper's`,
+        link: 'https://harpers.org/archive/2024/08/ezekiel-machine-jamie-quatro-two-step-devil/',
     },
     {
         title: `"Two Men, Mary," `,

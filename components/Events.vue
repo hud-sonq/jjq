@@ -5,7 +5,7 @@
                 <p>{{ event.date }}</p>
                 <p>{{ event.city }}</p>
                 <p>{{ event.name }}</p>
-                <p class="hyperlink" v-if="event.optionalLink" @click="navigate(event.optionalLink)"> More info here. </p>
+                <p class="hyperlink" v-if="event.optionalLink" @click="navigate(event.optionalLink)">More info <span v-if="event.tickets"> + tickets</span> here.</p>
                 <p class="tba" v-else>Details TBA</p>
             </div>
         </div>

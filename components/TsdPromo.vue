@@ -20,7 +20,7 @@
       </div>
     </div>
     <div id="buttonsBelow">
-      <p style="border-bottom: 1px solid red;">PRE-ORDER NOW:</p>
+      <p style="border-bottom: 1px solid red;">COMING SEP 10, 2024 - PRE-ORDER NOW:</p>
       <PurchaseButtons v-bind="bookProps"/>
     </div>
     <div id="staticBlurbs" class="mobile-padding">
@@ -135,7 +135,7 @@ const bookProps = {
     width: 40%;
   }
   .mobile-padding {
-    padding-left: 0;
+    padding-inline: 0;
   }
 }
 </style>
