@@ -160,5 +160,8 @@ const makeItWink = () => {
 .button {
     padding-top: 0;
 }
+.blurb-wrapper {
+    min-width: 500px;
+}
 }
 </style>
