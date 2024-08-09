@@ -40,6 +40,11 @@ const fullTsdBlurbs = [
         title: ``,
     },
     {
+        quote: `"Jamie Quatro is a writer of sinuous, muscular power and grace. Two-Step Devil is a starkly gorgeous story of God and loss and art and love, and her best book yet."`,
+        speaker: `Lauren Groff`,
+        title: `The Vaster Wilds`,
+    },
+    {
         quote: `"In this spellbinding story of good and evil, revelation and madness, Jamie Quatro ponders all the ways in which innocence and vulnerability can be exploited in a culture that deliberately turns from human suffering. Beautiful and brave and brilliant, shot through with mystery and love, Two-Step Devil is a novel that only Jamie Quatro could have written — and only, I suspect, with an angel peering over her shoulder."`,
         speaker: `Margaret Renkl`,
         title: `The Comfort of Crows`,
