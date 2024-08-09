@@ -44,11 +44,6 @@ const fullTsdBlurbs = [
         speaker: `Margaret Renkl`,
         title: `The Comfort of Crows`,
     },
-    // {
-    //     quote: `"Jamie Quatro is a writer of sinuous, muscular power and grace. Two-Step Devil is a starkly gorgeous story of God and loss and art and love, and her best book yet."`,
-    //     speaker: `Lauren Groff`,
-    //     title: `The Vaster Wilds`,
-    // },
     {
         quote: `"Reading this novel is like holding on to a live wire. Jamie Quatro is the real thing. The music of these sentences lights my hair on fire."`,
         speaker: `Garth Greenwell`,
@@ -82,6 +77,11 @@ const fullTsdBlurbs = [
 ].map(b => ({ ...b, quote: italicizeTwoDevil(b.quote) })) satisfies readonly Blurb[];
 
 const shortenedTsdBlurbs = [
+    {
+        quote: `"Brilliantly paced and exquisitely detailed, this striking novel takes on such weighty themes as faith, humanity, and frailty without a touch of melodrama . . . A spectacular masterpiece.”`,
+        speaker: `Booklist, starred review`,
+        title: ``,
+    },
     {
         quote: `"Quatro daringly explores the evils and mercies, large and small, that steer the courses of human lives. A searing and innovative allegory for our turbulent times.”`,
         speaker: `Kirkus Reviews`,
