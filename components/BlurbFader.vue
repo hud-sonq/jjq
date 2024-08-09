@@ -20,8 +20,8 @@
 <script setup lang="ts">
 import { shortenedTsdBlurbs } from '~/public/constants.js';
 
+const blurb = ref(shortenedTsdBlurbs[0]);
 let currentIdx = Math.floor(Math.random() * shortenedTsdBlurbs.length);
-const blurb = ref(shortenedTsdBlurbs[currentIdx]);
 // let currentIdx = 0;
 
 let intervalId: NodeJS.Timeout;
@@ -53,7 +53,7 @@ const nextQuote = () => {
 };
 
 onMounted(() => {
-    intervalId = setInterval(nextQuote, 6000);
+    intervalId = setInterval(nextQuote, 7000);
 });
 
 onBeforeUnmount(() => {
