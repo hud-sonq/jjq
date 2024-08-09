@@ -35,6 +35,11 @@ const fullTsdBlurbs = [
         title: ``,
     },
     {
+        quote: `Quatro’s prose ranks among the best Southern writing . . . Quatro excels at getting the hairs on your arms to stand on end, if not through narrative suspense, then through the radical nature of her narrative aim . . . Without question, Quatro is a pioneering writer for a new South, our patron saint of Southern discomfort.”`,
+        speaker: `BookPage`,
+        title: ``,
+    },
+    {
         quote: `"In this spellbinding story of good and evil, revelation and madness, Jamie Quatro ponders all the ways in which innocence and vulnerability can be exploited in a culture that deliberately turns from human suffering. Beautiful and brave and brilliant, shot through with mystery and love, Two-Step Devil is a novel that only Jamie Quatro could have written — and only, I suspect, with an angel peering over her shoulder."`,
         speaker: `Margaret Renkl`,
         title: `The Comfort of Crows`,
@@ -80,6 +85,11 @@ const shortenedTsdBlurbs = [
     {
         quote: `"Quatro daringly explores the evils and mercies, large and small, that steer the courses of human lives. A searing and innovative allegory for our turbulent times.”`,
         speaker: `Kirkus Reviews`,
+        title: ``,
+    },
+    {
+        quote: `“Without question, Quatro is a pioneering writer for a new South, our patron saint of Southern discomfort.”`,
+        speaker: `BookPage`,
         title: ``,
     },
     {
