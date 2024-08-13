@@ -325,7 +325,7 @@ const events = [
         date: '9/24',
         city: 'Spartanburg, SC',
         name: 'Hub City Books',
-        optionalLink: 'https://hubcity.org/events',
+        optionalLink: 'https://www.eventbrite.com/e/jamie-quatro-reading-signing-tickets-989050575897',
     },
     {
         date: '10/3',
