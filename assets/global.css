@@ -51,6 +51,17 @@ p {
     cursor: pointer;
     width: fit-content;
 }
+
+.hyperlink--non-italic {
+    color: #669be5;
+    cursor: pointer;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.hyperlink--non-italic:hover {
+    text-decoration: underline;
+}
   
 .hyperlink:hover {
     text-decoration: underline;
@@ -71,3 +82,10 @@ p {
         right: 15%;
     }
 }
+
+@media(max-width: 850px) {
+    .hyperlink--non-italic {
+        text-decoration: underline;
+    }
+}
+

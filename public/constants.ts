@@ -17,6 +17,11 @@ type anotherWork = {
     link: string;
 }
 
+type News = {
+    title: string;
+    link: string;
+}
+
 export const italicizeTwoDevil = textAutoFormat('Two-Step Devil', 'i');
 export const italicizeFireSermon = textAutoFormat('Fire Sermon', 'i');
 export const italicizeSym = textAutoFormat('I Want to Show You More', 'i');
@@ -486,4 +491,12 @@ const nonFiction = [
     },
 ].map(b => ({ ...b, title: italicizeHemispheres(italicizeLocalSouls(b.title)) })) satisfies readonly anotherWork[];
 
-export { fullTsdBlurbs, shortenedTsdBlurbs, fsBlurbs, symBlurbs, events, shortFiction, nonFiction};
+const allNews = [
+    {
+        title: 'On the cover design for Two-Step Devil',
+        link: 'https://groveatlantic.com/two-step-devil-cover/',
+        special: 'cover design'
+    },
+]
+
+export { allNews, fullTsdBlurbs, shortenedTsdBlurbs, fsBlurbs, symBlurbs, events, shortFiction, nonFiction};
