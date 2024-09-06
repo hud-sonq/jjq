@@ -497,6 +497,11 @@ const allNews = [
         link: 'https://groveatlantic.com/two-step-devil-cover/',
         special: 'cover design'
     },
+    {
+        title: `“Literature and Belief: The Courageous Grace of Jamie Quatro”`,
+        link: 'https://comment.org/literature-and-belief/',
+        special: `“Literature and Belief: The Courageous Grace of Jamie Quatro”`
+    },
 ]
 
 export { allNews, fullTsdBlurbs, shortenedTsdBlurbs, fsBlurbs, symBlurbs, events, shortFiction, nonFiction};

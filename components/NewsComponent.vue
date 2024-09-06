@@ -17,9 +17,9 @@
 import { allNews } from '~/public/constants.js';
 
 const formatTitle = (title: string, special: string, link: string, isItalic: boolean): string => {
-const [before, after] = title.split(special);
-const hyperlinkClass = isItalic ? 'hyperlink' : 'hyperlink--non-italic';
-return `${before}<a class="${hyperlinkClass}" href="${link}" target="_blank">${special}</a>${after}`;
+    const [before, after] = title.split(special);
+    const hyperlinkClass = isItalic ? 'hyperlink' : 'hyperlink--non-italic';
+    return `${before}<a class="${hyperlinkClass}" href="${link}" target="_blank">${special}</a>${after}`;
 }
 </script>
   
