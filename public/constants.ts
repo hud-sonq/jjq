@@ -502,6 +502,21 @@ const allNews = [
         link: 'https://comment.org/literature-and-belief/',
         special: `“Literature and Belief: The Courageous Grace of Jamie Quatro”`
     },
+    {
+        title: 'Sam Sacks reviews Two-Step Devil in the Wall Street Journal',
+        link: 'https://www.wsj.com/arts-culture/books/fiction-jamie-quatros-two-step-devil-1a876bda',
+        special: 'in the Wall Street Journal'
+    },
+    {
+        title: 'Two-Step Devil reviewed in the Atlanta Journal-Constitution',
+        link: 'https://www.ajc.com/things-to-do/arts-culture/jamie-quatros-two-step-devil-explores-the-dual-nature-of-good-and-evil/VUYGREEGBVAILIXMIMSSSI2OGQ/',
+        special: 'reviewed in the Atlanta Journal-Constitution'
+    },
+    {
+        title: 'Hamilton Cain reviews TSD for Chapter 16',
+        link: 'https://chapter16.org/a-man-of-the-book/',
+        special: 'reviews TSD for Chapter 16'
+    },
 ]
 
 export { allNews, fullTsdBlurbs, shortenedTsdBlurbs, fsBlurbs, symBlurbs, events, shortFiction, nonFiction};
