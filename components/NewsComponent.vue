@@ -6,7 +6,7 @@
         <div class="news-list-container">
         <div class="news-item" v-for="(news, index) in allNews" :key="index">
             <p>
-            <span v-html="formatTitle(news.title, news.special, news.link, false)"></span> <!-- false for non-italic -->
+            <span v-html="formatTitle(news.title, news.special, news.link, news.isItalic)"></span> <!-- false for non-italic -->
             </p>
         </div>
         </div>

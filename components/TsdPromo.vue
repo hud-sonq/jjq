@@ -5,7 +5,7 @@
         <img src="/img/tsd/book_compressed.png">
       </div>
       <div id="buttonsBetween">
-        <p style="border-bottom: 1px solid red;">PRE-ORDER NOW:</p>
+        <p style="border-bottom: 1px solid red;">ORDER NOW:</p>
         <PurchaseButtons v-bind="bookProps" />
       </div>
       <div class="tsd-content">
@@ -20,7 +20,7 @@
       </div>
     </div>
     <div id="buttonsBelow">
-      <p style="border-bottom: 1px solid red;">COMING SEP 10, 2024 - PRE-ORDER NOW:</p>
+      <p style="border-bottom: 1px solid red;">ORDER NOW:</p>
       <PurchaseButtons v-bind="bookProps"/>
     </div>
     <div id="staticBlurbs" class="mobile-padding">

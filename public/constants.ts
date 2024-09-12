@@ -495,27 +495,50 @@ const allNews = [
     {
         title: 'On the cover design for Two-Step Devil',
         link: 'https://groveatlantic.com/two-step-devil-cover/',
-        special: 'cover design'
+        special: 'cover design',
+        isItalic: false
     },
     {
         title: `“Literature and Belief: The Courageous Grace of Jamie Quatro”`,
         link: 'https://comment.org/literature-and-belief/',
-        special: `“Literature and Belief: The Courageous Grace of Jamie Quatro”`
+        special: `“Literature and Belief: The Courageous Grace of Jamie Quatro”`,
+        isItalic: false
     },
     {
         title: 'Sam Sacks reviews Two-Step Devil in the Wall Street Journal',
         link: 'https://www.wsj.com/arts-culture/books/fiction-jamie-quatros-two-step-devil-1a876bda',
-        special: 'in the Wall Street Journal'
+        special: 'in the Wall Street Journal',
+        isItalic: false
     },
     {
         title: 'Two-Step Devil reviewed in the Atlanta Journal-Constitution',
         link: 'https://www.ajc.com/things-to-do/arts-culture/jamie-quatros-two-step-devil-explores-the-dual-nature-of-good-and-evil/VUYGREEGBVAILIXMIMSSSI2OGQ/',
-        special: 'reviewed in the Atlanta Journal-Constitution'
+        special: 'reviewed in the Atlanta Journal-Constitution',
+        isItalic: false
     },
     {
         title: 'Hamilton Cain reviews TSD for Chapter 16',
         link: 'https://chapter16.org/a-man-of-the-book/',
-        special: 'reviews TSD for Chapter 16'
+        special: 'reviews TSD for Chapter 16',
+        isItalic: false
+    },
+    {
+        title: 'New York Times review of TSD',
+        link: 'https://www.nytimes.com/2024/09/10/books/review/two-step-devil-jamie-quatro.html',
+        special: 'New York Times',
+        isItalic: true
+    },
+    {
+        title: 'Washington Post review of TSD',
+        link: 'https://www.washingtonpost.com/books/2024/09/11/two-step-devil-jamie-quatro-review/',
+        special: 'Washington Post',
+        isItalic: true
+    },
+    {
+        title: 'Quatro appears on Chattanooga’s NPR station, WUTC',
+        link: 'https://www.wutc.org/podcast/scenic-roots/2024-09-09/chattanoogas-jamie-quatro-on-her-latest-novel-two-step-devil',
+        special: `Chattanooga’s NPR station`,
+        isItalic: false
     },
 ]
 
