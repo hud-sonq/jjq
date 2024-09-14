@@ -30,6 +30,41 @@ export const italicizeLocalSouls= textAutoFormat('Local Souls', 'i');
 
 const fullTsdBlurbs = [
     {
+        quote: `“Just as the Prophet makes art out of detritus, Quatro alchemizes gloomy subject matter into transcendent beauty . . . Quatro writes with the musicality and command of a mystic poet. Her sentences are also propulsive; the novel is a page-turner that leaves readers feeling deeply invested in the fates of the Prophet and Michael, individually and together . . . Theologically avant-garde and emotionally supple, Two-Step Devil is a Southern Gothic novel for fans of Denis Johnson, Frank Stanford and Wendell Berry. Like her forebears, Quatro wrestles with what it might look like to find and embrace a living faith in the modern world.” `,
+        speaker: `New York Times`,
+        title: ``,
+    },
+    {
+        quote: `“Two-Step Devil is in part an unusual father-daughter story, as Ms. Quatro embroiders a fragile and very sweet relationship between the outcasts . . . Intimately evoked . . . Ms. Quatro is a rare novelist for whom a religious belief in good and evil is not merely a plot device but a genuine guide to describing reality.”`,
+        speaker: `Wall Street Journal`,
+        title: ``,
+    },
+    {
+        quote: `“In Jamie Quatro’s fiction, a person is a burning thing: a voracious creature, hot with emotional, sexual and spiritual needs; prey to the squalid demands of embodied existence...I can’t shake the sense that the pages feel warm to the touch. I see, in my mind’s eye, her sentences threaded with muscle and sinew, letters glistening with sweat and blood . . . Across Quatro’s oeuvre, there is no forgetting that selfhood is material: pulp and tissue and cuts . . . If Quatro has written a song for the frail fleshsack, she has, too, intimated humanity’s cowardice in storytelling, the entwined ‘horrific and beautiful’ realities we balk at, and in desperate self-preservation, refuse to witness.”`,
+        speaker: `Washington Post`,
+        title: ``,
+    },
+    {
+        quote: `“There are faint echoes of Cormac McCarthy and Dennis Covington’s Salvation on Sand Mountain. But like the Prophet’s singular visions, her literary meditations are hers and hers alone: Two-Step Devil quickens suspense right through to the last page, her sentences taut yet beautifully made, her political content subtle, her compassion resonant.”`,
+        speaker: `Chapter 16`,
+        title: ``,
+    },
+    {
+        quote: `“A gripping tale that plays with form as much as point-of-view to deliver an enrapturing story. This blistering yet tender work of speculative fiction does not seek to condemn, but instead expands the conversation into the dark crevices where religious zealotry and mental health meet the perceptions of good and evil.”`,
+        speaker: `Atlanta Journal Constitution`,
+        title: ``,
+    },
+    {
+        quote: `“Quatro’s theological seriousness is convincing because she imbeds it in so much lyricism—and because it is never cheap . . . Against oceanic feelings and collective creeds, literary fiction pitches specific encounter, particular hope, embodied grace. In three books that feel both fearless and forgiving, Jamie Quatro has made religious belief live because she let religious belief struggle. In doing so, she put it all together."`,
+        speaker: `Comment Magazine`,
+        title: ``,
+    },
+    {
+        quote: `"We find ourselves clinging to visions of success and hope but are confronted by reality, and this juxtaposition is what makes Two-Step Devil not only a darkly humorous and insightful novel, but a dramatic tragedy...While Quatro’s novel is short, its diversity of narrative techniques and detailed character portraits make the story feel well-rounded and robust ... Quatro chooses a nuanced portrait focusing on inner humanity, rather than a purely voyeuristic or charitable approach. If there is an answer to the rural American question in terms of politics and representation, Quatro does not pose it, but she does shed light on the impact of years of ignorance, and how those we choose to ignore will nevertheless persist."`,
+        speaker: `Chicago Review of Books`,
+        title: ``,
+    },
+    {
         quote: `"Quatro reckons with faith and the nature of evil in her daring and disturbing latest . . . It's hard to turn away from Quatro's electrifying vision."`,
         speaker: `Publishers Weekly`,
         title: ``,
