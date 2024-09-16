@@ -575,6 +575,12 @@ const allNews = [
         special: `Chattanooga’s NPR station`,
         isItalic: false
     },
+    {
+        title: 'Interview with Nick Ripatrazone at Image Journal',
+        link: 'https://imagejournal.org/article/web-exclusive-a-conversation-with-jamie-quatro/',
+        special: `Interview with Nick Ripatrazone`,
+        isItalic: false
+    },
 ]
 
 export { allNews, fullTsdBlurbs, shortenedTsdBlurbs, fsBlurbs, symBlurbs, events, shortFiction, nonFiction};
