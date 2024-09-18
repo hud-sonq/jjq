@@ -581,6 +581,12 @@ const allNews = [
         special: `Interview with Nick Ripatrazone`,
         isItalic: false
     },
+    {
+        title: 'Quatro appears on the Across the Pond podcast',
+        link: 'https://www.interabangbooks.com/article/across-pond-ep-94-jamie-quatro-two-step-devil',
+        special: `Across the Pond`,
+        isItalic: false
+    },
 ]
 
 export { allNews, fullTsdBlurbs, shortenedTsdBlurbs, fsBlurbs, symBlurbs, events, shortFiction, nonFiction};
