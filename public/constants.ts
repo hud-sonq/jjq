@@ -386,6 +386,12 @@ const events = [
         optionalLink: 'https://www.sofestofbooks.org/',
     },
     {
+        date: '11/7',
+        city: 'Tallahassee, FL',
+        name: 'FSU + Midtown Reader',
+        optionalLink: 'https://www.midtownreader.com/event',
+    },
+    {
         date: '11/16 - 11/17',
         city: 'Austin, TX',
         name: 'Texas Book Festival',
@@ -583,7 +589,7 @@ const allNews = [
     },
     {
         title: 'Quatro appears on the Across the Pond podcast',
-        link: 'https://www.interabangbooks.com/article/across-pond-ep-94-jamie-quatro-two-step-devil',
+        link: 'https://x.com/across_the_pod/status/1836163586286080491',
         special: `Across the Pond`,
         isItalic: false
     },
