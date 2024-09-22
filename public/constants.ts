@@ -123,6 +123,11 @@ const fullTsdBlurbs = [
 
 const shortenedTsdBlurbs = [
     {
+        quote: `"Quatro writes with the musicality and command of a mystic poet.”`,
+        speaker: `New York Times`,
+        title: ``,
+    },
+    {
         quote: `"Brilliantly paced and exquisitely detailed, this striking novel takes on such weighty themes as faith, humanity, and frailty without a touch of melodrama . . . A spectacular masterpiece.”`,
         speaker: `Booklist, starred review`,
         title: ``,
@@ -589,8 +594,8 @@ const allNews = [
     },
     {
         title: 'Quatro appears on the Across the Pond podcast',
-        link: 'https://x.com/across_the_pod/status/1836163586286080491',
-        special: `Across the Pond`,
+        link: ``,
+        special: ``,
         isItalic: false
     },
 ]
