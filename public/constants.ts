@@ -123,7 +123,7 @@ const fullTsdBlurbs = [
 
 const shortenedTsdBlurbs = [
     {
-        quote: `"Quatro writes with the musicality and command of a mystic poet.”`,
+        quote: `"Quatro writes with the musicality and command of a mystic poet . . . Her sentences are also propulsive; the novel is a page-turner that leaves readers feeling deeply invested in the fates of the Prophet and Michael”`,
         speaker: `New York Times`,
         title: ``,
     },
