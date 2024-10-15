@@ -80,6 +80,16 @@ const fullTsdBlurbs = [
         title: ``,
     },
     {
+        quote: `“An electrifying, ambitious work.”`,
+        speaker: `Soujourners`,
+        title: ``,
+    },
+    {
+        quote: `“…full of surprises, both literary and emotional, and culminates in an ending that would be well-praised by [Flannery] O’Connor herself."`,
+        speaker: `Catholic Herald`,
+        title: ``,
+    },
+    {
         quote: `"Jamie Quatro is a writer of sinuous, muscular power and grace. Two-Step Devil is a starkly gorgeous story of God and loss and art and love, and her best book yet."`,
         speaker: `Lauren Groff`,
         title: `The Vaster Wilds`,
@@ -408,6 +418,12 @@ const events = [
         name: 'Miami Book Fair',
         optionalLink: 'https://www.miamibookfair.com/',
     },
+    {
+        date: '3/15/25 - 3/16/25',
+        city: 'Tucson, AZ',
+        name: 'Tucson Festival of Books',
+        optionalLink: 'https://tucsonfestivalofbooks.org/',
+    },
 ] 
 
 const shortFiction = [
@@ -596,6 +612,18 @@ const allNews = [
         title: 'Quatro appears on the Across the Pond podcast',
         link: ``,
         special: ``,
+        isItalic: false
+    },
+    {
+        title: 'Interview with Sara Hildreth at FictionMatters',
+        link: `https://fictionmatters.substack.com/p/writing-in-public-jamie-quatro-on?r=3fgzf&utm_medium=ios&triedRedirect=true`,
+        special: `Interview with Sara Hildreth at FictionMatters`,
+        isItalic: false
+    },
+    {
+        title: 'Quatro on devil depictions in literature',
+        link: `https://lithub.com/satanic-sympathies-on-the-demon-depictions-that-helped-jamie-quarto-write-two-step-devil/`,
+        special: `Quatro on devil depictions in literature`,
         isItalic: false
     },
 ]

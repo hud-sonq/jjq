@@ -75,7 +75,7 @@
   max-height: 100%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
 
   #aboutContainer {
     height: 100%;
