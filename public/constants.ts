@@ -325,63 +325,6 @@ const events = [
 //     name: '',
 //     optionalLink: '',
 // }
-// {
-//     date: '6/26',
-//     // name: 'Two-Step Devil Reading (with Ryan Chapman and Tiana Clark)',
-//     // time: '4:30PM - 5:30PM, Gailor Hall, Sewanee',
-//     city: 'Sewanee, TN',
-//     name: 'Reading',
-//     optionalLink: 'https://letters.sewanee.edu/literary-community/guest-lectures/',
-// },
-    {
-        date: '7/21 - 7/27',
-        city: 'Seattle, WA',
-        name: 'The Glen Workshops',
-        optionalLink: 'https://imagejournal.org/2024-the-glen-workshop-classes-fiction/',
-    },
-    {
-        date: '8/8 - 8/11',
-        city: 'Alexandria, VA',
-        name: 'NAIBA / SIBA',
-        optionalLink: 'https://newvoicesnewrooms.org/',
-    },
-    {
-        date: '9/10',
-        city: 'Chattanooga, TN',
-        name: 'Two-Step Devil LAUNCH!',
-        optionalLink: 'https://givebutter.com/two-step-devil',
-        tickets: true,
-    },
-    {
-        date: '9/14',
-        city: 'Jackson, MS',
-        name: 'Mississippi Book Festival',
-        optionalLink: 'https://msbookfestival.com/authors/panelists',
-    },
-    {
-        date: '9/16',
-        city: 'Oxford, MS',
-        name: 'Square Books',
-        optionalLink: 'https://www.squarebooks.com/event/square-books-presents-conversation-minrose-gwin-jamie-quatro',
-    },
-    {
-        date: '9/18',
-        city: 'Gainesville, FL',
-        name: 'The Lynx (w/ Lauren Groff)',
-        optionalLink: 'https://thelynxbooks.com/events',
-    },
-    {
-        date: '9/20',
-        city: 'Knoxville, TN',
-        name: 'Union Ave. Books @ Church of the Ascension (w/ Bishop Brian Cole)',
-        optionalLink: 'https://www.unionavebooks.com/event/author-event-jamie-quatro',
-    },
-    {
-        date: '9/24',
-        city: 'Spartanburg, SC',
-        name: 'Hub City Books',
-        optionalLink: 'https://www.eventbrite.com/e/jamie-quatro-reading-signing-tickets-989050575897',
-    },
     {
         date: '10/3',
         city: 'Brooklyn, NY',
