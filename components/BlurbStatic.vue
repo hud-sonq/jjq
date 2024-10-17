@@ -1,6 +1,6 @@
 <template>
     <div id="blurbContainer">
-        <p style="font-size: 24px; font-weight: bold; text-align: center;">PRAISE FOR <span style="font-size: 24px; font-weight: bold; font-style: italic;">TWO-STEP DEVIL</span>, ONE OF LITHUB’S MOST ANTICIPATED BOOKS OF 2024:</p>
+        <p style="font-size: 24px; font-weight: bold; text-align: center;">PRAISE FOR <span style="font-size: 24px; font-weight: bold; font-style: italic;">TWO-STEP DEVIL</span>, A NEW YORK TIMES EDITOR’S CHOICE</p>
         <div class="single-blurb" v-for="{ quote, speaker, title } in fullTsdBlurbs" :key="quote">
             <p style="text-align: left;">
                 <span v-html="quote"></span>
@@ -29,6 +29,10 @@ import { fullTsdBlurbs } from '~/public/constants.js';
     justify-content: center;
     align-items: center;
     padding-bottom: 64px;
+}
+
+.single-blurb {
+   align-self: flex-start;;
 }
 
 @media (min-width: 768px) {
