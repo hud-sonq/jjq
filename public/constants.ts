@@ -65,6 +65,11 @@ const fullTsdBlurbs = [
         title: ``,
     },
     {
+        quote: `“Two-Step Devil is powerful in a manner that balances extremes — quiet moments, horrific violence, heartbreak, joy, self-discovery and fate. Both Winston and Michael are very finely drawn and totally unforgettable, set in a tale that is timely and timeless. The Prophet’s life work...is fascinating and frightening, gentle and commanding. Michael is singular, but still her story is all too familiar. Quatro’s book is emotionally difficult, incredibly compelling and always beautiful. She has penned a novel of dark realism and dreamy insight, struggle and possibility."`,
+        speaker: `Book Reporter`,
+        title: ``,
+    },
+    {
         quote: `"Quatro reckons with faith and the nature of evil in her daring and disturbing latest . . . It's hard to turn away from Quatro's electrifying vision."`,
         speaker: `Publishers Weekly`,
         title: ``,
