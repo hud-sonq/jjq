@@ -90,6 +90,11 @@ const fullTsdBlurbs = [
         title: ``,
     },
     {
+        quote: `"I am in awe of Jamie Quatro's genius tonal calibrations and miraculous conjurations, her firm and delicate grasp of her characters' mysterious natures and overlapping struggles, their doubt-raddled, faithfully beating hearts. I was so moved by the Prophet's thorny goodness and Michael's strong life-wish. I found Two-Step Devil wickedly funny, endlessly surprising, and sublime."`,
+        speaker: `Karen Russell`,
+        title: `Orange World`,
+    },
+    {
         quote: `“…full of surprises, both literary and emotional, and culminates in an ending that would be well-praised by [Flannery] O’Connor herself."`,
         speaker: `Catholic Herald`,
         title: ``,
@@ -146,6 +151,11 @@ const shortenedTsdBlurbs = [
         quote: `"Brilliantly paced and exquisitely detailed, this striking novel takes on such weighty themes as faith, humanity, and frailty without a touch of melodrama . . . A spectacular masterpiece.”`,
         speaker: `Booklist, starred review`,
         title: ``,
+    },
+    {
+        quote: `"I am in awe of Jamie Quatro's genius tonal calibrations and miraculous conjurations … I found Two-Step Devil wickedly funny, endlessly surprising, and sublime."`,
+        speaker: `Karen Russel`,
+        title: `Orange World`,
     },
     {
         quote: `"Quatro daringly explores the evils and mercies, large and small, that steer the courses of human lives. A searing and innovative allegory for our turbulent times.”`,
@@ -573,6 +583,18 @@ const allNews = [
         link: `https://lithub.com/satanic-sympathies-on-the-demon-depictions-that-helped-jamie-quarto-write-two-step-devil/`,
         special: `Quatro on devil depictions in literature`,
         isItalic: false
+    },
+    {
+        title: 'Interview in The New Yorker',
+        link: `https://www.newyorker.com/books/this-week-in-fiction/jamie-quatro-08-07-23`,
+        special: `The New Yorker`,
+        isItalic: true
+    },
+    {
+        title: 'Interview in The Paris Review',
+        link: `https://www.theparisreview.org/blog/2024/03/11/let-me-tell-you-something-a-conversation-with-jamie-quatro/`,
+        special: `The Paris Review`,
+        isItalic: true
     },
 ]
 
