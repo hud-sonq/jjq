@@ -143,6 +143,11 @@ const fullTsdBlurbs = [
 
 const shortenedTsdBlurbs = [
     {
+        quote: `"I am in awe of Jamie Quatro's genius tonal calibrations and miraculous conjurations … I found Two-Step Devil wickedly funny, endlessly surprising, and sublime."`,
+        speaker: `Karen Russell`,
+        title: `Orange World`,
+    },
+    {
         quote: `"Quatro writes with the musicality and command of a mystic poet . . . Her sentences are also propulsive; the novel is a page-turner that leaves readers feeling deeply invested in the fates of the Prophet and Michael.”`,
         speaker: `New York Times`,
         title: ``,
@@ -151,11 +156,6 @@ const shortenedTsdBlurbs = [
         quote: `"Brilliantly paced and exquisitely detailed, this striking novel takes on such weighty themes as faith, humanity, and frailty without a touch of melodrama . . . A spectacular masterpiece.”`,
         speaker: `Booklist, starred review`,
         title: ``,
-    },
-    {
-        quote: `"I am in awe of Jamie Quatro's genius tonal calibrations and miraculous conjurations … I found Two-Step Devil wickedly funny, endlessly surprising, and sublime."`,
-        speaker: `Karen Russell`,
-        title: `Orange World`,
     },
     {
         quote: `"Quatro daringly explores the evils and mercies, large and small, that steer the courses of human lives. A searing and innovative allegory for our turbulent times.”`,
