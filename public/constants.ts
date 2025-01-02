@@ -35,6 +35,11 @@ const fullTsdBlurbs = [
         title: ``,
     },
     {
+        quote: `“Jamie Quatro’s Two-Step Devil is the rare contemporary work of fiction that takes the Deep South, with its essentially biblical figures of thought and speech, as seriously as the region should be taken . . . It is a prophetic book about the recent past and I have not read anything like it for a long time.”`,
+        speaker: `The Paris Review`,
+        title: ``,
+    },
+    {
         quote: `“Two-Step Devil is in part an unusual father-daughter story, as Ms. Quatro embroiders a fragile and very sweet relationship between the outcasts . . . Intimately evoked . . . Ms. Quatro is a rare novelist for whom a religious belief in good and evil is not merely a plot device but a genuine guide to describing reality.”`,
         speaker: `Wall Street Journal`,
         title: ``,
@@ -377,10 +382,28 @@ const events = [
         optionalLink: 'https://www.miamibookfair.com/',
     },
     {
+        date: '3/6/25',
+        city: 'Rainsville, AL',
+        name: 'Visiting Writer, NACC',
+        optionalLink: '',
+    },
+    {
         date: '3/15/25 - 3/16/25',
         city: 'Tucson, AZ',
         name: 'Tucson Festival of Books',
         optionalLink: 'https://tucsonfestivalofbooks.org/',
+    },
+    {
+        date: '6/8/25 - 7/19/25',
+        city: 'Sewanee, TN',
+        name: 'Fiction Faculty, Sewanee School of Letters',
+        optionalLink: 'https://letters.sewanee.edu/academic-life/faculty/current-faculty/',
+    },
+    {
+        date: '9/1/25 - 9/30/25',
+        city: 'Ménerbes, France',
+        name: 'Writer-in-Residence, La Maison Dora Maar',
+        optionalLink: 'https://maisondoramaar.org/visit/maison-dora-maar/',
     },
 ] 
 
@@ -513,12 +536,6 @@ const nonFiction = [
 
 const allNews = [
     {
-        title: 'On the cover design for Two-Step Devil',
-        link: 'https://groveatlantic.com/two-step-devil-cover/',
-        special: 'cover design',
-        isItalic: false
-    },
-    {
         title: `“Literature and Belief: The Courageous Grace of Jamie Quatro”`,
         link: 'https://comment.org/literature-and-belief/',
         special: `“Literature and Belief: The Courageous Grace of Jamie Quatro”`,
@@ -595,6 +612,24 @@ const allNews = [
         link: `https://www.theparisreview.org/blog/2024/03/11/let-me-tell-you-something-a-conversation-with-jamie-quatro/`,
         special: `The Paris Review`,
         isItalic: true
+    },
+    {
+        title: 'The Paris Review names Two-Step Devil a Best Book of 2024',
+        link: `https://www.theparisreview.org/blog/2024/12/20/the-best-books-of-2024-according-to-friends-of-the-review-part-two/`,
+        special: `names Two-Step Devil a Best Book of 2024`,
+        isItalic: false
+    },
+    {
+        title: 'Atlanta Journal-Constitution names Two-Step Devil  a Top Ten Book of 2024',
+        link: `https://www.ajc.com/things-to-do/ajc-names-best-southern-books-of-2024/Y4UVB7AVDVBUTKJTZEUAHNQ6N4/`,
+        special: `names Two-Step Devil  a Top Ten Book of 2024`,
+        isItalic: false
+    },
+    {
+        title: 'Two-Step Devil named a Finalist for the Willie Morris Award for Southern Fiction',
+        link: `https://www.williemorrisawards.org/`,
+        special: `Finalist for the Willie Morris Award for Southern Fiction`,
+        isItalic: false
     },
 ]
 
