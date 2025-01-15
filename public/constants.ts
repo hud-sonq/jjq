@@ -478,6 +478,11 @@ const shortFiction = [
 
 const nonFiction = [
     {
+        title: '"Lifelines: On Santa Barbara," ',
+        publisher: 'The Paris Review',
+        link: 'https://www.theparisreview.org/blog/2023/08/25/lifelines-on-santa-barbara/',
+    },
+    {
         title: 'Astrid Lindgren’s Stockholm, ',
         publisher: 'Hemispheres',
         link: 'https://www.hemispheresmag.com/the-magazine/',
