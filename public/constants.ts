@@ -548,6 +548,18 @@ const allNews = [
         isItalic: false
     },
     {
+        title: 'New York Times review of TSD',
+        link: 'https://www.nytimes.com/2024/09/10/books/review/two-step-devil-jamie-quatro.html',
+        special: 'New York Times',
+        isItalic: true
+    },
+    {
+        title: 'Washington Post review of TSD',
+        link: 'https://www.washingtonpost.com/books/2024/09/11/two-step-devil-jamie-quatro-review/',
+        special: 'Washington Post',
+        isItalic: true
+    },
+    {
         title: 'Two-Step Devil reviewed in the Atlanta Journal-Constitution',
         link: 'https://www.ajc.com/things-to-do/arts-culture/jamie-quatros-two-step-devil-explores-the-dual-nature-of-good-and-evil/VUYGREEGBVAILIXMIMSSSI2OGQ/',
         special: 'reviewed in the Atlanta Journal-Constitution',
@@ -560,16 +572,28 @@ const allNews = [
         isItalic: false
     },
     {
-        title: 'New York Times review of TSD',
-        link: 'https://www.nytimes.com/2024/09/10/books/review/two-step-devil-jamie-quatro.html',
-        special: 'New York Times',
-        isItalic: true
+        title: 'The Paris Review names Two-Step Devil a Best Book of 2024',
+        link: `https://www.theparisreview.org/blog/2024/12/20/the-best-books-of-2024-according-to-friends-of-the-review-part-two/`,
+        special: `names Two-Step Devil a Best Book of 2024`,
+        isItalic: false
     },
     {
-        title: 'Washington Post review of TSD',
-        link: 'https://www.washingtonpost.com/books/2024/09/11/two-step-devil-jamie-quatro-review/',
-        special: 'Washington Post',
-        isItalic: true
+        title: 'Atlanta Journal-Constitution names Two-Step Devil  a Top Ten Book of 2024',
+        link: `https://www.ajc.com/things-to-do/ajc-names-best-southern-books-of-2024/Y4UVB7AVDVBUTKJTZEUAHNQ6N4/`,
+        special: `names Two-Step Devil  a Top Ten Book of 2024`,
+        isItalic: false
+    },
+    {
+        title: 'Two-Step Devil named a Finalist for the Willie Morris Award for Southern Fiction',
+        link: `https://www.williemorrisawards.org/`,
+        special: `Finalist for the Willie Morris Award for Southern Fiction`,
+        isItalic: false
+    },
+    {
+        title: 'Jill Wilson at Winnipeg Free Press names Two-Step Devil her favorite book of 2024',
+        link: `https://www.winnipegfreepress.com/briefings/my-best-of-2024-in-books-music-movies-and-tv`,
+        special: `names Two-Step Devil her favorite book of 2024`,
+        isItalic: false
     },
     {
         title: 'Quatro appears on Chattanooga’s NPR station, WUTC',
@@ -612,24 +636,6 @@ const allNews = [
         link: `https://www.theparisreview.org/blog/2024/03/11/let-me-tell-you-something-a-conversation-with-jamie-quatro/`,
         special: `The Paris Review`,
         isItalic: true
-    },
-    {
-        title: 'The Paris Review names Two-Step Devil a Best Book of 2024',
-        link: `https://www.theparisreview.org/blog/2024/12/20/the-best-books-of-2024-according-to-friends-of-the-review-part-two/`,
-        special: `names Two-Step Devil a Best Book of 2024`,
-        isItalic: false
-    },
-    {
-        title: 'Atlanta Journal-Constitution names Two-Step Devil  a Top Ten Book of 2024',
-        link: `https://www.ajc.com/things-to-do/ajc-names-best-southern-books-of-2024/Y4UVB7AVDVBUTKJTZEUAHNQ6N4/`,
-        special: `names Two-Step Devil  a Top Ten Book of 2024`,
-        isItalic: false
-    },
-    {
-        title: 'Two-Step Devil named a Finalist for the Willie Morris Award for Southern Fiction',
-        link: `https://www.williemorrisawards.org/`,
-        special: `Finalist for the Willie Morris Award for Southern Fiction`,
-        isItalic: false
     },
 ]
 
