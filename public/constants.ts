@@ -541,6 +541,12 @@ const nonFiction = [
 
 const allNews = [
     {
+        title: `Two-Step Devil named a 2025 ALA Notable Book`,
+        link: 'https://rusaupdate.org/2025/01/2025-notable-books-list-announced-years-best-in-fiction-nonfiction-and-poetry//',
+        special: `Two-Step Devil named a 2025 ALA Notable Book`,
+        isItalic: false
+    },
+    {
         title: `“Literature and Belief: The Courageous Grace of Jamie Quatro”`,
         link: 'https://comment.org/literature-and-belief/',
         special: `“Literature and Belief: The Courageous Grace of Jamie Quatro”`,
