@@ -27,12 +27,12 @@
             <span style="font-size: 1.2rem; font-style: italic;">Times Literary Supplement</span>
             . Her most recent novel,
             <span style="font-size: 1.2rem; font-style: italic;"> Two-Step Devil</span>
-            , has been named a 
+            , is the winner of the 2024 Willie Morris Award for Southern writing. It has also been named a 
             <span style="font-size: 1.2rem; font-style: italic;">New York Times</span>
-            Editor's Choice, a 2025 ALA Notable Book, a Best Book of 2024 by the 
+            Editor's Choice, a 2025 ALA Notable Book, and a Best Book of 2024 by the 
             <span style="font-size: 1.2rem; font-style: italic;"> Paris Review </span>
             and the
-            <span style="font-size: 1.2rem; font-style: italic;"> Atlanta Journal Constitution</span>, and a Finalist for the Willie Morris Award for Southern Writing. A new story collection is forthcoming from Grove Press.
+            <span style="font-size: 1.2rem; font-style: italic;"> Atlanta Journal Constitution</span>. A new story collection is forthcoming from Grove Press.
           </span>
         </div>
         <div style="padding-bottom: 10px">

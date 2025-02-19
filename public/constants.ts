@@ -541,6 +541,12 @@ const nonFiction = [
 
 const allNews = [
     {
+        title: `Two-Step Devil wins the 2024 Willie Morris Award for Southern Writing`,
+        link: 'https://olemiss.edu/news/2025/2/willie-morris-awards-2025/index.html',
+        special: `Two-Step Devil wins the 2024 Willie Morris Award for Southern Writing`,
+        isItalic: false
+    },
+    {
         title: `Two-Step Devil named a 2025 ALA Notable Book`,
         link: 'https://rusaupdate.org/2025/01/2025-notable-books-list-announced-years-best-in-fiction-nonfiction-and-poetry//',
         special: `Two-Step Devil named a 2025 ALA Notable Book`,
@@ -594,12 +600,12 @@ const allNews = [
         special: `names Two-Step Devil  a Top Ten Book of 2024`,
         isItalic: false
     },
-    {
-        title: 'Two-Step Devil named a Finalist for the Willie Morris Award for Southern Fiction',
-        link: `https://www.williemorrisawards.org/`,
-        special: `Finalist for the Willie Morris Award for Southern Fiction`,
-        isItalic: false
-    },
+    // {
+    //     title: 'Two-Step Devil named a Finalist for the Willie Morris Award for Southern Fiction',
+    //     link: `https://www.williemorrisawards.org/`,
+    //     special: `Finalist for the Willie Morris Award for Southern Fiction`,
+    //     isItalic: false
+    // },
     {
         title: 'Jill Wilson at Winnipeg Free Press names Two-Step Devil her favorite book of 2024',
         link: `https://www.winnipegfreepress.com/briefings/my-best-of-2024-in-books-music-movies-and-tv`,
