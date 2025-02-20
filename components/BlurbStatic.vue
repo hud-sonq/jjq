@@ -1,6 +1,6 @@
 <template>
     <div id="blurbContainer">
-        <p style="font-size: 24px; font-weight: bold; text-align: center;">PRAISE FOR <span style="font-size: 24px; font-weight: bold; font-style: italic;">TWO-STEP DEVIL</span>, A NEW YORK TIMES EDITOR’S CHOICE AND FINALIST FOR THE WILLIE MORRIS AWARD</p>
+        <p style="font-size: 24px; font-weight: bold; text-align: center;">PRAISE FOR <span style="font-size: 24px; font-weight: bold; font-style: italic;">TWO-STEP DEVIL</span>, A NEW YORK TIMES EDITOR’S CHOICE AND WINNER OF THE WILLIE MORRIS AWARD FOR SOUTHERN WRITING</p>
         <div class="single-blurb" v-for="{ quote, speaker, title } in fullTsdBlurbs" :key="quote">
             <p style="text-align: left;">
                 <span v-html="quote"></span>
