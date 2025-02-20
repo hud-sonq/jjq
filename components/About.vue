@@ -10,24 +10,21 @@
             Jamie Quatro is the 
             <a class="hyperlink" href="https://www.nytimes.com/2013/03/24/books/review/i-want-to-show-you-more-by-jamie-quatro.html" target="_blank">New York Times Notable</a> 
             author of 
-            <a class="hyperlink" href="https://www.newyorker.com/magazine/2013/03/11/broken-vows" target="_blank">I Want to Show You More</a>
-            , a finalist for the 
+            <a class="hyperlink" href="https://www.newyorker.com/magazine/2013/03/11/broken-vows" target="_blank">I Want to Show You More</a>,
+            a finalist for the 
             <span style="font-size: 1.2rem; font-style: italic;" >Los Angeles Times</span> 
             Art Seidenbaum Award and the National Book Critics Circle’s John Leonard Prize, and 
-            <a class="hyperlink" href="https://www.nytimes.com/2018/02/06/books/review/fire-sermon-jamie-quatro.html" target="_blank">Fire Sermon</a>
-            , a Book of the Year for the 
-            <span style="font-size: 1.2rem; font-style: italic;">Economist</span>
-            , 
-            <a class="hyperlink" href="https://www.sfgate.com/books/article/Fire-Sermon-by-Jamie-Quatro-12494379.php" target="_blank">San Francisco Chronicle</a>
-            , 
-            <span style="font-size: 1.2rem; font-style: italic;">LitHub</span>
-            , 
-            <span style="font-size: 1.2rem; font-style: italic;">Bloomberg</span>
-            , and the 
-            <span style="font-size: 1.2rem; font-style: italic;">Times Literary Supplement</span>
-            . Her most recent novel,
-            <span style="font-size: 1.2rem; font-style: italic;"> Two-Step Devil</span>
-            , is the winner of the 2024 Willie Morris Award for Southern writing. It has also been named a 
+            <a class="hyperlink" href="https://www.nytimes.com/2018/02/06/books/review/fire-sermon-jamie-quatro.html" target="_blank">Fire Sermon</a>, 
+            a Book of the Year for the 
+            <span style="font-size: 1.2rem; font-style: italic;">Economist</span>, 
+            <a class="hyperlink" href="https://www.sfgate.com/books/article/Fire-Sermon-by-Jamie-Quatro-12494379.php" target="_blank">San Francisco Chronicle</a>, 
+            <span style="font-size: 1.2rem; font-style: italic;">LitHub</span>, 
+            <span style="font-size: 1.2rem; font-style: italic;">Bloomberg</span>, 
+            and the 
+            <span style="font-size: 1.2rem; font-style: italic;">Times Literary Supplement</span>. 
+            Her most recent novel,
+            <span style="font-size: 1.2rem; font-style: italic;"> Two-Step Devil</span>, 
+            is the winner of the 2024 Willie Morris Award for Southern writing. It has also been named a 
             <span style="font-size: 1.2rem; font-style: italic;">New York Times</span>
             Editor's Choice, a 2025 ALA Notable Book, and a Best Book of 2024 by the 
             <span style="font-size: 1.2rem; font-style: italic;"> Paris Review </span>
