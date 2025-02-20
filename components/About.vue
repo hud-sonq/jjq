@@ -24,7 +24,7 @@
             <span style="font-size: 1.2rem; font-style: italic;">Times Literary Supplement</span>. 
             Her most recent novel,
             <span style="font-size: 1.2rem; font-style: italic;"> Two-Step Devil</span>, 
-            is the winner of the 2024 Willie Morris Award for Southern writing. It has also been named a 
+            is the winner of the 2024 Willie Morris Award for Southern Writing. It has also been named a 
             <span style="font-size: 1.2rem; font-style: italic;">New York Times</span>
             Editor's Choice, a 2025 ALA Notable Book, and a Best Book of 2024 by the 
             <span style="font-size: 1.2rem; font-style: italic;"> Paris Review </span>
