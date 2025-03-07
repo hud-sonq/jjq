@@ -394,6 +394,12 @@ const events = [
         optionalLink: 'https://tucsonfestivalofbooks.org/',
     },
     {
+        date: '4/1/25 - 4/5/25',
+        city: 'Oxford, MS',
+        name: 'Oxford Conference for the Book',
+        optionalLink: 'https://oxfordconferenceforthebook.com/book-conference-events-kick-off-in-april/',
+    },
+    {
         date: '6/8/25 - 7/19/25',
         city: 'Sewanee, TN',
         name: 'Fiction Faculty, Sewanee School of Letters',
@@ -404,13 +410,7 @@ const events = [
         city: 'Ménerbes, France',
         name: 'Writer-in-Residence, La Maison Dora Maar',
         optionalLink: 'https://maisondoramaar.org/visit/maison-dora-maar/',
-    },
-    {
-        date: '4/1/25 - 4/5/25',
-        city: 'Oxford, MS',
-        name: 'Oxford Conference for the Book',
-        optionalLink: 'https://oxfordconferenceforthebook.com/book-conference-events-kick-off-in-april/',
-    },
+    }
 ] 
 
 const shortFiction = [
