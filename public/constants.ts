@@ -388,9 +388,9 @@ const events = [
         optionalLink: '',
     },
     {
-        date: '3/15/25 - 3/16/25',
+        date: '3/15/25 - 3/19/25',
         city: 'Tucson, AZ',
-        name: 'Tucson Festival of Books',
+        name: 'Tucson Festival of Books / Masters Workshop',
         optionalLink: 'https://tucsonfestivalofbooks.org/',
     },
     {
@@ -404,6 +404,12 @@ const events = [
         city: 'Ménerbes, France',
         name: 'Writer-in-Residence, La Maison Dora Maar',
         optionalLink: 'https://maisondoramaar.org/visit/maison-dora-maar/',
+    },
+    {
+        date: '4/1/25 - 4/5/25',
+        city: 'Oxford, MS',
+        name: 'Oxford Conference for the Book',
+        optionalLink: 'https://oxfordconferenceforthebook.com/book-conference-events-kick-off-in-april/',
     },
 ] 
 
