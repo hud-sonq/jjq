@@ -410,7 +410,20 @@ const events = [
         city: 'Ménerbes, France',
         name: 'Writer-in-Residence, La Maison Dora Maar',
         optionalLink: 'https://maisondoramaar.org/visit/maison-dora-maar/',
-    }
+    },
+    {
+        date: '10/23/25',
+        city: 'Columbia, SC',
+        name: 'Institute for Southern Studies, University of South Carolina',
+        optionalLink: '',
+    },
+    {
+        date: '11/12/25',
+        city: 'Brooklyn, NY',
+        name: `Master Lecture, The Writer's Foundry`,
+        optionalLink: 'https://www.sjny.edu/brooklyn/academics/graduate/graduate-degrees/creative-writing/master-lecturers',
+    },
+
 ] 
 
 const shortFiction = [

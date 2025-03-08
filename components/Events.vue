@@ -6,7 +6,7 @@
                 <p>{{ event.city }}</p>
                 <p>{{ event.name }}</p>
                 <p class="hyperlink" v-if="event.optionalLink" @click="navigate(event.optionalLink)">More info <span v-if="event.tickets"> + tickets</span> here.</p>
-                <p class="tba" v-else>Details TBA</p>
+                <p class="tba" v-else>- Details TK</p>
             </div>
         </div>
         <img class="cheeky" src="~/public/img/horndeco.png" alt="cheeky" />
@@ -23,6 +23,10 @@ const navigate = (url: any) => {
 </script>
 
 <style scoped>
+
+.tba {
+    font-style: italic;
+}
 p {
     margin-bottom: 4px;
     margin-top: 4px;
