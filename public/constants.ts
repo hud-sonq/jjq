@@ -346,46 +346,10 @@ const events = [
 //     optionalLink: '',
 // }
     {
-        date: '10/3',
-        city: 'Brooklyn, NY',
-        name: 'Center For Fiction (w/ Sloane Crosley)',
-        optionalLink: 'https://centerforfiction.org/events/',
-    },
-    {
-        date: '10/26',
-        city: 'Boston, MA',
-        name: 'Boston Book Festival',
-        optionalLink: 'https://bostonbookfest.org/',
-    },
-    {
-        date: '10/27',
-        city: 'Nashville, TN',
-        name: 'Southern Festival of Books',
-        optionalLink: 'https://www.sofestofbooks.org/',
-    },
-    {
-        date: '11/7',
-        city: 'Tallahassee, FL',
-        name: 'FSU + Midtown Reader',
-        optionalLink: 'https://www.midtownreader.com/event',
-    },
-    {
-        date: '11/16 - 11/17',
-        city: 'Austin, TX',
-        name: 'Texas Book Festival',
-        optionalLink: 'https://www.texasbookfestival.org/',
-    },
-    {
-        date: '11/23 - 11/24',
-        city: 'Miami, FL',
-        name: 'Miami Book Fair',
-        optionalLink: 'https://www.miamibookfair.com/',
-    },
-    {
         date: '3/6/25',
         city: 'Rainsville, AL',
         name: 'Visiting Writer, NACC',
-        optionalLink: '',
+        optionalLink: 'https://www.nacc.edu/news/nacc-to-host-annual-arts-and-humanities-speakers-forum-on-march-6-2025',
     },
     {
         date: '3/15/25 - 3/19/25',
