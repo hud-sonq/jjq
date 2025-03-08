@@ -17,7 +17,8 @@
 </template>
   
 <script setup lang="ts">
-import { allNews } from '~/public/constants.js';
+import { allNews } from '~/assets/constants';
+
 
 const formatTitle = (title: string, special: string, link: string, isItalic: boolean): string => {
     const [before, after] = title.split(special);

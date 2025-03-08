@@ -15,7 +15,8 @@
 </template>
 
 <script setup lang="ts">
-import { nonFiction, shortFiction } from '~/public/constants.js';
+import { nonFiction, shortFiction } from '~/assets/constants';
+
 
 const navigate = (url: any) => {
   window.open(url, '_blank')

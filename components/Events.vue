@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import { events } from '~/public/constants.js';
+import { events } from '~/assets/constants';
 
 const navigate = (url: any) => {
   window.open(url, '_blank')

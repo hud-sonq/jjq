@@ -18,7 +18,8 @@
 </template>
 
 <script setup lang="ts">
-import { shortenedTsdBlurbs } from '~/public/constants.js';
+import { shortenedTsdBlurbs } from '~/assets/constants';
+
 
 const blurb = ref(shortenedTsdBlurbs[0]);
 // let currentIdx = Math.floor(Math.random() * shortenedTsdBlurbs.length);
