@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import { nonFiction, shortFiction } from '~/assets/constants';
+import { nonFiction, shortFiction } from '~/assets/constants.js';
 
 
 const navigate = (url: any) => {

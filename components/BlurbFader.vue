@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import { shortenedTsdBlurbs } from '~/assets/constants';
+import { shortenedTsdBlurbs } from '~/assets/constants.js';
 
 
 const blurb = ref(shortenedTsdBlurbs[0]);

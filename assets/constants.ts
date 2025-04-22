@@ -524,6 +524,12 @@ const nonFiction = [
 
 const allNews = [
     {
+        title: `Quatro appears on "For the Life of the World" at the Yale Center for Faith & Culture`,
+        link: 'https://faith.yale.edu/media/what-the-devil',
+        special: `"For the Life of the World"`,
+        isItalic: false
+    },
+    {
         title: `Two-Step Devil wins the 2024 Willie Morris Award for Southern Writing`,
         link: 'https://olemiss.edu/news/2025/2/willie-morris-awards-2025/index.html',
         special: `Two-Step Devil wins the 2024 Willie Morris Award for Southern Writing`,

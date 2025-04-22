@@ -19,7 +19,7 @@
 </template>
 
 <script setup lang="ts">
-import { fullTsdBlurbs } from '~/assets/constants';
+import { fullTsdBlurbs } from '~/assets/constants.js';
 
 </script>
 
