@@ -346,30 +346,6 @@ const events = [
 //     optionalLink: '',
 // }
     {
-        date: '3/6/25',
-        city: 'Rainsville, AL',
-        name: 'Visiting Writer, NACC',
-        optionalLink: 'https://www.nacc.edu/news/nacc-to-host-annual-arts-and-humanities-speakers-forum-on-march-6-2025',
-    },
-    {
-        date: '3/15/25 - 3/19/25',
-        city: 'Tucson, AZ',
-        name: 'Tucson Festival of Books / Masters Workshop',
-        optionalLink: 'https://tucsonfestivalofbooks.org/',
-    },
-    {
-        date: '4/1/25 - 4/5/25',
-        city: 'Oxford, MS',
-        name: 'Oxford Conference for the Book',
-        optionalLink: 'https://oxfordconferenceforthebook.com/book-conference-events-kick-off-in-april/',
-    },
-    {
-        date: '6/8/25 - 7/19/25',
-        city: 'Sewanee, TN',
-        name: 'Fiction Faculty, Sewanee School of Letters',
-        optionalLink: 'https://letters.sewanee.edu/academic-life/faculty/current-faculty/',
-    },
-    {
         date: '9/1/25 - 9/30/25',
         city: 'Ménerbes, France',
         name: 'Writer-in-Residence, La Maison Dora Maar',
@@ -387,8 +363,25 @@ const events = [
         name: `Master Lecture, The Writer's Foundry`,
         optionalLink: 'https://www.sjny.edu/brooklyn/academics/graduate/graduate-degrees/creative-writing/master-lecturers',
     },
-
-] 
+    {
+        date: '1/4/26 - 1/10/26',
+        city: 'Manchester, NH',
+        name: `Visiting Writer, Southern New Hampshire University MFA`,
+        optionalLink: 'https://thesouthernliteraryfestival.org/',
+    },
+    {
+        date: '4/2/26 - 4/4/26',
+        city: 'Chattanooga, TN',
+        name: `Featured author, Southern Literary Festival`,
+        optionalLink: 'https://thesouthernliteraryfestival.org/',
+    },
+    {
+        date: '4/16/26 - 4/17/26',
+        city: 'Nashville, TN',
+        name: `Visiting Writer, The Porch`,
+        optionalLink: 'https://www.porchtn.org/visiting-writers-series',
+    },
+]
 
 const shortFiction = [
     {
@@ -523,6 +516,12 @@ const nonFiction = [
 ].map(b => ({ ...b, title: italicizeHemispheres(italicizeLocalSouls(b.title)) })) satisfies readonly anotherWork[];
 
 const allNews = [
+    {
+        title: `“Jamie Quatro and the End of the World” in America Magazine`,
+        link: 'https://www.americamagazine.org/books/2025/08/08/review-jamie-quatro-and-the-end-of-the-world/',
+        special: `“Jamie Quatro and the End of the World”`,
+        isItalic: false
+    },
     {
         title: `Quatro appears on "For the Life of the World" at the Yale Center for Faith & Culture`,
         link: 'https://faith.yale.edu/media/what-the-devil',

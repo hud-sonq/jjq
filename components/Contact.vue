@@ -19,9 +19,9 @@
                 </div>
                 <div class=ctg>
                     <h3 style="white-space:pre-wrap; padding: 0;">PUBLICITY</h3>
-                    <p class="" style="white-space: pre-wrap;">John Mark Boling</p>
+                    <p class="" style="white-space: pre-wrap;">Deb Seager</p>
                     <p class="" style="white-space: pre-wrap;"><a href="https://groveatlantic.com/">GROVE/ATLANTIC</a></p>
-                    <p class="" style="white-space: pre-wrap;">publicity@groveatlantic.com</p>
+                    <p class="" style="white-space: pre-wrap;">dseager@groveatlantic.com</p>
                 </div>
                 <div class=ctg>
                     <h3 style="white-space:pre-wrap; padding: 0;">FILM / TELEVISION</h3>
