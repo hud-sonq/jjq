@@ -358,12 +358,6 @@ const events = [
         optionalLink: '',
     },
     {
-        date: '11/12/25',
-        city: 'Brooklyn, NY',
-        name: `Master Lecture, The Writer's Foundry`,
-        optionalLink: 'https://www.sjny.edu/brooklyn/academics/graduate/graduate-degrees/creative-writing/master-lecturers',
-    },
-    {
         date: '1/4/26 - 1/10/26',
         city: 'Manchester, NH',
         name: `Visiting Writer, Southern New Hampshire University MFA`,
