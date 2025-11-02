@@ -346,18 +346,6 @@ const events = [
 //     optionalLink: '',
 // }
     {
-        date: '9/1/25 - 9/30/25',
-        city: 'Ménerbes, France',
-        name: 'Writer-in-Residence, La Maison Dora Maar',
-        optionalLink: 'https://maisondoramaar.org/visit/maison-dora-maar/',
-    },
-    {
-        date: '10/23/25',
-        city: 'Columbia, SC',
-        name: 'Institute for Southern Studies, University of South Carolina',
-        optionalLink: '',
-    },
-    {
         date: '1/4/26 - 1/10/26',
         city: 'Manchester, NH',
         name: `Visiting Writer, Southern New Hampshire University MFA`,
