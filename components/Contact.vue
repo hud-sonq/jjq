@@ -11,12 +11,6 @@
                     <p class="" style="white-space:pre-wrap; "><a href="https://www.caa.com">CAA</a></p>
                     <p>anna.stein@caa.com</p>
                 </div>
-                <div class="ctg">
-                    <h3 style="white-space:pre-wrap; padding: 0;">SPEAKING AGENT</h3>
-                    <p class="" style="white-space:pre-wrap;">Leslie Shipman</p>
-                    <p class="" style="white-space:pre-wrap;"><a href="https://www.theshipmanagency.com/">THE SHIPMAN AGENCY</a></p>
-                    <p class="" style="white-space: pre-wrap">leslie@theshipmanagency.com</p>
-                </div>
                 <div class=ctg>
                     <h3 style="white-space:pre-wrap; padding: 0;">PUBLICITY</h3>
                     <p class="" style="white-space: pre-wrap;">Deb Seager</p>
