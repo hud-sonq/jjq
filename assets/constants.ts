@@ -499,6 +499,12 @@ const nonFiction = [
 
 const allNews = [
     {
+        title: `Two-Step Devil long listed for the Joyce Carol Oates Prize`,
+        link: 'https://www.newliteraryproject.org/whats-new/2026-joyce-carol-oates-prize-longlist-announced',
+        special: `Joyce Carol Oates Prize`,
+        isItalic: false
+    },
+    {
         title: `“Jamie Quatro and the End of the World” in America Magazine`,
         link: 'https://www.americamagazine.org/books/2025/08/08/review-jamie-quatro-and-the-end-of-the-world/',
         special: `“Jamie Quatro and the End of the World”`,
