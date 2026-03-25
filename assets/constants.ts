@@ -499,8 +499,8 @@ const nonFiction = [
 
 const allNews = [
     {
-        title: `Two-Step Devil long listed for the Joyce Carol Oates Prize`,
-        link: 'https://www.newliteraryproject.org/whats-new/2026-joyce-carol-oates-prize-longlist-announced',
+        title: `Two-Step Devil named a finalist for the Joyce Carol Oates Prize`,
+        link: 'https://www.newliteraryproject.org/joyce-carol-oates-prize',
         special: `Joyce Carol Oates Prize`,
         isItalic: false
     },
