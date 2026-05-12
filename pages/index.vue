@@ -1,7 +1,9 @@
 <template>
-    <div id="aboutIndexContainer">
-        <About />
-    </div>
+    <transition name="page" appear>
+        <div id="aboutIndexContainer">
+            <About />
+        </div>
+    </transition>
 </template>
 
 <style scoped>

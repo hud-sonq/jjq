@@ -1,9 +1,9 @@
 <template>
-  <NavBar class="nav active" @stackClicked="dropNavMenu()"/>
+  <NavBar class="nav active" @stackClicked="dropNavMenu()" :firstLoad="firstLoad"/>
   <transition name="slide"><MobileNavMenu style="opacity: 1;" v-if="showMobileNavMenu" @linkClicked="dropNavMenu()"/></transition>
-  <div id="page" :class="{'non-scroll': showMobileNavMenu}">
+  <div id="page" :class="{'non-scroll': showMobileNavMenu, 'first-fade': firstLoad}" @animationend="firstLoad = false">
     <NuxtPage/>
-    <div><FooterComponent/></div>
+    <div><FooterComponent :firstLoad="firstLoad"/></div>
   </div>
 </template>
 
@@ -13,6 +13,7 @@ siteEntered.value = true;
 let router = useRouter();
 let showMobileNavMenu = ref(false);
 const dropNavMenu = () => showMobileNavMenu.value = !showMobileNavMenu.value;
+const firstLoad = ref(true);
 </script>
 
 <style>
@@ -21,6 +22,20 @@ const dropNavMenu = () => showMobileNavMenu.value = !showMobileNavMenu.value;
   height: calc(100% - 64px);
   position:absolute;
   top: 64px;
+  opacity: 1;
+}
+
+.first-fade {
+  animation: page-fadein 0.4s ease-in-out;
+}
+
+@keyframes page-fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #page.non-scroll {

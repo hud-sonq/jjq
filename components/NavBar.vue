@@ -1,5 +1,5 @@
 <template>
-  <div id="navbar">
+  <div id="navbar" :class="{'first-fade': firstLoad}" @animationend="emitEnd">
     <div class="navbar-sections">
       <NuxtLink to="/" class="name-link" @click="$emit('nameClicked')"><div><span>JAMIE QUATRO</span></div></NuxtLink>
       <div class="mobile-stack" @click="$emit('stackClicked')">
@@ -18,7 +18,15 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const props = defineProps({
+  firstLoad: { type: Boolean, default: false }
+});
+const emit = defineEmits(['fadeEnd']);
+function emitEnd(e) {
+  if (e.animationName === 'page-fadein') emit('fadeEnd');
+}
+</script>
 
 <style scoped>
 #navbar {
@@ -31,6 +39,20 @@
   background-color: #fae7c6;
   font-size: 1.5rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
+
+.first-fade {
+  animation: page-fadein 0.4s ease-in-out;
+}
+
+@keyframes page-fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .navbar-sections {

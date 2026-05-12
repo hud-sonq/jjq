@@ -1,5 +1,5 @@
 <template>
-    <div class="footer" ref="footer">
+    <div class="footer" ref="footer" :class="{'first-fade': firstLoad}" @animationend="emitEnd">
         <div class="footer-content">
             <div><p>Copyright © 2024 by Jamie Quatro</p></div>
             <div>
@@ -22,6 +22,16 @@
     </div>
 </template>
 
+<script setup lang="ts">
+const props = defineProps({
+    firstLoad: { type: Boolean, default: false }
+});
+const emit = defineEmits(['fadeEnd']);
+function emitEnd(e) {
+    if (e.animationName === 'page-fadein') emit('fadeEnd');
+}
+</script>
+
 <style scoped>
 .footer {
     width: 100%;
@@ -31,6 +41,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 1;
+}
+
+.first-fade {
+    animation: page-fadein 0.4s ease-in-out;
+}
+
+@keyframes page-fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .footer-content {
