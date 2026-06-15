@@ -1,8 +1,6 @@
 <template>
     <transition name="page" appear>
-        <div id="aboutIndexContainer">
-            <About />
-        </div>
+        <About />
     </transition>
 </template>
 
