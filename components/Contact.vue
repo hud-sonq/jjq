@@ -26,7 +26,7 @@
                 </div>
             </div>
         </div>
-        <img class="cheeky" src="~/public/img/horndeco.png" alt="cheeky" />
+        <!-- <img class="cheeky" src="~/public/img/horndeco.png" alt="cheeky" /> -->
     </div>
 </template>
 

@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fae7c6;
+    background-color: #e2e6ea;
 }
 
 .links-wrapper {
