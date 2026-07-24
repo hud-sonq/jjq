@@ -1,8 +1,9 @@
 <template>
     <div id="newsContainerRoot">
-        <!-- <div class="horns-container">
-            <img src="~/public/img/horndeco.png" alt="coming-soon" class="horns-itself"/>
-        </div> -->
+        <div class="horns-container">
+            <!-- <img src="~/public/img/horndeco.png" alt="coming-soon" class="horns-itself"/> -->
+             <h2>NEWS</h2>
+        </div>
         <div class="news-list-container">
         <div class="news-item" v-for="(news, index) in allNews" :key="index">
             <p>

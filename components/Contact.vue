@@ -2,7 +2,8 @@
     <div id="contactContainer">
         <div class="items">
             <div class="pic-container">
-                <img src="/img/tsd/wink_square.gif" class="pic-itself">
+                <!-- <img src="/img/tsd/wink_square.gif" class="pic-itself"> -->
+                <img src="/img/J_Quatro_bw_square.jpeg" class="pic-itself">
             </div>
             <div class="content">
                 <div class="ctg">

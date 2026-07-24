@@ -36,7 +36,7 @@ function emitEnd(e) {
   width: 100%;
   height: 64px;
   z-index: 10;
-  background-color: #fae7c6;
+  background-color: #B7D0E9;
   font-size: 1.5rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   opacity: 1;

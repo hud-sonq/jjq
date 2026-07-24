@@ -36,7 +36,7 @@ function emitEnd(e) {
 .footer {
     width: 100%;
     height: 64px;
-    background-color: #fae7c6;
+    background-color: #e2e6ea;
     color: black;
     display: flex;
     justify-content: center;
