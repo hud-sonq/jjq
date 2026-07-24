@@ -6,7 +6,7 @@
       </div>
       <div class="about-text-container">
         <div style="padding-bottom: 10px;">
-          <span style="font-size: 1.2rem;">
+          <!-- <span style="font-size: 1.2rem;">
             Jamie Quatro is the 
             <a class="hyperlink" href="https://www.nytimes.com/2013/03/24/books/review/i-want-to-show-you-more-by-jamie-quatro.html" target="_blank">New York Times Notable</a> 
             author of 
@@ -30,11 +30,14 @@
             <span style="font-size: 1.2rem; font-style: italic;"> Paris Review </span>
             and the
             <span style="font-size: 1.2rem; font-style: italic;"> Atlanta Journal Constitution</span>. A new story collection is forthcoming from Grove Press.
+          </span> -->
+          <span style="font-size: 1.2rem;">
+            Jamie Quatro is the New York Times Notable author of I Want To Show You More, Fire Sermon, and Two-Step Devil, winner of the 2024 Willie Morris Award for Southern Writing and finalist for the 2025 Joyce Carol Oates Prize. A new story collection is forthcoming from Grove Press. Quatro’s fiction has appeared in The New Yorker, The Paris Review, Harper's, Ploughshares, and elsewhere. In 2026-27 she will be a Visiting Scholar at Jesus College, Cambridge University. She teaches in the MFA program at the Sewanee School of Letters, and lives in Chattanooga, Tennessee. 
           </span>
         </div>
-        <div style="padding-bottom: 10px">
+        <!-- <div style="padding-bottom: 10px">
           <span style="font-size: 1.2rem;">Quatro’s fiction has appeared or is forthcoming in <a class="hyperlink" href="https://www.newyorker.com/magazine/2023/08/07/yogurt-days-fiction-jamie-quatro" target="_blank">The New Yorker</a>, <a class="hyperlink" href="https://www.theparisreview.org/fiction/8040/two-men-mary-jamie-quatro" target="_blank">The Paris Review</a>, <a class="hyperlink" href="https://harpers.org/archive/2024/08/ezekiel-machine-jamie-quatro-two-step-devil/" target="_blank">Harper’s</a>, the <a class="hyperlink" href="https://www.nybooks.com/online/2021/01/30/aubade/" target="_blank">New York Review of Books</a>, <a class="hyperlink" href="https://pshares.org/product/spring-2012/" target="_blank">Ploughshares</a>, and elsewhere. Quatro holds an MA in English from the College of William and Mary and an MFA in fiction from the Bennington College Writing Seminars. She teaches in the Sewanee School of Letters MFA program, and lives with her family in Chattanooga, Tennessee.</span>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -62,13 +65,13 @@
 
 .photo-and-about-container {
   width: 100%;
+  height: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 24px;
 }
-
 
 .pic-container {
   display: flex;
@@ -94,6 +97,7 @@
   align-items: flex-start;
   gap: 10px;
   max-height: 100%;
+  height: 100%;
 }
 
 @media (min-width: 1000px) {
@@ -108,6 +112,7 @@
     flex-direction: row;
     max-width: 80%;
     gap: 0px;
+    height: 500px;
   }
 
   .pic-container {
@@ -122,6 +127,10 @@
 
   .about-text-container {
     padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
 }

@@ -436,6 +436,11 @@ const shortFiction = [
 
 const nonFiction = [
     {
+        title: '"Getting Used To It," ',
+        publisher: "Harper's",
+        link: 'https://harpers.org/archive/2025/11/getting-used-to-it-jamie-quatro-family/',
+    },
+    {
         title: '"Lifelines: On Santa Barbara," ',
         publisher: 'The Paris Review',
         link: 'https://www.theparisreview.org/blog/2023/08/25/lifelines-on-santa-barbara/',
@@ -498,6 +503,12 @@ const nonFiction = [
 ].map(b => ({ ...b, title: italicizeHemispheres(italicizeLocalSouls(b.title)) })) satisfies readonly anotherWork[];
 
 const allNews = [
+    {
+        title: `Quatro named a 2026-27 Visiting Scholar, Jesus College, Cambridge University`,
+        link: '',
+        special: ``,
+        isItalic: false
+    },
     {
         title: `Two-Step Devil named a finalist for the Joyce Carol Oates Prize`,
         link: 'https://www.newliteraryproject.org/joyce-carol-oates-prize',

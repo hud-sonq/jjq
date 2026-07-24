@@ -16,7 +16,7 @@
                 <p style="padding-left: 12px; padding-right: 12px;">|</p>
             </div>
             <div>
-                <a href="mailto:work@byhudson.dev" style="text-decoration: underline; color: black;"><p>u like this site?</p></a>
+                <!-- <a href="mailto:work@byhudson.dev" style="text-decoration: underline; color: black;"><p>u like this site?</p></a> -->
             </div>
         </div>
     </div>

@@ -1,15 +1,16 @@
 <template>
     <div id="eventsContainer">
         <div class="many-events-container">
-            <div class="event" v-for="(event, index) in events" :key="index">
+            <!-- <div class="event" v-for="(event, index) in events" :key="index">
                 <p>{{ event.date }}</p>
                 <p>{{ event.city }}</p>
                 <p>{{ event.name }}</p>
                 <p class="hyperlink" v-if="event.optionalLink" @click="navigate(event.optionalLink)">More info <span v-if="event.tickets"> + tickets</span> here.</p>
                 <p class="tba" v-else>- Details TK</p>
-            </div>
+            </div> -->
+            <p>Stay Tuned</p>
         </div>
-        <img class="cheeky" src="~/public/img/horndeco.png" alt="cheeky" />
+        <!-- <img class="cheeky" src="~/public/img/horndeco.png" alt="cheeky" /> -->
     </div>
 </template>
 
@@ -47,6 +48,7 @@ p {
 
 #eventsContainer {
     width: 100%; 
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
