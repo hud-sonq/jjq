@@ -31,9 +31,29 @@
             and the
             <span style="font-size: 1.2rem; font-style: italic;"> Atlanta Journal Constitution</span>. A new story collection is forthcoming from Grove Press.
           </span> -->
-          <span style="font-size: 1.2rem;">
+          <!-- <span style="font-size: 1.2rem;">
             Jamie Quatro is the New York Times Notable author of <span style="font-size: 1.2rem; font-style: italic;">I Want To Show You More</span>, <span style="font-size: 1.2rem; font-style: italic;">Fire Sermon</span>, and <span style="font-size: 1.2rem; font-style: italic;">Two-Step Devil</span>, winner of the 2024 Willie Morris Award for Southern Writing and finalist for the 2025 Joyce Carol Oates Prize. A new story collection is forthcoming from Grove Press. Quatro’s fiction has appeared in <span style="font-size: 1.2rem; font-style: italic;">The New Yorker</span>, <span style="font-size: 1.2rem; font-style: italic;">The Paris Review</span>, <span style="font-size: 1.2rem; font-style: italic;">Harper's</span>, <span style="font-size: 1.2rem; font-style: italic;">Ploughshares</span>, and elsewhere. In 2026-27 she will be a Visiting Scholar at Jesus College, Cambridge University. She teaches in the MFA program at the Sewanee School of Letters, and lives in Chattanooga, Tennessee. 
-          </span>
+          </span> -->
+          <span style="font-size: 1.2rem;">
+            Jamie Quatro is the author of 
+            <span style="font-style: italic;">I Want To Show You More</span> 
+            (a New York Times Notable Book and a finalist for the National Book Critics Circle John Leonard Prize and the Los Angeles Times Art Seidenbaum Award) and 
+            <span style="font-style: italic;">Fire Sermon</span> 
+            (a Book of the Year for The Economist, San Francisco Chronicle, LitHub, Bloomberg, and Times Literary Supplement). Her most recent novel, 
+            <span style="font-style: italic;">Two-Step Devil</span>, 
+            won the 2024 Willie Morris Award for Southern Writing, was a finalist for the 2025 Joyce Carol Oates Prize, and was named a New York Times Editor's Choice, an ALA Notable Book, and a Best Book of the Year by the Paris Review and Atlanta Journal Constitution. A new story collection is forthcoming from Grove Press.
+
+            <br><br>
+
+            Quatro’s fiction, essays, and reviews have appeared in 
+              <span style="font-style: italic;">The New Yorker</span>, 
+              <span style="font-style: italic;">The Paris Review</span>, 
+              <span style="font-style: italic;">Harper’s</span>, 
+              <span style="font-style: italic;">The New York Times</span>, 
+              <span style="font-style: italic;">New York Review of Books</span>, 
+              <span style="font-style: italic;">Ploughshares</span>, 
+              <span style="font-style: italic;">Oxford American</span>, and elsewhere. She is the recipient of Fellowships from MacDowell, Yaddo, and Maison Dora Maar, and in 2026-27 will be a visiting scholar at Jesus College, Cambridge University. She is a member of the MFA faculty at Sewanee, The University of the South, and lives with her family in Chattanooga, Tennessee.
+            </span>
         </div>
         <!-- <div style="padding-bottom: 10px">
           <span style="font-size: 1.2rem;">Quatro’s fiction has appeared or is forthcoming in <a class="hyperlink" href="https://www.newyorker.com/magazine/2023/08/07/yogurt-days-fiction-jamie-quatro" target="_blank">The New Yorker</a>, <a class="hyperlink" href="https://www.theparisreview.org/fiction/8040/two-men-mary-jamie-quatro" target="_blank">The Paris Review</a>, <a class="hyperlink" href="https://harpers.org/archive/2024/08/ezekiel-machine-jamie-quatro-two-step-devil/" target="_blank">Harper’s</a>, the <a class="hyperlink" href="https://www.nybooks.com/online/2021/01/30/aubade/" target="_blank">New York Review of Books</a>, <a class="hyperlink" href="https://pshares.org/product/spring-2012/" target="_blank">Ploughshares</a>, and elsewhere. Quatro holds an MA in English from the College of William and Mary and an MFA in fiction from the Bennington College Writing Seminars. She teaches in the Sewanee School of Letters MFA program, and lives with her family in Chattanooga, Tennessee.</span>
