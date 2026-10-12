@@ -504,6 +504,12 @@ const nonFiction = [
 
 const allNews = [
     {
+        title: `Longfgorm Interview in Image Journal Issue 130`,
+        link: 'https://imagejournal.org/article/a-conversation-with-jamie-quatro/',
+        special: `Image Journal`,
+        isItalic: true
+    },
+    {
         title: `Quatro named a 2026-27 Visiting Scholar, Jesus College, Cambridge University`,
         link: '',
         special: ``,
